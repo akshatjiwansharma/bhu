@@ -1,0 +1,238 @@
+Electrostatic Machines in Power Engineering: Rethinking Their Role and Future Potential
+
+ABSTRACT: Although electrostatic motors and  generators have been among the first electrical machines developed they have not gained widespread adoption in power engineering.Except for very niche applications in micromotors the electrostatic machines have not done well.The electrostatic theory is overlooked & it's the electromagnetic counterparts that are intensely studied in educational institutes. In this paper we explore the reasons behind this fact & propose the design of an electrostatic generator that can compete with its magnetic analogue. 
+
+INTRODUCTION: 
+
+
+Forces due to electrostatic fields are extremely powerful. If a charge is moving at the speed of 1m/sec then the magnetic force due it is 3x10^8 times weaker than the electrostatic force. 
+
+This should have encouraged engineers & scientists to develop electrostatic motors & generators but it hides a very important point about electrostatic fields. At the magnetic saturation limit the electric field has to be 3x10^8 V/m to equal the magnetic field energy per unit volume. This is impossible to achieve in air or in any other insulating medium. It is only possible in a hard vacuum.
+
+Another cause of concern with electrostatic machines has been the fact that charges are by definition not moving. For power generation a commonly used formulation is 
+
+P=VxI(1)
+
+To be able to generate power from a machine it needs to produce both voltages and currents. In electrostatic systems high voltages are easily generated but current production is limited. Since charges are not moving they accumulate on the surface & create high voltages that are eventually discharged with the breakdown of the surrounding insulating medium. 
+
+As an example consider 1 amp of current in a wire. This is equal to 1 coulomb of charge flowing through it every second. This is not a very big number and even thin household wires can easily carry this current as any electrician will vouch for. 
+
+Now consider a conductive plate that is 1m^2 in area. Suppose that this plate is placed in the air. The max charge that can be placed in this plate is given by 
+
+E=q/Ae0 (2)
+
+Where e0 is the permittivity of air. At the breakdown strength of air of 3x10^6V/m this number comes about to be about 2.64x10^-5 columb. This is extremely small. Just 26 micro coulombs of charge on a plate that is 1 m^2 in area. 
+
+Compare this with a wire that is a cm in diameter and can easily carry 1 Coloumb (and several times more) of a charge per second and the problem is obvious. 
+
+
+Static charges concentrate fields. The dielectric strength of all materials is limited. Eventually it will be reached and materials will break down. Magnetic generators don't encounter this problem. Since power generated is given by equation 1 they operate at far lower voltages and are still able to generate higher powers because of the current flowing through their conductors. 
+
+
+This problem is known in the electrostatic community. And the solution presented is usually some variation of increasing the insulation strength. There have been devices that have operated with dielectric fluid inserted between their plates & there have been designs that are even more radical & have suggested operation of these machines in hard vacuum. 
+
+
+Unfortunately both of these designs are difficult to implement. Vacuum in particular is not only hard to maintain but once you've achieved it how will the power be extracted out of the system?
+
+
+Other designers have suggested application of electrostatic machines in space where there is already a high vacuum but this suggestion limits the use of electrostatic machines. The consequence of several years of research has been that the electrostatic machines are used only in very few ,niche applications. Can this change? 
+
+THE NEED FOR ELECTROSTATIC MACHINES
+
+A natural question that arises is why do we want to create an electrostatic machine after all? Is it just for novelty or are there practical applications? 
+
+Magnetic machines suffer from one very big disadvantage. They have to rely on magnets. In the power generation industry it is usually an electromagnet that is powered by a separate energy source but for portable generators and motors permanent magnets are used. These magnets are not easy to make & add not only to the weight of the device but also make the design more complicated. 
+
+The big idea behind electrostatic machines is that they can simplify the materials choice. There won't be a need for magnets or magnetic cores for electromagnets. They will be lighter. Although their volume will depend upon the medium they are operated in. In an air environment with a very low breakdown strength they will take far more space that magnetic alternatives even though they would be lighter. 
+
+Our goal is not to create a better machine, just a different one. Even if we get the same energy density as a magnetic machine it will still be a victory because we save on materials cost & simplify our designs. 
+
+
+POWER GENERATION THROUGH ELECTROSTATIC MACHINES
+
+It is possible to generate continuous power from electrostatic machines. Devices like the wimshurst generators have been used to power x-ray tubes for medical purposes in the past. So unlike the rumors that surround the operation of these machines these devices do generate power. However as discussed previously the power output is too low because the conductors on these devices can hold only a small charge before the breakdown limit if the insulating material is reached. 
+
+The solution is to extract this charge rapidly. Normally what happens is that charge is collected only once per rotation cycle however if a design can be implemented that can collect charges multiple times per rotation then the power output would significantly improve. 
+
+VARIABLE CAPACITOR MECHANICS
+
+A variable capacitor generator works by changing the capacitance of the two plates by either modulating the distance between the plates or by changing the area of overlap between the plates. As capacitance decreases the excess charge in both the plates is 'released' to the output line resulting in a power output. 
+
+What actually happens in these devices is that an electric field is built up inside the capacitor and it's zero outside the capacitor– at rest. When the system is at rest the charges are held together on the plates by a strong electric field between them. When the area of overlap changes or when plate distance is increased the electric field strength is decreased inside. Net electric field appears outside the plate of capacitors corresponding to excess charge and it is this field that can cause charge transfer between the plates and the output lines. 
+
+The maximum charge on any plate is fixed by the breakdown strength of the surrounding medium. Therefore since the amount of charge is limited the two simplest ways to increase the power output of the machine are to increase the frequency of charge collection or to operate the machine in a vacuum in which higher charges per plate can be achieved. 
+
+
+We propose a third way which is to divide the plate into a number of smaller sectors like in a wimshurst machine and attach a collector to each sector (or connect all the sectors and have a single input /output port). If each sector is separated by an insulator then it's possible to retain at least half the charges of an unsectored plate but have a far larger number of collectors. The number of sectors that can actually be created would be limited by the ability of the machines that are making them but if conductive inks are used very thin sectorial lines can be 'sketched' on an insulating base. 
+
+Later in this paper we discuss the relation between collectors/sectors and the actual power output. 
+
+
+SEPARATELY EXCITED ELECTROSTATIC MACHINE
+
+The process of charge induction is extremely rapid. Electric fields travel at the speed of light and it takes a very small amount of time for charges to distribute themselves on a plate. This time is much faster than the charge collection time & the rotation speed of the machine. It can be estimated to some extent using the RC time constant. By calculating the total capacitance of the system(usually some multiple of femto farad) and Resistance of the plates(easily less than 1 ohm) this number comes out to be in nanoseconds (or smaller). 
+
+There have been several designs that have been proposed using the concept of an electret. Which is the electric analogue of a magnet. That is a material with permanent electric fields. The problem with electrets is that they are complicated from a manufacturing point of view. It's difficult to control the exact electric field strength of the system even if it is created. 
+
+What we can do instead is to charge the two plates of a capacitor with a predefined voltage and use those plates to induce charges on the inner plates. This way we can control both charge on the plate and the voltage. The problem with this approach is that it limits the number of plates. As more than 1 inner plate is introduced they would form capacitors with the outer plates and screen charges. The inner plates won't have any induced charges.  
+
+
+Alternatively a more robust approach can be used. Charge can be placed on each of the plates using an external voltage source. This will only be done at the start of the machine. 
+
+Here's how the machine would work 
+
+1. Plates (one of the plates will be rotating and other will be stationary
+) separated by appropriate distance d will be charged. These plates will acquire a charge Q. One plate will acquire a positive charge and the other a negative charge. 
+2. As the rotor rotates the electric field between stator and rotor would weaken, allowing for the dumping of the charges on the wire,which is at a lower voltage compared to the plates. After this process the plates would acquire a lower voltage than wire. Consequently the charges will again flow from the wire to the plates. This will cause an oscillation of charge between wire and plates. 
+3. Charge will be collected by a set of conductors arranged around the sectors in the rotor and the stator. Alternatively a feed network with a single termination point can be created connecting all the sectors on the plate. 
+4. The conductors will terminate in a wire dumping all the charges to the output. One wire will collect all positive charges and the other wire all negative charges. 
+
+There are two important points to note in this design. First it is a constant voltage machine. The capacitors are connected in parallel. This means that the charges on each of the plates can vary but it will always be at a constant voltage. The capacitance varies with the movement of charge from the plates to the collector. 
+
+Second the discharge time will be given by the RC time constant. Since the capacitance is so small the complete discharge of a plate will be near instantaneous. 
+
+
+Essentially the charges will oscillate between the plate and the collecting wires. When the sectors of each plate are facing each other the capacitor will form and the electric field will be confined within the sectors (and hence the two plates). Charge on the wire will be 0. 
+
+When the sector plates are offset from each other the electric field between them will weaken and the charges on them will be picked up by the wire. 
+
+As they rotate further and face each other again charges will move from the wire to the plates . 
+
+This oscillation will continue. There will be some losses due to resistance of the setup; these charges can be replenished by the external source. 
+
+
+[An important point to note here is that since the machine is operating at a constant voltage the output will be DC (Or to be more accurate pulsed DC).This is different from variable voltage machines that produce an AC output]
+
+The work is done against electrostatic forces to transport charges from the plates to the conductor. This results in a power output across the wire. 
+
+Because the charge stored in the conductor is so small there need to be a large number of collectors to rapidly collect charge from the plate. 
+
+This is challenging. Therefore a few compromises can be made   
+
+The machine can be operated at a high voltage ,thousands of kilovolts, that balances out the low charge stored per plate. The machine can be operated at a decent rps ~10 revs per second this increases the charge collector per second.  
+
+Alternatively it can be operated at a lower voltage but with a greater number of plates that increases the power output according to the equation described below. 
+
+Although these voltages are still less than the machines operated in a vacuum it can generate enough power to be a viable alternative to magnetic machines. 
+
+GOVERNING EQUATIONS FOR A SEPARATELY EXCITED MACHINE
+
+For calculating the distance D between the plates 
+
+E=V/D;D=V/E (3)
+
+Here E is the breakdown field strength of the insulator. 
+
+For calculating the charge Q 
+
+E=q/Ae0
+
+For calculating power output of the machine 
+
+P= VxQxNcxNpXRPM/60 (4)
+
+Where RPM is the rotations per minute,Q is the charge per plate,Np is the number of plates and Nc is the number of charge collectors and V is the voltage 
+
+The problem with equation number 4 is that it has no upper bound. If it's used as it is then the output of the machine can be increased simply by increasing the number of charge collectors per plate. This is not an accurate description of reality. Therefore we need some sort of bounds that will limit the maximum power output from the machine. 
+
+These bounds can be derived using the work done against electrostatic forces. To do that, the following steps may be helpful. 
+
+1. Calculate the electric field due to the stator plate using the gauss law. E=Qstator/Ae0 
+2. Calculate the force on the rotor plate due this electric field F=QrotorE 
+3. Now determine the torque needed to rotate the rotor against this force T=FxR
+4. The power required for rotation would be P=TxW where w is the angular frequency of rotation. 
+
+The power for rotation can then be compared with electrical power generated from a machine simulated by equation 4. The maximum achievable electrical power should be less than or equal to the power required to rotate the machine against electrical forces. 
+
+While this analysis only focuses on the work done against electrical forces and neglects the mass of the rotor it is a good approximation of maximum electrical power that can be generated from the machine. With this value it would be easy to calculate the number of plates and number of collectors per plate required to  maximize the output of the machine. 
+
+The machine designer will have to balance between operating voltage and number of plates per machine. A higher operating voltage would mean that the plates are further apart from each other meaning less plates per meter.  Lower operating voltage would make for a more power dense machine but then seperate converter curcuit will have to be used to transform the output to a higher voltage for transmission.  
+
+
+CONCLUSION 
+
+In this paper we presented a way to make electrostatic generators for producing electrical power without using high vacuum, with just air as an insulator separating the capacitor plates. 
+
+The power is generated at a constant voltage by varying the amount of charge collected through each collector. 
+
+
+We laid out the equations that would govern the operation of such a machine. 
+
+It was found that while electrostatic generators would be lighter than their magnetic counterparts they would take up much larger space due to the poor breakdown strength of common insulating materials that is way smaller than the saturation limit of most magnetic materials. 
+
+To increase the power density a unique solution was presented in the form of increasing the number of charge collectors.
+
+
+I’d love to hear your thoughts. Please don't hesitate to get in touch with me. 
+
+Akshat Jiwan Sharma
+Strategy Consultant--Innovation/ Materials science/International relations/Telecommunications/Digital Transformation/Partnerships Mobile/whatsapp:+919654119771 email:getellobed@gmail.com
+
+
+REFERENCES 
+
+VACUUM ELECTROSTATIC ENGINEERING
+
+https://dspace.mit.edu/handle/1721.1/32556
+
+Electrostatic Energy Harvesting Systems: A Better 
+Understanding of Their Sustainability
+
+https://www.researchgate.net/publication/321675709_Electrostatic_Energy_Harvesting_Systems_A_Better_Understanding_of_Their_SustainabilityElectrostatic_Energy_Harvesting_Systems_A_Better_Understanding_of_Their_Sustainability
+
+Research status and development trends of Electrostatic Motor
+
+https://www.researchgate.net/publication/365453502_Research_status_and_development_trends_of_Electrostatic_Motor
+
+Macroscale Electrostatic Rotating Machines and Drives: 
+A Review and Multiplicative Gain Performance Strategy
+
+https://www.researchgate.net/publication/344819587_Macroscale_Electrostatic_Rotating_Machines_and_Drives_A_Review_and_Multiplicative_Gain_Performance_Strategy
+
+Electrostatic Generator and Electronic Transformer
+
+https://vixra.org/pdf/1407.0016v1.pdf
+
+VARIABLE CAPACITANCE ELECTROSTATIC ELECTRICAL PULSE GENERATOR
+
+https://apps.dtic.mil/sti/tr/pdf/ADA637911.pdf
+
+
+Electrostatic motors, B. Bollée
+
+https://pearl-hifi.com/06_Lit_Archive/02_PEARL_Arch/Vol_16/Sec_53/Philips_Tech_Review/PTechReview-30-1969-178.pdf
+
+Design Concepts for High-Voltage Variable-Capacitance DC Generators
+
+https://pure.hud.ac.uk/en/publications/design-concepts-for-high-voltage-variable-capacitance-dc-generato
+
+The Vacuum-Insulated, Varying-Capacitance Machine
+
+https://ieeexplore.ieee.org/abstract/document/4080409
+
+Electrostatic generators for power production
+
+https://ieeexplore.ieee.org/abstract/document/7736334
+
+
+Optimisation and comparison of generators with different magnet materials for a 6MW offshore direct drive wind turbine
+
+https://www.researchgate.net/publication/301636760_Optimisation_and_comparison_of_generators_with_different_magnet_materials_for_a_6MW_offshore_direct_drive_wind_turbine
+
+The Modeling, Design and Demonstration of Electrostatic Synchronous Machines
+
+https://asset.library.wisc.edu/1711.dl/5BARTYU4WUCTB87/R/file-f60a6.pdf
+
+Electrostatic energy conversion system
+
+https://patents.google.com/patent/US4127804A/en
+
+Electrostatic generator
+
+https://patents.google.com/patent/US3094653A/en
+
+
+The Wommelsdorf Condenser Machine
+
+https://www.coe.ufrj.br/~acmq/wommelsd.html
+
