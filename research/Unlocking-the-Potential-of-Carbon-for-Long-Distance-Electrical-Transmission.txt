@@ -1,0 +1,252 @@
+Unlocking the Potential of Carbon for Long-Distance Electrical Transmission
+
+ABSTRACT: We present a technique to manufacture large scale carbon based conductors for transmission of electrical energy over continental scale distances. We start by identifying precursors that could be used for production processes.We review the current manufacturing techniques of producing carbon based fibers and explain why certain precursors have dominated carbon materials industry. We identify methods that can be used to increase the yield through alternative precursors.We put forward a theory of why carbon conductors have less conductivity than metals and what can be done to improve it. Finally we postulate that with cheaper production methods even if carbon based conductors are 10 times less effective than poor metallic conductors like steel, they can still outperform them in High Voltage transmission lines if cheap manufacturing techniques could be developed. 
+
+INTRODUCTION: Copper and in certain very specific applications aluminium & silicon steels dominate when it comes to materials for making electrical wires. There are many reasons for this 
+
+1. Metal based conductors are strong & tough. They can be drawn into wires that can handle the mechanical load when used as transmission lines. 
+2. Metals especially the ones used in electrical wiring have a very high conductivity. Copper has conductivity of about 5×10^7 S/m. This remains unmatched. No other material is able to achieve conductivity shown by metallic conductors. 
+3. Our electrical infrastructure is usually designed to transmit energy at low to mid voltages and high currents. This plays to the strength of metals. 
+4. The manufacturing of metals is well understood. These have been in use for thousands of years and have been optimised in production. Talent to make these metal based materials is widely available & no effort has been made to develop alternatives to them. 
+
+Despite their advantages, metal- based conductors have several shortcomings. Copper in particular is not as widely available. Its manufacturing involves complex metallurgical and electrochemical processes. Same for aluminium. While steel is simpler to make, electrical grade silicon steel is more costly. 
+
+Additionally, the wire drawing process while simple conceptually is extremely energy intensive. 
+
+As our need for electricity grows we need to create more of these conductors. While an argument can be made that energy  and material cost for making these products is one time cost and once deployed these conductors can continue to transmit energy for 100s of years without degrading,but if a process can be developed that can make 'good enough' conductors cheaply it would transform our power transmission systems & have positive effect on deployment of new energy generators. 
+
+CARBON BASED CONDUCTORS 
+
+Carbon is the 4th most abundant element in the universe. On earth trillions of Kg of lignocellulose biomass is produced every year which far exceeds the combined production of all synthetic materials across all the factories in the world. Clearly if carbon technologies are developed we will have an unlimited supply of materials that can be applied to any domain. However as we shall see in the following sections it's a big if and making carbon based materials is tricky.
+
+Specifically for electrical power transmission carbon based conductors have been considered. The electrical conductivity of doped carbon materials has exceeded that of copper. But the material produced doping with halide ions and intercalation compounds is not stable. 
+
+Graphene based conductors have produced high electrical conductivities but once again the manufacturing process is not scalable and graphene can't be used to make practical conductors as it's only single atom thick. Attempts have been made to draw fibers out of it & there has been some research that shows how it can exceed conductivity of copper but nothing has so far come out on a macro scale. 
+
+Carbon nanotubes have been more successful. Fibers have been drawn out of them. Yarns have been made out of those fibers. Conductivity has been good but has not exceeded metals. Furthermore CNT's manufacturing process is far too expensive. Individual fibers are grown by chemical vapour deposition or vaporised through arc discharge of graphite anodes. 
+
+Fiber spinning process has not been too cheap either. Dissolving in an expensive chlorosulfonic acid being a major cost factor. 
+
+The following papers provide a good overview of carbon based conductors and how effective they can be. 
+
+All-Carbon Conductors for Electronic and Electrical Wiring Applications
+
+https://www.frontiersin.org/journals/materials/articles/10.3389/fmats.2020.00219/full
+
+A Meta-Analysis of Conductive and Strong Carbon Nanotube Materials
+
+https://pubmed.ncbi.nlm.nih.gov/34278614/
+
+Can graphene-based conductors compete with copper in electrical conductivity?
+
+https://www.bosch.com/stories/can-graphene-compete-with-copper-in-electrical-conductivity/.
+
+In this note we are aiming for carbon conductors that are about 50 times less effective than copper with conductivities of 10^6 S/m. This is about the same conductivity as graphite fibers have been known to exhibit. We'll focus on making the manufacturing process simpler & cheaper instead & see how even these less conductive materials can be used to transmit power very effectively thereby providing an attractive alternative to metals. 
+
+
+
+MANUFACTURING PROCESS 
+
+A natural question that arises is that If carbon is so good then how come we are able to produce so little for it?
+
+There are multiple reasons for it. 
+
+1. Nano carbon has been expensive to produce because a huge amount of energy is needed in processes like chemical vapor deposition and arc discharge methods. 
+2. There is very little that can be done to take nano materials to macro scale while retaining their exceptional properties. Carbon in particular suffers because as successive layers are deposited they bond through weaker vdw interaction rather than stronger covalent bonds that hold individual atoms in a plane (like in graphene or cnt)
+3. Even macro scale carbon materials are made through expensive petroleum based precursors like PAN are expensive to produce on a large scale because of long residence time during carbonization and graphitization steps & small processing volumes. 
+
+There are certain properties that carbon based conductors need to exhibit before they can be used in electrical energy transmission applications 
+
+1. It needs to have good mechanical strength 
+2. It needs to have good conductivity
+3. It needs to be simpler to manufacture & therefore cheaper than metals based conductors. 
+
+Of course there are challenges 
+
+1. Petroleum based pan precursors used for production of carbon fibers
+2. Low yield of  carbon from renewable sources like lignocellulose
+3. Costly manufacturing process 
+
+PAN is preferred as a precursor for carbon fibers because carbon fibers prepared from lignocellulosic biomass suffer poor properties if prepared using traditional pyrolysis techniques. This is because of loss of carbon through the creation of volatiles like levoglucosan that are not retained in solid carbon char. Not only is the yield low but also the properties of the carbonised material is poorer. 
+
+Solution 
+
+When it comes to carbon there are not too many manufacturing processes available. The melt processing techniques applied in making metallic materials can not be used. 
+
+Pyrolysis is by far the most important tool to manufacture carbon materials. 
+
+Recently new methods have been developed that improve the carbon yield of cellulose precursors to about 35%.  Particularly alkali metal chlorides like ZnCl2 ,Nacl ,KCl and their eutectic mixtures are highly favorable towards the production of char. They do this by suppressing volatile tars that are typically associated with loss of carbon during the pyrolysis of lignocellulose. Carbonate salts are  known to increase the gas fraction through cracking of tars produced. Since NaCl is the cheapest most widely available salt with a high melting point we'll go with that. 
+
+The following papers detail the molten salt carbonization technique
+
+
+Micro-pyrolysis of various lignocellulosic biomasses in molten chloride salts
+
+https://www.researchgate.net/publication/364272450_Micro-pyrolysis_of_various_lignocellulosic_biomasses_in_molten_chloride_salts
+
+Molten salt pyrolysis of biomass: The evaluation of molten salt
+
+https://www.sciencedirect.com/science/article/abs/pii/S0016236121009820
+
+Sustainable carbon nanofibers derived from cellulose via molten-salt method as 
+supercapacitor electrode
+
+https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3884859
+Wettability of Carbon Surfaces by Molten Alkali Chloride Mixtures
+
+Wettability of Carbon Surfaces by Molten Alkali Chloride Mixtures
+
+https://www.researchgate.net/publication/250350614_Wettability_of_Carbon_Surfaces_by_Molten_Alkali_Chloride_Mixtures
+
+This paper is a good example of carbon produced using a traditional i.e without molten salt process. Note how both mechanical and electrical properties of the material are low 
+
+Structure and electrical resistivity of individual carbonised natural and man-made cellulose fibres
+
+https://link.springer.com/article/10.1007/s10853-020-04743-y
+
+Carbon Fibers Based on Cellulose–Lignin Hybrid Filaments:
+Role of Dehydration Catalyst, Temperature, and Tension during
+Continuous Stabilization and Carbonization
+
+https://www.mdpi.com/2079-6439/12/7/55 
+
+Molten salts increase char production as shown by following papers
+
+Molten chloride salt pyrolysis of biomass: Effects of temperature and mass ratio of molten salt to biomass
+
+https://www.sciencedirect.com/science/article/abs/pii/S0360544225002762#:~:text=%25)%20and%20CO2%20in,chloride%20salts%20pyrolysis%20of%20biomass
+
+K2CO3-KCl acts as a molten salt flame retardant to prepare N and O doped honeycomb-like carbon in air for supercapacitors
+
+https://www.sciencedirect.com/science/article/abs/pii/S0378775322000969#:~:text=The%20molten%20salt%20not%20only,of%20K2CO3
+
+Ropes made of jute/flax or other base fibers dipped in oil (vegetable or bio oil obtained through pyrolysis of biomass) will be used as a starting material. 
+
+[Jute/flax is a nanocomposite of cellulose ,hemicellulose and lignin. Randomly arranged in the s1 layer and aligned in the s2. Cellulose chains arrange to form fibrils which align to form microfibers,which align to form microfiber bundles. These fiber bundles are oriented in cell walls --randomly in s1 and aligned in s2.]
+
+They will be placed in a vessel made out of ceramic (like sand) and buried in NaCl powder. 
+
+The powder will be heated through concentrated solar power that will progressively raise its temperature to more than 1000° C first thermally treating the rope,followed by carbonization and graphitization. 
+
+For a km long, 1cm thick rope a 10Cm tall and 2m wide vessel would be enough. (Calculation: roll up the km long wire into progressively smaller turns and place these turns on top of each other. Each turn would constitute ~200m of length and 5 stacks would consume a km of wire. Additional 5 cm are used as clearance)
+
+
+Because each vessel is only 3.14m2 in area in a 100m ×100m of open land ~3183 such vessels can be fitted making our total yield at least 3183 km a day. This is massive. 
+
+While the mechanical properties of the carbon produced through lignocellulosic biomass is good the electrical conductivity is decent too. Well within the target we're aiming for. Here's a paper that produced carbon nanofiber through pyrolysis of bacterial cellulose and achieved an electrical conductivity of 10^6 S/m when carbonised at 1200c
+
+Bacterial cellulose as a carbon nano-fiber precursor: Enhancement of thermal stability and electrical conductivity
+
+https://bioresources.cnr.ncsu.edu/resources/bacterial-cellulose-as-a-carbon-nano-fiber-precursor-enhancement-of-thermal-stability-and-electrical-conductivity/
+
+With quick heating rates the residence time of the fiber can be reduced to as small as 24 minutes as the experimental evidence from this paper shows. 
+
+Carbon Fibers from Lignin−Cellulose Precursors: Effect of
+Carbonization Conditions
+
+https://pubs.acs.org/doi/10.1021/acssuschemeng.9b00108
+
+So there is a possibility of repeating the procedure multiple times in a day. However it is known that graphitization increases with increase in residence time. So some experiments will need to be done on how long the ropes need to be treated before they can achieve their maximal electrical and mechanical properties. 
+
+THE CAUSE FOR LOW CONDUCTIVITY AND WHAT CAN BE DONE TO IMPROVE IT 10 TO 100 FOLD. 
+
+How does carbon go from 200MS/m in swcnt to 10^6 S/m in conductivity? The most important reason for loss in conductivity is the presence of pores in these materials. While single walled carbon nanotubes are continuous structures the fibers and the yarns made from it are not. This is a common problem all the way up to graphite. As the following papers show, the nano and microstructures made out of carbon are porous. 
+
+
+Porosity control in glassy carbon by rheological study of the furfuryl resin
+
+https://www.sciencedirect.com/science/article/abs/pii/S0008622300000804
+
+Surface Inorganic Chemistry and Heterogeneous Catalysis
+
+https://www.sciencedirect.com/topics/materials-science/glassy-carbon#:~:text=In%20addition%20to%20very%20high,therefore%20particularly%20suited%20for%20electrocatalysis.&text=Another%20attractive%20feature%20of%20glassy,a%20high%20specific%20surface%20area
+
+Pore Size Distribution of Single-Walled Carbon Nanotubes
+
+https://pubs.acs.org/doi/10.1021/ie030757%2B#:~:text=The%20pore%20size%20distributions%20of,nm%20and%2010%E2%88%92100%20nm
+
+Carbon nanotubes: Surface, porosity, and related applications
+
+https://www.sciencedirect.com/science/article/abs/pii/B9780444518552500152
+
+
+Material properties and structure of natural graphite sheet
+
+https://www.nature.com/articles/s41598-020-75393-y
+
+The carbon fibers pore size distribution produced by carbonization at 900 °C and 950 °C.
+
+https://www.researchgate.net/figure/The-carbon-fibers-pore-size-distribution-produced-by-carbonization-at-900-C-and-950-C_fig11_262433776
+
+
+This is common in all sintered materials. Because carbon can't be melt processed it's not surprising it has pores just like other sintered ceramics and metals. 
+
+Influence of the Total Porosity on the Properties of Sintered Materials—A Review
+
+https://www.mdpi.com/2075-4701/11/5/730
+
+Compare this with smooth solid surfaces of copper. 
+
+SEM images of copper
+
+https://www.researchgate.net/figure/Typical-surface-and-fracture-morphology-of-copper-wires-under-the-SEM_fig11_318917120
+
+Rough surfaces of nano carbon yarns
+
+https://www.researchgate.net/figure/SEM-pictures-of-a-twisted-carbon-nanotube-yarn-and-TEM-picture-showing-bundles-of-SWNT_fig1_249544438
+
+https://www.researchgate.net/figure/a-An-SEM-image-of-a-condensed-carbon-nanotube-yarn-The-fibre-axis-is-horizontal-and_fig1_316476731
+
+Pores represent breaks in material's continuity. Not only does this decrease the mechanical strength (although a small fraction of pores arrest fracture propagation resulting in tougher material) but also lead to decrease in conductivity. 
+
+The only way to overcome this limitation is to fill the pores with carbon source and then pyrolize it to form a smooth continuous conductive carbon material. 
+
+The following paper shows how aligned carbon nanotubes fibers can achieve a conductivity of 10^7 S/m There is no reason to doubt a similar conductivity can be achieved using pore filled carbon precursor. 
+
+Characteristics of Aligned Carbon Nanofibers for Interconnect Via
+Applications
+
+https://www.researchgate.net/publication/3256630_Characteristics_of_Aligned_Carbon_Nanofibers_for_Interconnect_Via_Applications
+
+
+CONCLUSION 
+
+The high resistivity of carbon based conductors would be a problem only in transmission infrastructure that  prioritises high power transmission at low to mid voltages. However for HVDC transmission at voltages over 100 kv and low current values these limitations vanish. What carbon based conductors lose in conductivity they more than make up for it in cheap production. More wires can be used to transmit the same amount of power at high voltage. We plan on writing another article that builds upon this idea and comes up with a few numbers. Efficiencies in 90% or higher are possible. This ,while less than the absolute efficiency of copper, is still good enough. Carbon is not just cheaper but also lighter and tougher. So it is a decent alternative to copper. 
+
+
+FURTHER READING 
+
+Structure and electrical conductivity of graphite fibers prepared by pyrolysis of cyanoacetylene
+
+https://www.sciencedirect.com/science/article/abs/pii/0379677985901699
+
+Specific resistivity of glassy-carbon and its temperature dependence
+
+https://www.spiedigitallibrary.org/conference-proceedings-of-spie/6307/63070S/Specific-resistivity-of-glassy-carbon-and-its-temperature-dependence/10.1117/12.683358.short
+
+Electrical Conductivity in Polymer Composite Filled With Carbon Microfillers
+
+https://www.sciencedirect.com/topics/engineering/graphite-fiber#:~:text=The%20graphite%20fiber%20(diameter%201,%C3%97106%20S%2Fm
+
+
+Bacterial nanocellulose papers with high porosity for optimized permeance and rejection of nm-sized pollutants
+
+https://www.sciencedirect.com/science/article/pii/S0144861720313035
+
+
+The hierarchical structure and
+mechanics of plant materials
+
+https://royalsocietypublishing.org/doi/10.1098/rsif.2012.0341
+
+Cell wall microstructure, pore size distribution and absolute density of hemp shiv
+
+https://royalsocietypublishing.org/doi/10.1098/rsos.171945
+
+
+I’d love to hear your thoughts. Please don't hesitate to get in touch with me. 
+
+Akshat Jiwan Sharma
+Strategy Consultant--Innovation/ Materials science/International relations/Telecommunications/Digital Transformation/Partnerships Mobile/whatsapp:+919654119771 email:getellobed@gmail.com
+
+
