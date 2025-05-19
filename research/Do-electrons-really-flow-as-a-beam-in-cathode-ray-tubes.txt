@@ -1,0 +1,268 @@
+Do electrons really flow as a beam in cathode ray tubes? 
+
+
+Abstract: It is generally well accepted that a beam of electrons flow from cathode to anode in a cathode ray tube. Taking pressure  data from a variety of sources from CRT manufacturers’  data sheets to engineering documents of large hadron colliders we show through calculations that there is enough residual gas in these devices to form a conducting path from anode to cathode due to plasma formation. When high voltages are applied at the anode the gas is ionized and becomes a plasma forming a ‘wire’ between the two electrodes that causes conduction of energy.  The objective of this brief note is to encourage scientists and engineers to re-investigate commonly accepted beliefs about vacuum tubes and develop new knowledge that can revitalize the field especially at a time when nano scaled vacuum channel transistors are being envisioned. 
+
+
+Most vacuum tubes have  operating pressures in the ultra high vacuum range. This is true for cathode ray tubes, vacuum tube transistors and even the large hadron collider. 
+
+https://en.m.wikipedia.org/wiki/Ultra-high_vacuum
+
+
+https://en.m.wikipedia.org/wiki/Vacuum
+
+
+https://www.home.cern/science/engineering/vacuum-empty-interstellar-space
+
+
+The exact values are not available(or could not be found) for vacuum tubes however two posts indicate a vacuum pressure of about 100nPa or 1×10^-7 inside the beam pipe and 10nPa at the interaction point of the large hadron collider. 
+
+
+
+https://www.lhc-closer.es/taking_a_closer_look_at_lhc/0.high_vacuum
+
+
+THE LHC VACUUM SYSTEM
+Oswald Gröbner, for the LHC Vacuum Group
+CERN, Geneva, Switzerland
+
+https://cds.cern.ch/record/455985/files/open-2000-288.pdf
+
+
+Cathode ray tubes typically operate at 10^-4 Pa to 10^-5 Pa
+
+https://www.quora.com/How-much-vacuum-do-I-need-to-reach-to-have-a-cathode-ray-tube
+
+
+https://en.m.wikipedia.org/wiki/Cathode_ray
+
+
+We are going to use the pressure values inside beam pipe (100nPa) for our vacuum tube calculations 
+
+
+If we use these pressure values and plug them in the  ideal gas equation we can get the number of molecules inside the tube. First let us consider a vacuum tube  ,a cylinder, 4.9 cm in length with a radius of 1.1 cm as described on this page 
+
+https://www.eierc.com/rc/ECC82.htm
+
+
+It's volume will be πr^2l = 18.626cm^3
+
+If this tube is operating at a temperature of 25C, the number of moles of gas at 100nPa can be derived from ideal gas law. This turns out to be  7.513643753231E-16 moles.
+
+To calculate the number of molecules we need to multiply the number of moles with avogadro's number. Doing so gives us 45.24×10^7 molecules. 
+
+Now each air molecule has a  diameter of approximately 320pm or 3.2×10^-10 m. 
+
+If these molecules were arranged end to end they would form a line 14.4 cm long. Note that our tube is only 4.9 cm long. 
+
+When a high voltage is applied in this tube the air molecules ionize and form a plasma. Typically 30KV are used in cathode ray tubes. 
+
+On the other hand anode voltages in Vacuum tubes can be as high as 300V as described in the data sheet in the link
+
+https://www.eierc.com/rc/ECC82.htm
+
+
+These voltages are enough to ionize the residual gas present at 100nPa of pressure and create plasmas
+
+The electrons emitted from the cathode hot filament are accelerated by voltage on anode. They strike the intervening molecules and ionize them creating a plasma. It is this plasma which forms the beam in the cathode ray. X rays emitted from electron electron collisions also lead to ionization
+
+https://en.m.wikipedia.org/wiki/Nonthermal_plasma
+
+
+[According to paschen's law low pressures require less voltage for discharge. In CRT and vacuum tubes the pressures are extremely low]
+
+https://en.m.wikipedia.org/wiki/Townsend_discharge#/media/File%3AGlow_discharge_current-voltage_curve_English.svg
+
+[The region A-D in this image corresponds to dark discharge. Dark discharge starts at 200V less than anode operating voltage if 300V in our vacuum tube]
+
+Optically thin plasmas,and plasmas in dark discharge mode appear transparent. It is this plasma which probably forms the so-called cathode ray in the tube. 
+
+https://www.nature.com/articles/s41598-019-56784-2
+
+
+
+Comparison between plasma beam and electron beam
+
+Pluming, bending, and waving are generally associated with a plasma which is essentially an ionised gas. Being an ionised gas it is made up of charged particles, the crucial part being that the charged particles are separate positive ion clusters and negative ion clusters; the bending of the beam, the twists and the turns it takes could be due to repulsion between two sets of charged particles.
+
+Plasma bending is observed everywhere on the surface of the sun in plasma globes and in lightning although here it does not bend rather it takes a fractal shape
+
+The point here is that a beam made up of charged particles does not exactly flow as a straight line from a to b.  It is a turbulent flowing field. 
+
+[Just to note that plasma can be laminar like in a candle flame but still the precision needed in making for example nano  features in a chip can't be obtained by plasma or electron beam but they can be obtained using X-rays. ]
+
+An electron beam or a cathode ray is described as a straight line of electrons flowing from one electrode to another. An electron beam is described as a laminar flow of electrons and the electron beam consists of no positive ions, just a stream of subatomic electrons. 
+
+The problem 
+
+If a plasma which is made up of free electrons and positive ions, which has been observed to form curves in bends in its path, how can a free electron beam travel in a straight line with pinpoint accuracy?
+
+An electron beam can be described as a plasma without positive ions. It should be so unstable that it can't effectively be used for either cathode ray tubes TVs or for lithography. 
+
+On the other hand, an electromagnetic beam like x-ray can be controlled and be made to travel in straight lines with pinpoint accuracy precisely because it carries no charge. 
+
+If plasma can flow then why can't an electron beam flow? 
+
+Plasma does not have to flow matter already exist in the path of plasma when high energy field from electrodes or from lightning encounters matter in its path it ionizes it and forms a conductive channel 
+
+Electron beam on the other hand is described as a stream of electrons in a vacuum created at the tip of one electrode and terminating at the tip of another electrode. Note the assumptions of this theory. 
+
+It assumes no intervening matter that is a perfect vacuum. This is false. A perfect vacuum is impossible to attain. Even a tiny amount of matter can produce a large number of electrons as described above. These electrons will definitely interfere with a beam that is supposed to flow in a straight line from one electrode to another. 
+
+[What happens instead is that a plasma is formed which stabilizes the repulsive   force between 2 electrons due to the presence of positively charged ions forming a beam]
+
+It assumes no electrostatic repulsion between electrons. This is again false, electrons have a very high force of repulsion between them. Two electrons placed 1 m apart will accelerate at a speed of 222 m/sec^2
+
+It assumes only electrons can cause heating in case of electron beam lithography and fluorescence in case of cathode ray tubes. This is false. Electromagnetic fields from near UV and beyond can achieve the effects attributed to electron beams. 
+
+[In fluorescent tube lamps for example UV emission from plasma lights energises the phosphor and causes it to glow in visible light. 
+
+Many leds today work in the same way. Phosphors excited by UV/Blue light glow once its electrons relax, emitting visible light.]
+
+All these assumptions are completely false. In the third case all the ‘effects’ caused by electrons can be explained by X/UV rays produced by the electrons (which can be deflected in a magnetic field to produce rays at specific locations for either lithography or CRT use). 
+
+[Note that plasma beams can also be focused as ion beams using electrostatic lenses; focused ion beams are actually used in nano scale lithography.]
+
+The study of plasma beams tells us that its behaviour in electric and magnetic fields is completely different to what is described for the electron beam. Even contradictory considering plasmas can be observed in natural and man made phenomenons. Do electron beams even exist?. 
+
+Can electrons flow inside cathode ray tubes?
+
+Electrons are very small particles it is possible that beams can be collimated but more and more energy must be supplied as it becomes narrower. 
+
+Vacuum tubes or any other device is to work on an electron beam then it will degrade fast. Removal of electrons from a material is a very damaging process. 
+
+[It is now a well accepted fact that electrons flow too slowly to carry electricity. At speeds of 23 μm/s. At this speed it would take forever for electrons to come back to chathode from where they are emitted. 
+
+https://en.m.wikipedia.org/wiki/Drift_velocity ]
+
+The longevity of cathode ray tubes suggests that they work with electromagnetic fields where charged particles don't flow; they simply generate UV and X-rays that induce charges on the other end of the vacuum tube. In this model the vacuum tube is a capacitor with a large separation distance. 
+
+Or as described in the analysis above a dark plasma is created between cathode and anode which provides a conductive path. 
+
+UV or X-rays 
+
+There are some X-rays(only 1% of electrons are converted to x rays rest all degrade to heat) but UV is enough to meet the work function needs of most metals and more than enough to light up the phosphor. 
+
+Proposed mechanism of working principle of cathode ray tube televisions 
+
+High electric fields at cathode cause ultraviolet emission. UV rays strike the anode which lead to their charging due to electrons jumping out as their work function requirements are satisfied. Magnetic field applied to the charged surfaces causes an emission on the phosphor screen causing pixels to fluoresce. 
+
+Alternatively charged electrons collide with residual gas and create a plasma which forms a beam that can be deflected in a magnetic field. This plasma lights up the phosphors. 
+
+Arguments against the electron flow in cathode ray tubes 
+
+The most prominent argument is electrons are flowing in a cathode ray tube there should be a significant scattering instead of following as a line from cathode to anode 
+
+Many engineering textbooks describing the return of electrons through wire are difficult to accept. Electrons move too slowly to energise any load that is placed in a wire and then return back to the terminal. What happens is that energy flows in the wire at the speed of light and electrons just vibrate/drift around in the wire giving a channel for energy to flow. 
+
+All the properties of cathode rays can be explained by X-rays and UV rays instead of a beam of electrons. Even electronic deflection in a magnetic field. Similarly a plasma beam forming in a residual gas sounds more plausible that electrons flowing in a straight line. 
+
+Electrons are highly energetic particles and it's unlikely that they would be travelling in the CRT if they were to strike phosphor they would cause ionization radicalisation and chemical damage.  
+
+ 
+Arguments in favour of electrons flowing in cathode ray 
+
+Mountain of existing evidence measuring mass and charge of electrons etc 
+
+Repulsion, deflection ,of electrons in electrostatic and magnetic field 
+
+Deflection can also occur in bound electrons in a conductor these behave similarly to free electrons 
+
+Macro scale objects are also deflected wires charge surfaces etc electrons can be easily made to rearrange themselves around the surface releasing the energy as the fall back to place 
+
+Problem with this theory 
+
+Claim that cathode rays deflected in magnetic and electrostatic field 
+
+This fields in near UV range strikes the phosphor screen and lights them up 
+
+Same effect happens on horizontal deflector plates 
+
+The screen is scanned and image is formed
+
+Electron deflection happens within the material not inside the tube. In other words electrons are not freely flowing inside the tube. Either they are near the surface of material or inside a plasma beam. 
+
+All cathode ray deflection experiments have so far been carried out in the presence of a material. They can be explained in an alternative way 
+
+X/UV rays energize the striking material surface causing charge separation due to photoelectric effect electrons surround the material these electrons can then be deflected but their movement is too scattered and most probably near the material surface instead of travelling freely as they return and relax they emit energetic waves. 
+
+
+The general explanation given for electrons not repelling each other is the balance provided by attractive magnetic forces; if that is true then external magnetic force should have the effect not just on the beam deflection but also on beam coherence. But here's the problem. A cathode ray beam is stable in ABSENCE OF MAGNETS. It flows in a straight line indicating that a dark plasma is formed in the residual gas of low pressure tubes as described above. 
+
+Magnets can cause domain alignment/mis alignment within the material at micro to Nano scale something similar is possible with emitted electrons
+
+Most of the energy spent in overcoming the work function of the material the emitted particle should have low energy. 
+
+Once the particle is emitted a net positive charge should develop inside the electrode that has lost electrons and a net negative charge on electrode that has gained electrons. The prevailing theory is that the electrons return back after travelling through the wire. Electron speeds is in the order of 2*10^-5 m/sec in a wire. It would take 8 minutes to travel 1 cm. This would be a significant lag. 
+
+In case of low pressure conditions these electrons can remains stable
+
+If case molecules are present these electrons will ionize them and cause a glow discharge. At low voltages however there is no glow and a dark,transparent  plasma is formed. 
+
+
+
+
+Conclusion 
+
+Photoelectric effect exists
+Thermionic emission exists
+Plasmas exists
+Cathode ray tubes as a collimated beam of electrons traveling across a length do not exist 
+
+It is difficult to make electrons move in a chain. What is possible that after photoelectric or thermionic emission electrons remain near a material surface within micrometer or nanometer range these electrons can be deflected by magnetic and electric fields leading to emission of high energy waves that can be directed. When electrons are accelerated they ionize the residual gas forming a plasma which can be deflected as a beam. 
+
+This forms the basic principle of cathode ray tube, and other electron beam technology as particles don't need to travel; they are already in the target material; they just need to be activated to make them perform desired action.
+
+This model also works well for solid state transistors where electric fields do all the work across the PN junction with no electron involvement. 
+
+Cathode ray  tubes  should really be called plasma beam tubes. 
+
+Some questions
+
+What is common between EUV lithography, electron beam technology, lightning and fracto emission?
+
+Considering that a cathode ray beam is a plasma beam, how exactly  did Thomson measure the mass of electrons in the cathode ray?
+
+What is the speed of cathode rays? 
+
+Do they travel at the speed of light or at a lower speed?
+
+
+References 
+
+EXPOSURE RATE ASSESSMENT  FROM SELECTED CATHODE RAY TUBE DEVICES
+
+https://oer.unimed.edu.ng/OTHER%2520OER%2520VARIETIES/5/1/Ife-Adediran-O-O-Arogunjo-A-M--EXPOSURE-RATE-ASSESSMENT-FROM-SELECTED-CATHODE-RAY-TUBE-DEVICES.pdf
+
+
+Speed of electrons travelling in cathode ray tubes
+
+https://www.quora.com/How-fast-are-the-electrons-traveling-in-a-CRT-Are-they-reaching-the-speed-of-light-or-are-they-comparable-to-drift-velocity-in-conductors
+
+
+
+
+https://physics.stackexchange.com/questions/338250/how-do-electrons-in-a-cathode-ray-remain-in-a-straight-line-if-they-are-all-nega
+
+
+https://en.m.wikipedia.org/wiki/Drift_velocity
+
+
+https://en.m.wikipedia.org/wiki/Ultraviolet#:~:text=The%20photons%20of%20ultraviolet%20have,energy%20required%20to%20ionize%20atoms.
+
+https://en.m.wikipedia.org/wiki/Work_function
+
+
+https://en.m.wikipedia.org/wiki/Photoelectric_effect#:~:text=The%20photoelectric%20effect%20is%20the,this%20manner%20are%20called%20photoelectrons.
+
+
+https://www.researchgate.net/publication/271927676_A_Model_for_Mass_Loss_in_Burned-out_Filaments_of_Incandescent_Lamps
+
+
+https://www.researchgate.net/publication/239405956_A_relation_between_mass_loss_and_life_of_incandescent_filament_lamps
+
+I’d love to hear your thoughts. Please don't hesitate to get in touch with me. 
+
+Akshat Jiwan Sharma
+Strategy Consultant--Innovation/ Materials science/International relations/Telecommunications/Digital Transformation/Partnerships Mobile/whatsapp:+919654119771 email:getellobed@gmail.com
+
