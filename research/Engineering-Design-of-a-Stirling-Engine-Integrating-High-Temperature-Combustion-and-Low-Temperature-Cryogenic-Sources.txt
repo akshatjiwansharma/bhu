@@ -1,0 +1,482 @@
+Engineering Design of a Stirling Engine Integrating High-Temperature Combustion and Low-Temperature Cryogenic Sources
+
+ABSTRACT
+
+While Stirling engine analysis using the ideal adiabatic model improves upon the isothermal model by accounting for heat exchange between hot and cold spaces it comes at the cost of complexity requiring the designer to solve for 16 variables and 22 differential equations. 
+
+Higher order analysis increases the complexity further by using CFD to analyse the engine. None of these methods answer the basic questions about engine design. 
+
+In this technical report we develop a set of equations that can help design a Stirling engine from scratch by reverse engineering from the power input and calculating plate area,stroke length,piston velocity and frequency of the engine along with the temperature at the hot end. We use the results to calculate the working volume of the engine and the pressure and temperature at the hot side to drive the output. 
+
+INTRODUCTION 
+
+Stirling engines are external combustion engines that operate on gaseous fluid as a working medium. This gives Stirling engines some big advantages over other types of external combustion engines like steam engine(that have steam as working fluid) and internal combustion engines (that require fuel to be burned inside the combustion chamber using precise timing)
+
+
+The big advantage that Stirling engines offer is that they can operate on air which is cheaply and widely available and they can run on any heat source be it hydrogen, hydrocarbons,stored heat or even liquified gas. This makes Stirling engines versatile and uniquely suited for converting renewable energy such as sunlight into direct mechanical work. 
+
+These advantages don't come for free. Stirling engines are typically bulkier, due to reasons which we will explore later in this article and they require some special material considerations if they are to operate in a high temp oxidative environment for a long periods of time.
+
+They are complex. Three different configurations exist (alpha,beta and gamma) and there can be many more variations depending upon the requirements. They lack standardization which has made analysing and studying them difficult. 
+
+
+Typically Stirling engines are analysed thermodynamically. PV curves are obtained using schmidt analysis or ideal adiabatic analysis and output of the engine is calculated from these curves. 
+
+These analyses require a lot of input from the designer. Ideal adiabatic analysis as outlined in Urieli’s book itself requires solving for 22 variables and 16 differential equations using methods like Runge kutta. This is too complex. 
+
+The solutions to these equations  can typically only be obtained with a computer. That itself is not a problem. The problem is that ideal adiabatic analysis is a second order analysis that gives only approximate results. Higher order analysis like third order or fourth order analysis are necessary to predict the performance of the engine and these methods rely on Computational fluid dynamics analysis that are extremely hard to perform. 
+
+Even if we ignore the inherent complexity of the thermodynamic analysis we have to face limitations of these approaches, even highly ‘accurate’ ones like the fourth order analysis. 
+
+These methods need such detailed information of engine parameters that it becomes practically useless if an engine is to be designed from scratch. 
+
+We want to answer questions like 
+
+What would be the volume of a Stirling engine for a given power output? 
+
+What would be the surface area of the hot and cold side?
+
+What would be the depth/thickness of the engine?
+
+What parameters would decide the stroke length? 
+
+How do we select piston velocity? Its weight?
+
+To answer these questions we will study the piston kinematics and dynamics of a Stirling engine.  From the values we obtain we will ‘reverse engineer’ the engine attributes. 
+
+Because we are not calculating the thermodynamic parameters of the engine we don't need to track volume changes as a function of crank angle. Instead we can find out the pressure and volume at any point along the stroke length as it travels linearly from one end to another. 
+
+Once we have the basic framework ready we will add more details to it by considering losses in the regenerator (pressure drop),friction losses and  conduction losses. 
+
+KINEMATIC AND DYNAMIC ANALYSIS OF PISTON IN A STIRLING ENGINE – A NON THERMODYNAMIC APPROACH TO PREDICT ITS ATTRIBUTES 
+
+Work is done inside a Stirling engine by the expansion of the gas at the hot side that pushes at a piston. Much of this force is consumed in moving the load at a specific acceleration. As a result of this force the piston acquires a velocity. It travels the stroke length and is pulled back by the flywheel to its starting position due to rotational inertia completing the cycle. The forward motion of the piston is governed by the expansion of the gas. While the reverse motion is governed by the motion of the flywheel. 
+
+To start with we can calculate the mass of the gas required to transport energy applied in the hot plate using the sensible heat equation 
+
+Qinput=mct
+
+Qinput Energy input to the engine 
+m mass of the gas
+c specific heat 
+T temperature difference 
+
+Next we can calculate the volume of the gas using the eqn
+
+p=m/v
+
+where p is the density of the gas ,m is the mass calculated from eqn above and v is it's volume 
+
+To find the area of the hot plate we can plug the numbers in the advection equation 
+
+Q=vpCTa (1)
+
+Where Q is the heat advected in watts,
+v is the gas velocity in  m/s
+C is specific heat at constant pressure 
+T is the temperature difference 
+a is the area of the plate 
+p is the density of the fluid
+
+Solving eqn 1 for ‘a’ gives the area of plate necessary 
+
+Once we have the area we can get the length of gas container 
+
+l*a=V 
+
+Where v is volume
+L is the length 
+A is the area
+
+Alternatively because the volume of the gas is constant we can decide on the length and area of the cylinder that matches the dimensions in the requirement and calculate required gas velocity from the eqn 1. 
+
+Why advection equation? Why not conduction or convection equations? 
+ 
+Forced convection is the primary method by which heat is exchanged within the stirling engine. But within convective heat transfer, advection dominates the transfer of heat from the solid plate to the working fluid. This is because the fluid at high velocities possesses a peclet number that is much larger than 1 indicating a heat transfer regime that is dominated by advection. 
+
+Pe=Lu/alpha
+
+Where L is the characteristic length ,typically the stroke length 
+
+u is the fluid velocity
+
+Alpha is the thermal diffusivity coefficient given by k/pC 
+
+Where k is the thermal conductivity of gas p is the density and C is heat capacity at constant pressure. 
+
+Now for air alpha is constant at 1.9 x 10^-5 m²/s
+
+At even moderate fluid velocities the peclet number is going to be greater than 1. For example at 5 m/sec at a stroke length of .5m  Pe is 131,579 which is much larger than 1. Because the thermal diffusivity of air is tiny the air has to be practically still and characteristic lengths very low for diffusion to dominate. In Stirling engines for all practical purposes advection is the primary mode of heat transfer from hot plate to the fluid 
+
+
+If we solve eqn 1 for ‘a’ at Q=100kw and v=5m/s then we get an area of .0497m^2
+
+A higher piston velocity will reduce the area of the plate by increasing the advective heat transfer. But they would increase the length of the  gas container. 
+
+The stroke length S of the piston determines the frequency of the Stirling engine. At a particular velocity v a higher stroke length increases the time T to travel the stroke distance and thereby decreases the frequency. Conversely a shorter stroke length increases the frequency. 
+
+
+The amount of heat that plate of a particular mass need to absorb to support operation at a particular temperature is given by the eqn 
+
+Q=mct
+
+Where c is the specific heat,t is the temp difference between plate and surroundings. 
+
+Finally the thickness of the plate of a particular area for a temperature difference is given by relation
+
+Q=kat/l
+
+Here l is the thickness,a is the area of the plate ,t is the temperature difference and Q is the power in watts. 
+
+From these 3 equations : the advection equation,the equation for energy stored and the conduction equation we find that the plate needs to have a particular area,the exact quantity of heat it needs to absorb for its mass and thickness it needs to have to operate at specified power and temperature. 
+
+If the plate is too thick less power will be conducted across its faces. If the plate is too light it will heat up more,too heavy it will heat up less affecting the hot side  temperature and thus the temperature differential of the engine. 
+
+
+For an engine with a particular power rating P the energy consumed in Time T 
+
+E=P*T 
+
+This energy E is related to force f and distance d 
+
+E=f*d
+
+Because all of the work is done by the gas during the expansion phase at maximum stroke length the piston velocity reduces to 0 as all of its energy is transferred to the load. It is pulled back to its original position by the flywheel. 
+
+The force on the piston when the external load is at rest is given by 
+
+Ftotal=E/d
+
+As external load gains mass and velocity v it acquires an energy 
+
+Eload=.5mv^2 
+
+Fload=Eload/distance 
+
+Fpiston = Ftotal -Fload
+
+Episton =Fpiston*Lstroke
+Episton =.5MpistonVpiston^2
+
+For a piston of mass m it's acceleration can be calculated by 
+
+acc=Fpiston/Mpiston
+
+and it's velocity from rest v=at 
+
+Therefore piston mass affects the maximum velocity it can acquire and hence the area of the plate from eqn 1 
+
+How to calculate the energy applied on the piston and determine its piston velocity? 
+
+To make this calculation it's essential to remember that expansion of the gas pushes both the piston to its max stroke length and accelerates the load that is connected to it. We can calculate the energy in the piston by subtracting the energy of the load from the total energy of the system. 
+
+Here are the steps
+
+First calculate the total energy of the system that is in motion. 
+
+Then calculate the energy of the load where its mass = total mass - mass of the piston 
+
+Then calculate the energy on the piston using the relation 
+
+Episton=Etotal-Eload
+
+The piston is usually connected to a flywheel. To design a piston for a particular velocity we calculate pistons energy using 
+
+Epkinetic=.5mv^2 
+
+Then we get the energy in the flywheel 
+
+Eflywheel=Episton -Epkinetic
+
+We calculate flywheels moment of inertia for a specified frequency,w, at which we want it to operate
+
+Eflywheel=.5Iw^2
+
+From this moment of inertia we can calculate the mass of the flywheel 
+
+I=.5mr^2 for a disc
+
+[It's not necessary to exactly balance the energy on the piston and the load any excess energy will be applied to accelerating the load further and increasing its maximum velocity]
+
+RELATION BETWEEN STROKE LENGTH AND FREQUENCY 
+
+The frequency of the flywheel determines how quickly the piston completes its stroke. 
+
+The time t is related to frequency f with the equation 
+
+t=1/f
+
+If the piston is moving with velocity v then the distance covered by it in time t 
+
+d=v*t
+
+stroke length L=d/2
+
+This distance is the stroke length of the piston.For a given frequency and velocity this distance is fixed. 
+
+If frequency is decreased the time period increases and so does the stroke length. But as frequency decreases the moment of inertia increases which would have to be matched by increasing either the mass of the flywheel or by increasing the distance r from the axis of rotation. 
+
+
+What happens if we want to increase the stroke length but keep the frequency the same?
+
+Well the relation d=v*t  says that the velocity of the piston would increase thereby increasing its kinetic energy. It makes sense from a physical point of view. By travelling a greater distance the piston is doing much more work. Since the mass of the piston does not change this extra work must come from increased velocity. 
+
+
+Increasing the stroke length increases the piston velocity which decreases the plate area. So the total volume of the engine remains the same. 
+
+If velocity is fixed then increasing the stroke length increases the time period which reduces the flywheel frequency leading to increased moment of inertia and hence the total size of the engine. 
+
+If the piston velocity increases and stroke length is fixed(due to issues concerning the compactness of the engine) then the time period would decrease leading to an increase in the frequency of the engine. 
+
+Changes in time period also has an effect  on the thermal depth of the regenerator which leads to changes in the length of the regenerator resulting in changes in volume of the engine.
+
+
+HOW DO WE CHOOSE A STROKE LENGTH?
+
+The stroke length is chosen based on the compression ratio v2/v1 
+
+v2 is the volume of gas when it expands completely and v1 is the volume of gas when it's compressed by a piston during downward stroke. 
+
+Recall that in steps above we have already calculated the volume required by the gas and the area and length of the container. Because area is fixed the only tunable parameter here is length By adjusting the stroke length we can cause the gas to expand and compress. 
+
+Typically a compression ratio of 2 is chosen therefore a stroke length that penetrates into container volume will decrease it and cause the gas to compress during downward stroke and expand during upward stroke. 
+
+
+
+CALCULATING LENGTH AND AREA OF THE REGENERATOR
+
+As described in the paper ‘A Practical Design Method for Stirling Engine Regenerators Using First Principles’ regenerators exchange heat mainly through diffusion at thermal penetration depths. 
+
+The area of a regenerator is given by 
+
+Q=kAT/l
+
+Where l is the thermal depth given by the relation. 
+
+l=√at/π
+
+If a regenerator is made by stacking foils separated by thermal penetration depth then the total number of foils can be found by dividing total area by the area of each foil and length of the regenerator can be calculated by stacking the foils on top of each other separated by thermal distance. 
+
+
+CALCULATING WORKING PRESSURE OF THE ENGINE
+
+The required pressure of the engine can be found through following expressions. 
+
+Work=Prequired*log(v2/v1)
+
+Where Prequired is the min pressure necessary for the engine to do the required work.  
+
+Number of moles of a gas in compression space volume v2 is given by 
+
+PV2/RT=n
+
+Here p is atmospheric pressure at room temperature. 
+
+And the working pressure at temp T is given by 
+
+Pworking=nRThot/V2
+
+If Pworking is > Prequired then temp can be adjusted. Or temperature that results in Pworking at a V2 could be found by rearranging the equation above. 
+
+
+
+REASON FOR INCREASED SIZE OF STIRLING ENGINES 
+
+Stirling engines are typically larger than internal combustion engines for a very simple reason. Heat exchange in the Stirling engine depends upon advection. And greater area leads to more advective heat transfer. Therefore larger engines have better heat transfer. The only way to increase the power density or to reduce the size is by pressuring the engine causing more gas to be fit inside it at smaller volumes. This would reduce the volume needed for the working gas and increase the power density of the engine. 
+
+So to recap using the equations described above we can evaluate engine parameters. Its Area can be found by the advection equation which depends upon piston velocity. Its stroke length determines the frequency. 
+
+
+1.Decide on the input power to the engine. 
+2. Calculate the mass of the working gas. 
+3. Calculate the volume of the working gas. 
+4. Choose the Area of the plate and calculate the length of the container that can contain this gas 
+5. Calculate velocity of the piston using advection equation 
+6. Decide on the compression ratio of the gas. Calculate required pressure and temperature for the engine to work. If it matches with initial temperature chosen go to next step else readjust steps 1-6
+7. Calculate the stroke length which will depend upon the compression ratio of the gas
+8. From the stroke length get the frequency of engine. 
+9. From the frequency calculate thermal penetration depth 
+10. From thermal penetration depth calculate the regenerator area ,number of foils and regenerator length. 
+11. Adjust frequency and piston velocity depending upon torque and power requirements for the load. 
+12. Adjust for losses.
+
+It's important to note that the real piston speed will be determined by the “excess” energy available to the piston and this will also determine the flywheel rpm. The steps described above only determine the minimum piston velocity required to drive the engine at chosen dimensions. 
+
+As can be seen from the steps outlined above a Stirling engine is a highly interconnected system and changes in one parameter affects the entire engine leading to changes elsewhere. The steps outlined above give the designer complete freedom to fine tune engine parameters based on the requirements and demonstrates how flexible striling engines really are. 
+
+
+OPERATION OF THE ENGINE 
+
+One of the major advantages of Stirling engines is that they can work with almost any heat source. All they need is a temperature differential. Let us calculate carnot efficiency of two engines. One running between 373.15K and 998.15K. And other running between 77k and 393.15 k
+
+n =1- Tcold/Thot 
+
+For the first case efficiency is 0.6261
+
+For the second case the efficiency is 80.5%
+
+Even though the absolute temperature difference is larger in the first case we find that a lower hot side temperature increases the efficiency by a much larger value. Stirling engines can effectively be run on liquified air. But the problem is not in the ‘heat source’ rather how it's produced. 
+
+In the section that follows we explain why cryogenic fuels are ineffective because it's too energetically expensive to produce them. 
+
+STIRLING CYCLE REFRIGERATOR – IMPORTANCE OF ADIABATIC EXPANSION AND COMPRESSION 
+
+Stirling cycles are reversible. In forward operation that is on application of heat they output useful work. During reverse operation that is when they are run through a motor or other mechanical device they can provide cooling. 
+
+This happens because expansion of gas decreases its temperature and forces it to absorb heat from the surface which is to be cooled thereby reducing its temperature. Expansion and compression in the Stirling engine is not isothermal but adiabatic. 
+
+As outlined by Urieli in his book ‘Stirling engine analysis’ one of the paradoxical results of isothermal analysis using Schmidt method is the conclusion that no heat is exchanged between hot and cold heat exchangers. As noted by him this can't possibly be true and thus the reason why the expansion and compression in the hot and cold spaces are modelled as adiabatic. 
+
+This means that we can figure out a temperature drop during the expansion cycle if we know the volume of the expansion space by using the adiabatic equation. 
+
+T2=T1(v1/v2)^y-1 (2)
+
+Y is the adiabatic index for the working gas. 
+
+Using eqn 2 if air expands from room temp to twice its original volume the temperature would drop to 225.7k or -49c 
+
+eqn 2 makes it quite clear that increasing the expansion volume increases the temperature drop.It's also important to note that eqn 2 governs the minimum temperature that can be achieved for a particular expansion ratio. 
+
+
+But there is a limit to how much you can allow the gas to expand. To achieve larger temperature drops multistage coolers are used where cooled gas from one cycle feeds into cooling for the next cycle. 
+
+
+Choice of working fluid matters especially when considering cryogenic temperatures. Hydrogen and helium are used when ultra low temperatures are required because these gases have very low boiling points and can remain gaseous even at low temperatures. 
+
+For Stirling cycle machines working as refrigerators it is useful to define a coefficient of performance that determines how effectively it can cool
+
+Carnot efficiency or coefficient of performance ,cop= Tcold/Thot -Tcold (3)
+
+From eqn 3 it can be seen the lower the temperature gets the less effective its cooling becomes and this is why cryogenic systems producing liquified air generally consume more energy than is given back by boiling of liquified air. That is why liquified air engines would generally be inefficient. 
+
+CALCULATING THE MASS OF GAS REQUIRED FOR REFRIGERATION AND REFRIGERATOR VOLUME. 
+
+Eqn 2 determines the temperature drop of the gas as it expands into the cold space. From this we can calculate the temperature difference T between the hot and cold space. 
+
+COP is also given by eqn3 but which is equal to 
+
+COP=Qcold/W 
+
+For a particular input value of work we can calculate the effective cooling on the cold side. 
+
+Substituting these values in the heat equation 
+
+Q=mct 
+
+And solving for m we have the mass of the working gas. 
+
+It's volume can be found at atmospheric pressure 
+
+V=m/p 
+
+Where p is density at atmospheric pressure. This v gives the expansion volume. Since we have the ratio of expansion to compression. Summing them up gives the total working volume of the engine for a particular energy range. 
+
+
+LOSSES
+
+Carnot efficiency gives the first and most important upper bound on the efficiency of a Stirling engine. For a temperature range Tcold and Thot the maximum efficiency of the engine is carnot efficiency given by 
+
+n=1- Tcold/Thot
+
+No Stirling engine can be more efficient than carnot value. 
+
+Yet it is not the only source of loss. Practical Stirling engines are typically much less efficient than ideal carnot value. Their inefficiency stems from following additional losses. 
+
+Conduction loss will occur because hot gas will leak energy through the walls of the engine. It can be calculated using Fourier law of conductivity 
+
+Q=kat/l 
+
+So thinner walls will lose more heat than thicker walls for the same area. 
+
+However as we discussed in the previous section, inside a Stirling engine the heat exchange from the fluid to the wall is governed by diffusion and typically requires larger surface area because working fluid conductivity is low. There will be some conduction losses but they will be small as compared to other losses. 
+
+Friction 
+
+Stirling engines are mechanical devices and as such there would be frictional losses during the movement of the piston. 
+
+Ffriction = uFpiston 
+
+Where u is the coefficient of friction 
+
+But again since piston energy is so small due to its small mass and low velocity and since majority of piston energy is transferred to the load which does the work these losses will also be quite small. 
+
+Regenerator losses 
+
+As heat is exchanged between working fluid and the regenerator there will be a pressure drop which can be calculated by the following relation 
+
+P1V1/P2V2=T1/T2
+
+V1 and V2 are input and output volumes P1 is the input gas pressure T2 is calculated temperature of the gas when it exits the regenerator and T1 is the temp of the hot end. 
+
+Regenerator losses would represent by far the biggest losses in the engine. 
+
+Then there would be other design dependent losses like gas leaks from the engine. 
+
+Overall stirling engines with 30%efficiency can be designed as proven by several experiments and demonstrations by engines in the real world. This means that for an engine to produce 100kw it must be designed at 333.33kw. This increases the size of the engine by 3.33 times. 
+
+STANDARDIZING STIRLING ENGINES
+
+There are several different configurations for Stirling engines. The chief among them being Alpha ,beta and gamma variations. These designs all have their advantages and disadvantages. It would help if Stirling engine designs could be standardized so that they could benefit from iterative design improvements and skills could be focussed on a single engine type. 
+
+
+Here are some recommendations to standardize Stirling engines. 
+
+Exclusively choose single cylinder beta type engines for simplicity. 
+
+Integrate Regenerator with the displacer to further simplify design.  
+
+Limit the temperature on the hot end to 800c to reduce the thermal load on materials. This would limit the carnot efficiency to about 62% depending on the cold side temperature. But since Stirling engines rarely exceed 40% efficiency this should not be a problem. 
+
+Choose low thermal conductivity materials to minimise wall conduction losses and regenerator losses. 
+
+
+
+CONCLUSION
+
+In this technical report we presented a way to design a Stirling engine using a non thermodynamic approach that simplifies many calculations and gives a detailed picture of the components that work inside the engine. 
+
+From the hot and cold plates to the piston and flywheel. We showed how all these components work together and gave equations that can be used to tweak their behaviour. Along the way we answered several questions about the attributes of the engine that are simply assumed in other analyses thereby presenting a more realistic approach to designing these engines. 
+
+Megawatt scale Stirling engines have been designed for use in ships. It is quite possible that Stirling engines might also 
+be applied in aircrafts. We hope that our design methodology can help designers build Stirling engines for a diverse set of applications that might one day turn the dream of renewable energy powering human society into a reality.  
+
+REFERENCES
+
+Stirling Cycle Machine Analysis
+
+https://ohioopen.library.ohio.edu/opentextbooks/9/
+
+
+Stirling Engine Design Manual
+https://ntrs.nasa.gov/api/citations/19830022057/downloads/19830022057.pdf
+
+Automotive Stirling engine: Mod 2 design report
+https://ntrs.nasa.gov/citations/19880002196
+
+Review of Computational Stirling
+Analysis Methods
+
+https://ntrs.nasa.gov/api/citations/20040171934/downloads/20040171934.pdf
+
+A Review of Stirling Engine 
+Mathematical Models
+
+https://www.osti.gov/servlets/purl/5948203
+
+80-100 HP STIRLING ENGINE FEASIBILITY
+STUDY
+
+https://www.osti.gov/biblio/7328748
+
+Discussion of Marine Stirling Engine Systems
+
+https://www.dieselduck.info/machine/01%2520prime%2520movers/2005%2520Marine%2520use%2520of%2520Stirling%2520Engine.pdf
+
+ A Practical Design Method for Stirling Engine Regenerators Using First Principles
+
+https://akshatjiwannotes.blogspot.com/2025/04/a-practical-design-method-for-stirling.html
+
+
+Akshat Jiwan Sharma
+Strategy Consultant--Innovation/ Materials science/International relations/Telecommunications/Digital Transformation/Partnerships Mobile/whatsapp:+919654119771 email:getellobed@gmail.com
+
