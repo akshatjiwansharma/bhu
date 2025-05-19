@@ -1,0 +1,211 @@
+Force calculation on electron in vacuum tubes
+
+ABSTRACT
+
+A claim was made in the paper titled “Do electrons really flow as a beam in cathode ray tubes? ” where we asserted that electrons remain near the cathode surface during the operation of CRT. Here we do force calculations on electrons by estimating the debye length of electrons emitted after thermionic emission and show that under given applied voltages if electrons are placed at debye length they are sufficiently far away from the cathode surface to be accelerated towards it.
+
+Debye length, while typically used to measure charge screening distance in plasmas and electrolytes, can also be used to estimate the distance of emitted electrons from the cathode surface. 
+
+In the same way debye length is used to calculate the thickness of an electrical double layer in which the surface charge and charge on inner helmholtz plane are immobile & the charges on outer helmholtz plane are mobile we can model emitted electrons as mobile charges & image charges distributed on the cathode surface as immobile.
+
+The debye length indicates the maximum distance beyond which the electric field is reduced. Once we have that length we can apply Coulomb's law to calculate the force between charges. Then we can compare it with the force exerted by the electric field on the anode.
+
+To calculate debye length we need number density of electrons and for that we need current density in current per meter square and electron velocity. 
+
+
+
+Electron velocity can be calculated by applying the energy equivalence principle. 
+
+The energy gained by an electron under an applied voltage V is given by 
+
+
+
+E=eV
+
+
+
+Where:
+
+E is the energy acquired by the electron (in joules),
+
+e is the charge of the electron, which is approximately 1.602×10^−19 C
+
+V is the applied voltage (in volts).
+
+The velocity gained by electron in the vacuum tube when a potential difference V is applied can simply be calculated by energy equivalence 
+
+1/2mv^2=eV
+
+v = √((2 * e * V )/ (m)
+
+Now cathode ray tubes typically use voltages between 20-40Kv. Taking 40 Kv in our example we find velocity to be 
+
+v-crt= √(2 * (1.602 x 10^-19 C) * (40,000 V) / (9.109 x 10^-31 kg)
+
+v-crt ≈ 1.19×10^8 m/s
+
+vacuum tubes on the other hand have anode voltages that vary depending upon their specific use case. Here's a typical example 
+
+https://www.eierc.com/rc/ECC82.htm
+
+
+
+Taking the value of v as 250 V we get electron velocity 
+
+
+
+v-vacuum=9.377366 ×10^6 m/s
+
+
+
+[It's  clear that as the applied voltage decreases the velocity of electrons decreases too]
+
+
+
+From this velocity we can calculate electron density using the relation 
+
+n=J/ev
+
+Where:
+
+J is the current density (in amperes per square meter, A/m²),
+
+n is the electron density (in electrons per cubic meter, e/m³),
+
+e is the elementary charge (1.602×10^−19 C)
+
+
+
+v is the drift velocity of electrons (in meters per second, m/s).
+
+
+
+Let's calculate electron density for hot cathode current values for tungsten at 1273K and 2500k from this page
+
+
+
+https://en.m.wikipedia.org/wiki/Hot_cathode
+
+
+
+Current Density (J): 500 mA/cm² = 500 * 10^-3 A / (10^-2 m)² = 5 * 10^1 A/m²
+
+
+
+n-crt=50/(1.602×10^−19)×(1.19×10^8)
+
+n-crt ≈ 2.62×10^12electrons/m3
+
+now we calculate number of electrons in vacuum tube 
+
+n-vaccum=3.33×10 ^13 electrons/m 3
+
+[So a smaller electron velocity due to a lesser applied voltage produces an increased density of electrons] 
+
+To compare 
+
+Here are some typical electron density ranges for cathode ray tubes (CRTs) and vacuum tubes:
+
+Cathode Ray Tubes (CRTs)
+
+- *Typical electron density:* 10^13 - 10^15 m^(-3)
+
+Vacuum Tubes
+
+- *Triodes:* 10^14 - 10^16 m^(-3)
+
+- *Tetrodes:* 10^15 - 10^17 m^(-3)
+
+- *Pentodes:* 10^16 - 10^18 m^(-3)
+
+- *Beam power tubes:* 10^17 - 10^19 m^(-3)
+
+These values were obtained from chatgpt and meta AI search 
+
+The formula for debye length is 
+
+λD = √(ε₀kT) / √(q^2n)
+
+where:
+
+λD is the Debye length
+
+ε₀ is the permittivity of free space   
+
+k is Boltzmann's constant   
+
+T is the temperature of the plasma   
+
+q is the charge of the particles   
+
+n is the number density of the particles
+
+Here we are going to assume that electron temperature is same as the surface temperature of hot filament
+
+Debye length for electrons in CRT ,
+
+λcrt=1.52×10^−3 m
+
+Debye length for electrons in vacuum tube 
+
+λvacuum=6.0×10^−4m
+
+
+
+These numbers agree well with debye length in plasmas at comparable densities. 
+
+https://en.m.wikipedia.org/wiki/Debye_length
+
+Total charge enclosed in a sphere of radius λcrt/2 ,Qcrt=2.45×10^−16
+
+Total charge enclosed in a sphere of radius λvacuum/2 ,Qvacuum=5.98×10^−16C
+
+Force between Qvacuum and it's image charge on cathode is Feivacuum=2.34×10^-16 N
+
+Force on Qvacuum due to applied voltage 250 volt on anode at  𝑑=0.0394m
+
+
+
+𝐹eavacuum≈2.39×10−11 
+
+Feavacuum>>>Feivacuum 
+
+Force between Qcrt and it's image charge separated by debye length in CRT is Feicrt=8.95×10^-15N
+
+Force on Q crt due to applied voltage of 40Kv on anode at .0362m Feacrt=4.17×10^-9N
+
+Again Feacrt>>>Feicrt
+
+In both cases the force due to applied electric field at anode is much larger than the force on emitted electron due to the applied charge
+
+
+
+CONCLUSION 
+
+The results show that in both vacuum tubes and cathode ray tubes the force exerted by the image charge on the cathode upon the emitted electrons is far smaller than the force exerted by the applied voltage at the anode. The force between emitted electron and its image charge was calculated at a distance of debye length which is the maximum distance at which the electric field of the positive charges in cathode are screened. 
+
+This results proves that the electrons will be accelerated towards anode and the previous assertion that electrons stay near the cathode surface is false. 
+
+However, since a significant amount of air molecules (45.24×10^7 molecules at 100 nano pascal)exist between cathode and anode these electrons collide with them and result in ionization of the gas and creation of a plasma between the cathode and anode that becomes conductive and carries electrical energy. 
+
+While the results explain how energy is conducted in existing vacuum tubes it would be interesting to conduct an experiment that operates at even lower pressures 10 or even 1 nano Pascal. At these pressure ranges the number of air molecules would be significantly reduced and there should be no plasma formed. How would the vacuum tube behave then?
+
+[However a challenge remains with reported values of electron densities in literature. These values would shorten the debye lengths and thus increase the attractive force between cathode and anode charges.Also we used lowest current densities. Cathodes with very high current densities are available that would affect calculations. Also while debye length gives maximum distance beyond which electric fields are screened it doesn't necessarily give the distance that the two charge carriers are at from each other.]
+
+There is still much that remains unanswered about cathode rays and we encourage more research on the subject. 
+
+To prove that cathode rays do flow & carry energy, careful experiments need to be conducted that exactly measure the pressure inside vacuum tubes & then lower it to a value that would ensure that no plasma is formed between anode and cathode inside the tube. For that it is essential to lower the vacuum tube pressure to less than 10 nano Pascal. 
+
+Further reading
+
+https://akshatjiwannotes.blogspot.com/2024/12/do-electrons-really-flow-as-beam-in.html
+
+https://www.reddit.com/r/ElectricalEngineering/comments/1hldmqg/is_there_any_way_to_determine_distance_of_ejected/
+
+
+I’d love to hear your thoughts. Please don't hesitate to get in touch with me. 
+
+Akshat Jiwan Sharma
+Strategy Consultant--Innovation/ Materials science/International relations/Telecommunications/Digital Transformation/Partnerships Mobile/whatsapp:+919654119771 email:getellobed@gmail.com
+
+
