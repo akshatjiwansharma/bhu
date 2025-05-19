@@ -1,0 +1,165 @@
+A Practical Design Method for Stirling Engine Regenerators Using First Principles
+
+ABSTRACT: Regenerators are critical components in Stirling engines that improve its efficiency by recycling heat between hot and cold transitions of the working gas. Although simple conceptually designing of Stirling engine regenerators is quite complex as it's not clear tuning which parameter produces what effect. Furthermore designing a regenerator may involve solving complex navier stokes equations using CFD tools. In this paper we focus on macro properties of the regenerator and present a unique solution that can be used to predict it's behaviour completely bypassing navier stokes equations and complexities that arise from it. Further we outline a simple method to build a foil type regenerator that is both highly efficient and minimises the pressure drop of the working gas. 
+
+Regenerators are probably the most important component in a Stirling engine. They act like a thermal sponge and absorb energy during the expansion phase of the gas and return it during the compression phase. The effect of the regenerator is that it allows recycling of heat within the engine. The comparatively cooler gas has less heat that has to be rejected at the cold end after expansion phase and similarly the cooled gas is preheated during the compression phase so it has to absorb lesser energy from the heat source. 
+
+
+This increases the efficiency of the Stirling engine by allowing it to produce work at lesser input heat. Without regenerator the gas would have to reject all of its heat that it acquired during the expansion phase at the cold end and then the cold gas would have to be reheated  to a higher temperature which would increase the energy input of the system. 
+
+This property of regenerators to increase the efficiency of the engine was known to its inventor Robert Stirling. Yet regenerators remain shrouded in mystery. Over the course of 2 centuries the Stirling engine community has settled on some common regenerator designs mesh,packed balls,foil etc but it's not quite clear how these regenerators can be precisely engineered. 
+
+A major problem in engineering of Stirling engine regenerators is that it requires solving of navier stokes equations that are best done by computer simulations. This is a problem because not only does it introduce an obstacle in production of regenerators it also obscures its properties from engineers leading to increased production costs and stifling of cheap and controlled experimentation. 
+
+Could it be possible to design regenerators without using complicated computer programs relying only on basic first principles and fundamental thermodynamic theory? We believe it's possible and in the following sections we outline how. 
+
+HOW DOES REGENERATOR STORE AND RELEASE HEAT? THE ROLE OF FORCED CONVECTION,ADVECTION AND DIFFUSION IN REGENERATOR OPERATION
+
+Heat transfer in the Stirling engine is mostly forced convection. Solid to fluid heat transfer is dominated by the advection part of convection due to high peclet numbers and ability of fluid particles to transport heat through high mass flow rates. But in the opposite case that is fluid to solid , heat transfer the process is dominated by diffusion at the thermal boundary layer. 
+
+In fluid to solid heat transfer like in the regenerator of the engine conduction plays a dominant role. Solid materials don't flow like fluids and their advective component becomes negligible. What advection does in this case is to thin out the boundary layer and replace the cold fluid particles that have transferred heat with new hot ones. 
+
+The parameter that is important in these cases is the thermal penetration depth 
+
+d=√at/π (1)
+
+where a is the thermal diffusivity coefficient and t is the time period. 
+
+At faster velocities the penetration depth d will be small. 
+
+
+The heat in the fluid is given by 
+
+Q=hAT (2)
+
+The heat in the regenerator is given by 
+
+Q=kAT/l (3)
+
+From equations 2 and 3 
+
+h=k/l (4)
+
+For fluid to solid transfers 'l' is equal to the thermal penetration depth calculated from eqn 1
+
+Regenerator stores this diffusive heat from the hot fluid in its mass. Similarly it gives back the heat in its mass to cold air through diffusion at thermal penetration depths. 
+
+Because heat transfer in a regenerator depends upon physical contact of fluid particles with a solid surface its surface area becomes important and this is why regenerators with large surface areas are chosen. Mesh type regenerators are popular for the reason that the meshes can produce large surface area compared to its volume. And since volume in a Stirling engine is limited it becomes more important to have designs that can increase the surface area of the regenerator. 
+
+EQUATIONS FOR CALCULATING THE PUMPING LOSS THROUGH THE REGENERATOR 
+
+The performance benefits of regenerators do not come free; it comes at the cost of fluid friction in between the generator walls that leads to a pressure loss. While the exact pressure loss in a regenerator can only be obtained after full solution of Navier stokes equations we can use the ideal gas law to calculate the pressure of the gas when it exits the regenerator and  reenter the working space. 
+
+For that first we need to know the temp of the gas as it exits the regen 
+
+T2 =T1 - e(T1 -Tregen) (5)
+
+Where T2 is the gas temp at the exit. T1 is the gas temperature at the input and T regen is the regenerator temperature 
+
+e is the efficiency of regenerator given by 
+
+eff=1-e^-NTU (6)
+
+NTU=hA/mc (7) c is the specific heat capacity at constant pressure 
+
+Mass flow rate m= pvA (8) where A is the cross sectional area,v is fluid velocity and p is the density. 
+
+Now if we apply ideal gas law 
+
+P1V1/P2V2=T1/T2 (9)
+
+V1 and V2 are input and output volumes P1 is the input gas pressure T2 is calculated from eqn 5 and T1 is the temp of the hot end. 
+
+Solving this equation gives us the output pressure from the regenerator and thus the total pressure drop. 
+
+In regenerator the losses are typically due to fluid friction but when the losses do occur it transforms to heat in that case one of the two things are going to happen 
+
+1. Heat is transferred to the gas it becomes hotter 
+2. Heat is transferred to the regenerator and less of it is absorbed from the gas
+
+In either case the regenerator efficiency will drop and gas will exit at a higher temperature.  
+
+Another interesting result is that as the regenerator efficiency drops more of the heat stays in the gas and less of it is transferred to the regenerator. Leader to lesser efficiency of the regenerator but also lower pressure drop. 
+
+DESIGN OF A FOIL TYPE REGENERATOR
+
+A foil type regenerator can be designed by stacking several layers of foil on top of each other. The number of foils to be stacked can be obtained from eqn 3 solving for total area and then by dividing it with the area for each foil available for heat exchange. 
+
+On each foil spacers can be created by depositing material along the edges. That way foils would not be in contact with each other and gas will find a path to flow through. The spacer thickness should be equal to thermal penetration depth. Any less there won't be effective heat transfer. Any more and regenerator will occupy more volume than it needs to. 
+
+This is simple in a woven regenerator in which additional threads can be weaved along the edges giving clearance space proportional to the thickness of the thermal penetration depth. 
+
+
+Regardless of the regenerator type it can be seen from eqn 5 as the regenerator efficiency increases so the gas output temp falls and from eqn 9 as gas temp falls the output pressure decreases as well. So this is a tradeoff that a designer needs to keep in mind. 
+
+On a physical level this makes sense. As we've already discussed regenerators exchange heat through conduction at thermal penetration depth. As more fluid particles come in contact with the solid boundary they lose energy due to friction which is reflected in the pressure drop. Unfortunately there is no way around it and even the most well built regenerator designs will lose pressure due to thermodynamics and mechanics of how they operate. 
+
+However it is possible to minimise conduction losses by choosing a low conductivity material. 
+
+SURFACE AREA OR THERMAL MASS WHICH ONE IS MORE IMPORTANT IN A REGENERATOR?
+
+There are certain studies that have been done which claim that thermal mass is the more important property that determines the performance of a regenerator. It's true. Thermal mass indeed does determine how much heat a material will store according to the relation 
+
+Q=mct
+
+But it's important to remember that ALL of the heat transfer inside the regenerator takes place due to actual physical contact. Surface area is critical to ensure that there is enough contact between fluid particles and the solid regenerator for heat exchange to effectively take place. For 100kw of heat transfer at thermal penetration depth of 800 micrometer and temp difference of 400K this area comes out to be 7.69m2. This is much larger than the cylinder area emphasizing the importance of high surface area for increased contact. 
+
+
+One other consideration that is important while designing the regenerator is that the length of the regenerator in a beta type Stirling engine lessens the available stroke length of the piston impacting the work done per cycle. 
+
+DISCUSSION 
+
+Rather than modeling frictional pressure losses directly, we incorporate their effect through a reduction in regenerator effectiveness. The resulting elevated gas temperature leads to an adjusted output pressure via the ideal gas law, thus capturing both the thermal and mechanical consequences of internal flow resistance.
+
+The thermal penetration depth used here assumes oscillatory flow typical of Stirling engine cycles, with time t representing the thermal interaction duration per cycle. This allows for an accurate estimation of heat diffusion depth without resolving full transient conduction.
+
+While NTU-effectiveness relations originate from steady-state heat exchanger theory, they remain valid in this context as they capture the net thermal exchange per cycle, driven by advection-diffusion coupling in the gas and solid phases.
+
+CONCLUSION 
+
+In this paper we explained some of the problems associated with modelling of regenerators for a Stirling engine and presented a simple solution focussing on macro properties that can be used to estimate pressure drop across it without relying on complex CFD techniques. We also put forward a set of equations that can be used to calculate the area required for regenerators after laying the foundation of their heat exchange mechanism. 
+
+It was explained that regenerators actually exchange heat through thermal diffusion & conduction at thermal penetration depths is of prime importance during heat exchange. The contention between thermal mass and surface area of the regenerator was resolved. It was discovered that thermal mass selects the total heat absorbed by the system while area determines how much heat is actually transferred at the interface. Both were found to be important. 
+
+We described the relation between regenerator efficiency and pressure drop and came to the conclusion that it's inevitable that a high efficiency regenerator will lead to a pressure drop. These tradeoffs will need to be balanced by the designer of the engine. 
+
+Finally we presented a way to design a foil type regenerator with spacing between individual foils to prevent contact and allow a path for fluid to flow between the plates. 
+
+We hope this paper helps designers to build different regenerator types and put back the focus on experimentation and production rather than computer simulations. 
+
+REFERENCES 
+
+Stirling engine regenerators: How to attain over 95% regenerator
+effectiveness with sub-regenerators and thermal mass ratios
+
+https://www.researchgate.net/publication/335511720_Stirling_engine_regenerators_How_to_attain_over_95_regenerator_effectiveness_with_sub-regenerators_and_thermal_mass_ratio
+
+
+A Microfabricated Involute-Foil Regenerator for Stirling Engines
+
+https://ntrs.nasa.gov/citations/20070031684
+
+
+Composite Matrix Regenerator
+for Stirling Engines
+
+https://ntrs.nasa.gov/citations/19970013279
+
+Stirling engine regenerator based on lattice structures manufactured by 
+selective laser melting
+
+https://www.sciencedirect.com/science/article/pii/S2212827118308175
+
+LTD Stirling engine with regenerator. Numerical and experimental study
+
+https://www.researchgate.net/publication/316434983_LTD_Stirling_engine_with_regenerator_Numerical_and_experimental_study
+
+Robust foil regenerator flow loss and heat transfer tests under oscillating flow condition
+https://www.sciencedirect.com/science/article/abs/pii/S1359431120330076
+
+I’d love to hear your thoughts. Please don't hesitate to get in touch with me. 
+
+Akshat Jiwan Sharma
+Strategy Consultant--Innovation/ Materials science/International relations/Telecommunications/Digital Transformation/Partnerships Mobile/whatsapp:+919654119771 email:getellobed@gmail.com
+
+
