@@ -1,0 +1,129 @@
+Capillary bridge collapse and resulting effects
+
+Despite being a liquid, water is considered to have a tensile strength.Tensile strength of water depends upon its purity. Pure water can have tensile strength as large as 140Mpa where as impurities in the form of dissolved air & particulate matter can reduce this value to as small as 100 kpa. 
+
+https://pubs.rsc.org/en/content/articlehtml/2015/lc/c5lc00048c
+
+It is known that in bulk water when the pressure exceeds tensile strength, vapor cavities form but what happens in capillary bridges when pressure exceeds the tensile strength is not fully explored in literature. 
+
+
+[Model for capillary bridge collapse]
+
+Capillary bridges form when water forms a thin film connecting two solid bodies. These bridges are on a mm scale length. When an extension force is applied to either or both of the bodies liquid film starts thinning out and eventually breaks. 
+
+
+Compare necking in capillary Bridge with hydrodynamic stretching. In hydrodynamic streching bulk water moves through a smaller orifice and it's velocity increases due to Venturi effect. Vapor bubbles form because of tensile forces experienced by water. Almost the same thing is happening in the scenario described above. Except water is streched by moving the connected solid objects instead of it being forced through an orifice. 
+
+Compare necking to tensile yielding of materials. If we look at necking phenomenon it is strikingly simillar to the necking observed in elastic materials under a tensile load. So a similar behaviour should be expected during yield and subsequent fracture. 
+
+When capillary bridge finally ruptures it strikes the solid bodies with a certain velocity. 
+
+V = √(2*(p/d)), (1)
+
+where p is the fracture stress of water and d is its density. 
+
+At p =100kpa
+V= 14.1 m/sec
+
+It is important to note once the pressure equals tensile strength of water vapor cavities will form in it. Exceeding this pressure will lead to necking and subsequent pinch off. 
+
+It's impact pressure can be determined by comparing it with water drop impact. The only difference here is that in a capillary bridge the liquid film is already attached to the solid surface. So when it retreats after fracture it impacts the liquid film first. 
+
+For droplet impact,pressure is given by joukowsky equation 
+
+P=dcv
+
+Where p is the pressure,d is the density of fluid,c is the speed of sound in fluid,v is the impact velocity
+
+Substituting values for water d=1000,c=1500,v=14.1 calculated above we get p= 21.15Mpa
+
+[Some questions and notes]
+
+How do capillary bridges relate to contact mechanics?
+
+What kind of Forces will be applied on substrate during Bridge extension?
+
+What will be the consequences of capillary bridge collapse?
+
+What factors would determine tensile strength of capillary bridges?
+
+What kind of effects can be expected to be seen prior to the rupture?
+
+As the bridge collapses what would be the force of impact of retreating fluid string on the substrate?
+
+At what velocities will the strike take place?
+
+Could jetting speeds in bubble rupture be used as reference?
+
+During capillary Bridge collapse what actually breaks?
+
+At the time of breaking how is elastic energy released?
+
+In a ductile material like steel wire what does plastic deformation imply?
+
+When a steel wire ruptures do the split ends remain deformed or the retain their shape?
+
+Difference between plastic fracture and brittle fracture?
+
+Could droplet formation during liquid film rupture be related to spalling?
+
+If the force across capillary bridge is removed would it retain its shape?
+
+Is such a thing as plastic deformation of a capillary bridge?
+
+If fluids are perfectly elastic would they rush to retain their shape after fracture?
+
+
+Would this lead to an impact on substrate?
+
+[Hydrodynamic cavitation solid mesh fully submerged, partially submerged, wet, dry]
+
+Consider a hypothetical scenario where particles 1000kg in weight of random size are wetted. Consider capillary length scale of 2mm. Then work done to break the capillary bridges 
+
+W=f*d
+
+
+For our calculation we will consider a center of mass approximation in which we consider all the particles to form a uniform mass of weight 1000kg instead of random particles. 
+
+Again assume that capillary bridge breaks at 4mm length. And force is applied at acceleration of 1m/sec^2
+
+So W=1000*1*4*10^-3
+4joules. 
+
+This implies only 4J of energy will be needed to break the capillary bridges in particles weighing 1000kg. 
+
+How is the force distributed across a number of particles?
+
+What practical limitations does the center of mass approximation bring about?
+
+Can equal displacement be ensured for all particles?
+
+How will that force be actually applied?
+
+How will that force be transmitted two particles further away from the applied area?
+
+What is the possibility of uneven distribution of particles?
+
+Capillary Bridge collapse will be a plastic fracture. When the tensile strength of water film is overcome necking will yield to pinch off. Sometime during this phase bubbles will form.
+
+Cohesive forces / surface tension will pull back water film with velocity given by equation 1. 
+
+Post impact drop spreading,crowning,splashing,micro drops
+
+Maximum capillary length of water Bridge is three millimeter any force that can pull part the bridge beyond 3 mm will rupture it
+
+Pressure does not depend upon droplet weight only on fluid density and speed of impact.
+
+Does this impact pressure lead to low velocity impact damage?
+
+Do the cavitating bubbles formed inside the liquid bridge and air bubbles formed during impact lead to surface erosion of the substrate?
+
+Speed of impact from equation one depends upon tensile strength of fluid Bridge which depends mainly upon dissolved impurities gas particles etc
+
+Impure water is easier to break but generates less impact velocity and pressure.
+
+I’d love to hear your thoughts. Please don't hesitate to get in touch with me. 
+
+Akshat Jiwan Sharma
+Strategy Consultant--Innovation/ Materials science/International relations/Telecommunications/Digital Transformation/Partnerships Mobile/whatsapp:+919654119771 email:getellobed@gmail.com
+
