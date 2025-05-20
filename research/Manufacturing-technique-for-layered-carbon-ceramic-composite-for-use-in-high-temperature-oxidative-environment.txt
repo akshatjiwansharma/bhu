@@ -1,0 +1,97 @@
+Manufacturing technique for layered carbon /ceramic composite for use in high temperature oxidative environment
+
+We previously described a layered carbon glass material system that is different from c/sic , c/sio2 matrix composites in that it consists of a distinct C/C phase which is coated by an sio2 layer. 
+
+https://akshatjiwannotes.blogspot.com/2024/12/low-energy-fabrication-of-high-strength.html
+
+This material system presents a distinct advantage in a high temperature oxidative atmosphere as the C/C matrix is protected by the oxidation resistant glass shield.
+
+Such a material can supposedly be synthesized in an open oxidative atmosphere. In this short note we will answer some questions such as 
+
+What manufacturing technique will be used? 
+
+How can silica particles be sintered on the substrate?
+
+How can adhesion between sintered particles and carbon substrate be ensured?
+
+What, if any ,sintering aids will be used?
+
+What would be the mechanical properties of the composite so formed? 
+
+What level of heat treatment will be required?
+
+To make the composite only the minimum amount of heat that will fuse together the silica particles is required. Further heat treatment will carbonize the internal underlying substrate and convert some of the coating from sio2/c system to sic/c system. 
+.
+
+For manufacturing of the ceramics we will use laser sintering technique because it allows us to use lasers as well as focused sunlight in case of solar sinterer to manufacture the composite.
+
+[Can concentrated solar energy be used in materials manufacturing? How?
+
+https://akshatjiwannotes.blogspot.com/2024/10/can-concentrated-solar-energy-be-used.html]
+
+Because the substrate used would be a lignocellulosic biomass, binders will be needed to aggregate the sand particles and to serve as an intermediary layer between carbon substrate and the glass coating after carbonisation.  The interface will probably be sic after heat treatment. 
+
+For sintering aid we need to use liquid phase carbon compound: vegetable oils would work well. 
+
+When heat is applied to sio2 oil paste spread on the lignocellulosic substrate complex reactions start occurring 
+
+The carbon on the surface that is exposed to Oxygen will immediately burnout increasing the surface temperature. Underlying carbon will not have access to oxygen and will undergo pyrolysis instead forming pitch /tar like substance. 
+
+This pitch-like substance will be in a molten , low viscosity state due to high temperature of the laser beam and will lead to coalescence of sand particles due to capillary pressure. 
+
+The laser striking the sand particles on the surface will locally melt them and fuse the particles along the boundaries decreasing the porosity of the structure after solidification.
+
+Further heat will be transferred to the carbon intermediate compounds and pyrolize them(to a glassy or graphtic state depending upon the precursor used). At elevated temperatures carbothermal reduction of Sio2 to sic will occur via the formation of silicon monoxide gas. 
+
+Because the laser will only work on the surface, the two faces of the substrate will have to be treated one by one. 
+
+Ultimately all carbon precursors when they are pyrolyzed convert to graphtic or amorphous forms however in the intermediate stage polymeric carbon forms and diamond like carbon forms can be obtained. 
+
+These polymeric carbon forms will act as a layer to hold the silica particles. As silica absorbs most of the heat it will melt on the surface and solidify on cooling. 
+
+Thus a c/sio2 layer composite will be formed ,further heat treatment will slowly graphitise the underlying structure. The silica coating will prevent oxidation of carbon. 
+
+By leaving the carbon in an unfinished state we can preserve energy while still maintaining strength. As long as carbon is not exposed to oxygen any heat addition will only drive it towards graphitization.
+
+
+The strength of the underlying carbon will be determined by the strength of the original LC biomas. 
+
+Soaking the biomass in oil will help decrease its porosity. Some of the oil will vaporize during heat treatment. 
+
+The adhesion to the LC biomas will be provided by the pitch that is created during the pyrolysis phase that will act as a glue between silica and LC biomas.
+
+The total strength of the composite will be limited by the intermediate layer that holds the substrate and silica particles. 
+
+Some references of experiments that report wetting of carbon with silica 
+
+Fabrication of silica-coated carbon fiber ultramicroelectrodes by 
+chemical vapor deposition
+
+https://www.sciencedirect.com/science/article/abs/pii/0022072894871760
+
+A strong carbon-coated silica fibre
+
+https://link.springer.com/article/10.1007/BF00555375
+
+Chemical vapor deposition fabrication and
+characterization of silica-coated carbon fiber
+ultramicroelectrodes
+
+https://pubs.acs.org/doi/abs/10.1021/ac00111a016
+
+Wetting of carbon nanotubes by aluminum oxide –This result is extremely important because it opens up the possibility of aluminosilicate coating on carbons. Pure sio2 is not needed. Common sand will work. 
+
+https://iopscience.iop.org/article/10.1088/0957-4484/19/16/165701
+
+
+
+I’d love to hear your thoughts. Please don't hesitate to get in touch with me. 
+
+Akshat Jiwan Sharma
+Strategy Consultant--Innovation/ Materials science/International relations/Telecommunications/Digital Transformation/Partnerships Mobile/whatsapp:+919654119771 email:getellobed@gmail.com
+
+
+
+
+
+
