@@ -1,0 +1,100 @@
+Understanding the function and mechanical structure of wood
+
+Wood in plants serves a specific purpose. It is structured in a way that allows it to serve that purpose. What roles does wood need to fulfill in a plant?
+
+1. Load bearing --To hold the weight of the plant
+2. Defense --Against pathogens & against elements(water,air)
+3. Transport of food ,water & minerals to growth sections/active elements of the plant. 
+
+#1 requires it to be really tough
+#2 requires it to be sealed
+#3 requires it to be well networked(or connected). For transportation to occur there needs to be transport pathways. 
+
+Botanically sections of wood are arranged into cells & tissues. These cells & tissues are the working /active elements of the wood & are responsible for its actual growth & sustenance. But we are interested in the big picture details. How wood forms & what is its final structure when it matures? To simplify matters in the mature portions of the wood the cells are all dead. A mature wood,which can be identified by its color(brownish) is a passive element that helps in functioning of the plant but plays no active role.
+
+The Big Picture
+1. Load Bearing
+[Cellulose chains>fibrils>bundles>wood]
+Wood is a composite of cellulose fiber bundles. By this time(that is the stage at which bundles are formed) they are not pure cellulose they are deposited with hemicellulose & lignin. 
+Both hemicellulose & lignin are amorphous in contrast to cellulose which are crystalline (but may be arranged in an amorphous manner too) 
+So a fiber bundle (on a micrometer scale) is already a nano composite of a crystalline phase embedded in an amorphous Matrix. This is a proven recipie for very high toughness(meaning it takes large amount of energy for a material to fail,it may loose its shape but won't break ,unlike a strong material that will preserve its shape but break catastrophically once the energy reaches a certain value)
+
+All trees are inherently flexible. Bamboo like other grasses are more flexible & this has to do with the structure of bamboo/grasses but that is a different story.
+This is just the fiber level detail. Much of the toughness of wood in bamboo or tree timber comes from how these fibers are arranged. Microscopic images of wood's cellular structure shows a lot of voids.
+
+ These are mainly used for transportation but serve a mechanical purpose too. They act as energy dissipators & arrest the propagation of a crack. Basically for a crack to propagate you need a continuous & inflexible structure(glass is a typical example,but many non metals are like it). Crack propagates through solid lines & as soon as a gap is encountered it dissipates & has to divert its energy. 
+Further the breakdown of woody structure is a complex process that involves delamination ,fiber pullout & finally fiber breakage.At cellular level this means going through lignin & hemicellulose amorphous matrices before fiber bundles are even touched.
+
+(In metals breakdown happens after it has been stretched to its maximum ductility,the ductile nature imparting toughness to the metal under load)
+
+During stormy winds it is common to see trees breaking. But if you take the average & compare all
+ the trees that have not broken(some are just uprooted with trunk fully intact)
+ compared to those that have & look at the ages of tree it is easier to appreciate their remarkable toughness.
+
+Nature has already found optimal height to strength ratio. Overall I'd claim that man made structures suffer far greater damage than natural ones. 
+
+[Comparison of wood strength with cellulose nano fibers]
+
+The nanocellulose fiber is stronger than any wood. It's also stronger than steel, aluminum & spider silk. But nano materials don't necessarily translate to macro scale well. You can't use nano powder for anything. You need to make macro structures out of it & that is what wood does. In the process defects arise that leads to loss in absolute strength compared to nano fibers. 
+
+
+For its weight timber still matches steel in strength & bamboo  totally crushes it. Esp if you compare the total lifecycle -- energy required & the tonnage of material produced globally.Cellulose simply obliterates any competition. There's just no way that any manufacturing technology can compete with the quantity of material produced --10^12 KG ANNUALLY.  THIS ABSOLUTE TOTAL BRUTE FORCE DOMINATION. 
+
+
+2. Sealing or packaging of wood
+Wood is porous. It is amphiphillic, it swells as water is absorbed. It can get dry if left exposed to elements. It can be attacked by pathogens to steal all the starch flowing through the tissues & even reach other alive nutritious cells in leaves & growing branches. Absolutely no way can it be left exposed. And it isn't. A tree does exactly what is expected of it. 
+
+The exact composition varies from species to species. But some common themes. 
+
+1. Outer skin gets harder. Thicker,lignified,silica deposited. 
+2. Bark consists of a greater quantity of hydrophobic substances suberin,cutin etc that prevents wetting of internal portions & also escaping of moisture from inside the bark. 
+3. Some trees (like rubber) produce large quantities of hydrophobic materials(rubber aka polyisoprene is hydrophobic),terpenes(gum dammar etc,again hydrophobic),that act as wound sealants as well as air sealants. 
+4. Waxes,oils are produced. Some trees like eucalyptus are famously fragrant for this particular reason. 
+Question
+What would cactus stems be made out of considering it needs to store larger quantities of water than typical wood?
+3. Transport
+The transport system of a wood can be easily observed on a macroscale. A central stem coming out of the root branching into leaves. Any leaf of the tree can be reached directly from the stem.
+
+This connectedness exists on a micro level too. Microscopic images reveal a porous structure. 3D. Made up of fibers(long thin wire like structures) arranged into various tissues. Lots & lots of holes of different dimensions within the wood section. Each fiber bundle is hollow(lumen diameter  on the order of <10 micrometers). In addition to this there are specific pits,sieves,and vessels that are hollow too. Long  story short within wood materials can be transported not just vertically but also horizontally. 
+
+Overall the big picture of wood microstructure is
+1. Cell walls protecting the cells inside. Made up of cellulose,hemicellulose & lignin
+2. Cell walls joined together using cellular junction called middle lamella usually made up of a class of compounds known as pectins. 
+3. These components arranged to form fibers,vessels,sieve elements,pits in the wood that transport food,water,chemicals & provide strength to plant. 
+When cells die the outer cell wall skeleton remains intact. And so the wood continues its function for as long as tree is alive. 
+
+Notes
+1.Cell walls consists of fiber bundles that are joined to each other forming what are known as cellular junctions. The two cells are joined together by a class of compounds known as pectins(very diverse chemistry & along with diversity in the plant kingdom it is difficult to tell the exact composition of pectin in a tree or a grass.
+
+ Its not as straightforward as cellulose, the structure of which by the way is still shrouded in mystery ) When a wood degrades pectins break down. Fiber bundles loosen up, seperate & stay in the soil as humus. 
+
+2. Hemicellulose is not a single chemical element; it's a class of compounds made out of sugary biomolecules like cellulose. But it has a branchy structure & is not arranged as straight chains. Lignin are also a class of compounds but unlike hemicelluloses & celluloses they are phenolic. This makes them somewhat more water resistant than both HC & cellulose. 
+
+3. Macro scaled products made from nanocellulose however are stronger than wood,and steel,al,spider silk,kevlar,glass fibers etc. Nanopaper & nanosheets made out of nanocellulose have even exceeded the strength of simillar products made from carbon nanotubes(due to the "weak" hydrogen bonding between them).Again though its imp to remember that wood may be weaker than perfectly aligned NC but it serves a specific purpose. It needs to grow vertically & it needs to have a specific internal structure to support functions necessary for plant growth. A sheet is a static one time product. A tree is a living continuously growing life form.Heres a challenge though given nano lignocellulose powder can anyone make wood out of it? Or even a branch or a twig?One may fail but the lessons are very instructive. 
+
+
+Additional Questions
+
+If the mature portions are dead how is new growth taking place? How does a plant increase in size?
+Not sure.The growth is probably taking place inside out (leading to formation of rings,only trees have rings though grasses don't) Much of these things are still under active research. And considering the immense diversity of plants there may not be a single answer. 
+
+
+Also its not just the trunk that grows,leaves grow too,as do flowers & fruits. Cellulose exists in all cell walls but is structured differently for each plant component. 
+
+
+IMP NOTE 
+Just because woody portions are dead does not mean that the plant is also dead. Its alive. Its the same thing like hairs ,they are dead tissues but the organism on which it grows may be alive. 
+
+How does cellulose form from glucose?
+Structure of cellulose,hemicellulose,pectin,lignin inside woods?
+
+
+The packaging of wood with the bark. There are no growth rings for the bark. How does it grow with the plant?Its relative strength with respect to the rest of the woody components?
+
+
+
+I’d love to hear your thoughts. Please don't hesitate to get in touch with me. 
+
+Akshat Jiwan Sharma
+Strategy Consultant--Innovation/ Materials science/International relations/Telecommunications/Digital Transformation/Partnerships Mobile/whatsapp:+919654119771 email:getellobed@gmail.com
+
