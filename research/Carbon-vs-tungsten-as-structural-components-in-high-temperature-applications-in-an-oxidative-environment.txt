@@ -1,0 +1,40 @@
+Carbon vs tungsten as structural components in high temperature applications in an oxidative environment
+
+So tungsten has a very high MP exceeding 3000°C. It's advocates use this high MP to promote tungsten as a material of choice for high temperature applications. But there is a problem. Tungsten exhibits this high MP behaviour only in an atmosphere where no oxygen in present. If oxygen is present it oxidizes rapidly after 500°C and loses its strength,cracks etc. 
+
+If we consider inert atmospheres, even carbon has a sublimation point of 3600°C and as long as its surface can be prevented from oxygen attack it's safe to use in high temperature environments. 
+
+If we consider oxidative atmospheres then like tungsten graphite can handle temperatures upto 500c. Some reports suggest even more upto 700c
+
+Once tungsten has melted it would be of no use as a structural material though it can still be used as a coolant for extremely high temperature applications. 
+
+But if we consider terrestrial applications with reasonably high temperatures that are attainable in common use then carbon is a great choice once you can coat it with an anti oxidative layer. 
+
+Glass is a great choice for coating because it's silicon that has already been oxidised so further oxygen presence won't make a difference. Pure quartz glass can sustain temperatures of about 2500°C before its bonds break apart. At high temperatures it only softens and never melts. 
+
+https://akshatjiwannotes.blogspot.com/2024/12/low-energy-fabrication-of-high-strength.html
+
+https://akshatjiwannotes.blogspot.com/2024/12/manufacturing-technique-for-layered.html
+
+
+Even "impure" silicate glasses like soda lime and aluminium silicate can sustain more than a 1000 degrees (depending upon their composition)before they become viscous. That gives us a wide operating range of temperatures without having to deal with the peculiarities of mining ,extracting & refining tungsten. 
+
+References 
+
+https://www.sciencedirect.com/science/article/abs/pii/S0263436896000273
+
+
+https://ia601309.us.archive.org/35/items/nasa_techdoc_19690026458/19690026458.pdf
+
+
+https://www.reddit.com/r/Welding/comments/ublbg9/my_tungsten_keeps_getting_black_and_cracked/?rdt=37390
+
+
+https://iopscience.iop.org/article/10.1088/0957-4484/19/16/16570
+
+I’d love to hear your thoughts. Please don't hesitate to get in touch with me. 
+
+Akshat Jiwan Sharma
+Strategy Consultant--Innovation/ Materials science/International relations/Telecommunications/Digital Transformation/Partnerships Mobile/whatsapp:+919654119771 email:getellobed@gmail.com
+
+
