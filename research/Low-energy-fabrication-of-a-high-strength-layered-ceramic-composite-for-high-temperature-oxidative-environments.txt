@@ -1,0 +1,134 @@
+Low energy fabrication of a high strength layered ceramic composite for high temperature oxidative environments
+
+
+High temperature materials are required in various applications: in metallurgy, for making combustion chambers of internal combustion engines ,for the body of Stirling engines, for wall material of nuclear fusion reactors, for the body of Jet engines among a few. 
+
+For such applications we need materials that can retain their strengths at elevated temperatures and can survive in an oxidative environment 
+
+It is the second requirement which is more stringent. Although numerous metallic alloys have been synthesized that can sustain both high temperatures and oxygen attack they require complex processing steps 
+
+On the other hand ceramics are good at resisting both oxygen attacks and high temperatures and are relatively simpler to fabricate but are limited by massive amounts of energy required.
+
+For example c/sic composites will perform well in demanding high temperature oxidative environments but require vacuum to be manufactured. The acheson process for the formation of sic is only good for producing material in the powder form and even then yield is quite low.
+
+https://en.m.wikipedia.org/wiki/Acheson_process
+
+Here we propose a glass /carbon composite material that can be fabricated with low energy input using commonly available materials
+
+We use wood or any lignocellulosic biomass as a carbon source ,coat it with a layer of molten sand or sinter sand grains on top of it after adding it to a suitable organic binder. 
+
+Optionally we heat treat it further to fully carbonize the biomass or leave it partially carbonized if it's to to be used in structural applications.
+
+As the sand layer cools it will harden and form a protective shield on the inner carbon material.
+
+There are already numerous experiments that have demonstrated how SiC forms inside wood porous structure when it's heat treated after infiltration with either molten Silicon or with an organic Silicon precursor
+
+But with this method there are several disadvantages: carbon source needs to be pyrolyzed ,this consumes energy. If molten silicon is used even more energy is consumed to get it to the molten state. Subsequent treatments need to be performed inside vacuum which are energy intensive as well.
+
+However the method proposed in this note reduces the energy requirements by coating an oxidation resistant film of SiO2. 
+
+As soon as sio2 melt touches the wood surface it burns off an initial layer, after that oxygen supply is cut off and no further combustion takes place. Because sand is a good fire fighting material it prevents combustion of wood and pyrolyzes it instead to carbon (amorphous and graphtic with increase in temperature)
+
+This method is different from molten Silicon infiltration. Because molten Silicon is less viscous it flows easily and infiltrates the wooden pores.
+
+Whereas molten sand is highly viscous it stays on the surface only.
+
+This preserves the underlying carbon core  and no silicon carbide is formed except possibly on the interface of wood and glass. 
+
+This synthesis technique can therefore be used to protect nano and bulk carbon materials that operate at high temperatures.
+
+Furthermore the bulk properties of carbon high strength ,high stiffness are preserved giving the composite far greater mechanical properties than obtainable through Silicon melt infiltration alone.
+
+To densify the underlying carbon we can use oil to infiltrate the LC biomas and provide additional carbon atoms that can fill the pores.
+
+It is also possible to manufacture two faced structures using this technique: one face coated with silica that is insulating another carbonized face that is conducting.
+
+To prevent oxygen attack during carbonization molten salt synthesis can be used. The rate of oxygen diffusion through salt melts is too slow to cause any significant oxidation of the underlying lignocellulosic biomass. And this method further reduces the energy input by removing the need for vacuum. 
+
+Will molten glass infiltrate pore walls?
+
+If capillary theory is used to answer this question then to make glass infiltrate the pore walls either the pores would have to be wide requiring less pressure to infiltrate or glass melt will have to be squeezed into smaller pores at higher pressures. 
+
+This is because glass is highly viscous. Cohesive forces dominate & hence glass melt does not sufficiently wet the walls. 
+
+Compare this with molten silicon which has very low viscosity in mili pa.s range it can easily wet the pores. 
+
+Molten glass has a similar viscosity as honey at around 10 pa.s. So a simple inexpensive experiment can be performed. Try infiltrating the porous medium with honey. Measure the time it takes for complete infiltration.  Compare it with the time that molten glass is supposed to stay on the surface of the wood. 
+
+
+I’d love to hear your thoughts. Please don't hesitate to get in touch with me. 
+
+Akshat Jiwan Sharma
+Strategy Consultant--Innovation/ Materials science/International relations/Telecommunications/Digital Transformation/Partnerships Mobile/whatsapp:+919654119771 email:getellobed@gmail.com
+
+
+References 
+
+Figure illustrating viscosity of various glasses at different temperatures 
+
+https://www.researchgate.net/figure/The-effect-of-temperature-on-the-viscosity-of-glass-Callister-and-Rethwisch-2009_fig6_301201977
+
+
+A database of viscosities of several substances including honey 
+
+https://en.m.wikipedia.org/wiki/List_of_viscosities
+
+
+Viscosity of molten silicon
+
+https://www.sciencedirect.com/science/article/abs/pii/S002202480202153X
+
+Formation of SiC Rods in Composites of SiC/SiO2/C from Carbonized Wood 
+Infiltrated with Ethylsilicate-40
+
+https://www.researchgate.net/publication/349284728_Formation_of_SiC_Rods_in_Composites_of_SiCSiO2C_from_Carbonized_Wood_Infiltrated_with_Ethylsilicate-40
+
+Development of Carbon Fibers Reinforced 
+Silicon Carbide Matrix Ceramic Composite
+
+https://link.springer.com/chapter/10.1007/0-387-23986-3_6
+
+High temperature C/C-SiC composite by liquid silicon infiltration: A literature
+review
+
+https://link.springer.com/article/10.1007/s12034-011-0247-5
+
+Conversion of wooden structures into
+porous SiC with shape memory synthesis
+
+https://www.sciencedirect.com/science/article/abs/pii/S0272884211004986
+
+Wood-derived ultra-high temperature
+carbides and their composites: A review
+
+https://ouci.dntb.gov.ua/en/works/lRoPYOk9/
+
+Carbonization of Wood-Silica Composites and
+Formation of Silicon Carbide in the Cell Wall
+
+https://wfs.swst.org/index.php/wfs/article/view/2086
+
+Mechanical Behaviour of Biomorphic Silicon 
+Carbide Derived from Malaysian Timber
+
+https://tuengr.com/A13/13A13/13A13K.html
+
+Carbon Fiber Reinforced Glass Matrix Composites for Structural Space Based
+Applications
+
+https://www.researchgate.net/publication/235181958_Carbon_Fiber_Reinforced_Glass_Matrix_Composites_for_Structural_Space_Based_Applications
+
+
+Electrical Conductivity of SiC/Si Composites Obtained from Wood
+Preform
+
+https://www.researchgate.net/publication/269745878_Electrical_Conductivity_of_SiCSi_Composites_Obtained_from_Wood_Preforms
+
+Fabrication and Process Optimization of Chinese Fir-Derived
+SiC Ceramic with High-Performance Friction Properties
+
+https://www.mdpi.com/1996-1944/16/12/4487
+
+
+
+
