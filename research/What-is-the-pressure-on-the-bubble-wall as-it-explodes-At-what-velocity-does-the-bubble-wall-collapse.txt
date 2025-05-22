@@ -1,0 +1,69 @@
+What is the pressure on the bubble wall as it explodes? At what velocity does the bubble wall collapse?
+
+
+Bubble collapse is actually 2 things
+
+Rupture/spalling of the outer water film leading to shockwaves inside gas.
+Implosion/compression of the inner gas leading to sonoluminescence 
+
+
+To calculate the pressure at the bubble wall we can plug in numbers in the expression for bulk modulus 
+
+K=v*dp/dv
+
+dp is the change in pressure 
+dv is the change in volume 
+v is the initial volume
+
+At 1% change in volume with K=2.22*10^9 pa for water
+
+2.22*10^9=V*dp/(1.01v-v)
+2.22*10^9*.01=dp
+2.2*10^7 pa
+or 22 Mpa
+
+To calculate the velocity at which the film ruptres we need to derive an expression that relates stress at fracture to known parameters like volume and mass. 
+
+Work done to fracture the film,W=F*d*a/a
+Where a is the area d is the distance , f is the force applied and w is the work done. 
+
+This can be rewritten as 
+W=stress*volume
+
+The work done will be equal to kinetic energy acquired by the ruptured film
+
+.5mv2=stress*volume
+V=√2*stress*volume/m
+Rewriting this expression in terms of density
+V=√2*stress/p
+
+Plugging in values 
+V=√2*2.2*10^7/10^3
+V=209.76m/s
+
+Some notes and questions 
+
+Bulk modulus is defined as resistance of a material to compression. It is the increase in pressure required to cause the decrease in volume.
+
+How does bulk modulus relates to atomic bonds?
+
+What is the max energy that can be released as a material breaks?
+
+If all the bonds in water film broke and it converted to steam what would be the resultant pressure?
+
+Given that expansion is just the opposite of compression does bulk modulus hold true for increase in volume of the material as a result of internal pressure? As opposed to decrease in volume due to external pressure?
+
+Is bulk modulus the same as the pressure developed inside a material as it forms?
+
+Expansion during explosion of bubble means breaking of hydrogen bonds in water film.
+
+When the bubble explodes all of the compressed energy in the fluid film is released resulting in a large pressure at the wall. 
+
+Bubbles are ideal impactors as they release most of the energy within them upon the substrate on which they impact resulting in localised fractures and spalling.
+
+
+I’d love to hear your thoughts. Please don't hesitate to get in touch with me. 
+
+Akshat Jiwan Sharma
+Strategy Consultant--Innovation/ Materials science/International relations/Telecommunications/Digital Transformation/Partnerships Mobile/whatsapp:+919654119771 email:getellobed@gmail.com
+
