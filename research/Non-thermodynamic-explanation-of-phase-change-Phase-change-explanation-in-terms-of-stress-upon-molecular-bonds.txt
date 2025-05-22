@@ -1,0 +1,49 @@
+Non thermodynamic explanation of phase change. Phase change explanation in terms of stress upon molecular bonds.
+
+“Stretching it thin”
+
+It is one thing to complain about complexity and another when a concept can't really express what is actually happening on a molecular level. Take the phase change of water, for example, from liquid to gas. Commonly known as evaporation, what is happening here?
+
+Thermodynamics gives us a pressure temperature graph and leaves us to make sense of it. 100 degree Celsius at 1 atm and so on.
+
+But pressure temperature diagram can be wrong at worst and incomplete at best. Water evaporates when the hydrogen bonds holding the liquid together split. The force per unit area or pressure required to split the bonds decreases as water is doped with impurities like solid particles and gas molecules. These impurities act as nucleation sites of vapor bubbles leading to what is known as heterogeneous cavitation within water volume or on water surface where air infiltration is maximum. 
+
+The force used to split the bonds maybe thermodynamic as in heat or mechanical (hydrodynamic or acoustic) it doesn't really matter what kind as long as liquid body can be stretched apart so thin that it  literally rips into a new phase.
+
+[Fracture mechanics ,phase changes during fracture, bonds, intermolecular forces , & impact of pressure on a material]
+
+Phase change to energetic phases like gas or liquid is literally the opposite of crystallization. There is a problem with thermodynamic abstractions in understanding material behaviour especially during phase change.
+
+Like all branches of science thermodynamics comes with its own lingo to try and explain the universal phenomenon. While explanations given by thermodynamics are solid there are few ideas especially related to phase change that are unsatisfactory when expressed using thermodynamic terms.
+
+Phase change of a substance like water is described using pressure, temperature,heat, closed systems evaporation, condensation, crystallization saturated vapor pressure, vapor pressure freezing point, dew point and so on. It's quite easy to be overwhelmed by all the definitions that are thrown around at first just to understand the basic idea of solid liquid and gas.
+
+Phase change is simply the stress per unit area experienced by molecules of matter. Transformation into high energy phases solid-liquid, liquid-gas is literally molecular fracture mechanics. Transformation into low energy phases liquid to solid, gas to liquid, gas to solid is literally crystallization.
+
+Let us take the example of freezing water into ice. Freezing can take place in two scenarios
+
+When water molecules are cooled they come closer and densify to increase the number of hydrogen bonds. In pure H2O this temperature can be as low as - 40 degree Celsius. When water is supercooled it to this temp. it spontaneously crystallizes. 
+
+ Or it crystallises at 0 degree celsius in case nuclei or seed crystals for crystallization are present. 
+
+Water molecules can also be compacted and turned into ice by applying extremely high pressures in Giga Pascal range. At these pressures water spontaneously crystallizes into ice vi, ice vii and beyond at room temperature.
+
+Pressure can cause phase change to both high and low energy phases. Compressive pressure solidifies liquid water to Ice ,gaseous hydrogen to solid hydrogen, matter into nuclear pasta and so on. 
+
+But also transforms low energy phases into high energy phases. As it rips apart liquid molecules to gas. 
+
+Kinetic theory of gasses or PT graphs for example can't explain evaporation of water  at standard conditions.Like for example evaporation of water from sea at 1 atm and 25°C. Only cavitation through air liquid interaction and hydrophobic pushing leading to development of volumetric strain at the bubble wall and generation of  enormous pressure at the walls as it collapses can explain that. 
+
+
+
+Crystallization and fracture. Making bonds and breaking bonds. Fundamental material science at play. 
+
+All thermodynamic concepts can be explained easily using basic material science principles. Saturated vapor pressure is simply the compressive force exerted by a closed system that equilibrates the fracture and crystallization of bonds in a material so that saturated atmosphere can only hold a particular quantity of gaseous phase.
+
+Knowing what is happening at the molecular level makes it easy to understand many of these thermodynamic terms.
+
+I’d love to hear your thoughts. Please don't hesitate to get in touch with me. 
+
+Akshat Jiwan Sharma
+Strategy Consultant--Innovation/ Materials science/International relations/Telecommunications/Digital Transformation/Partnerships Mobile/whatsapp:+919654119771 email:getellobed@gmail.com
+
