@@ -1,0 +1,66 @@
+Can the pressure at bubble wall exceed the bulk modulus of liquid film?
+
+The pressure at the bubble wall cannot exceed the bulk modulus of the film. The pressure generated depends upon film thickness. From numerous experiments it is known the thickness of bubble wall varies between 1 nanometer to 1000 nanometers
+
+https://www.researchgate.net/publication/252733803_Measuring_soap_bubble_thickness_with_color_matching
+
+The pressure developed at the bubble wall is largely independent of the bubble radius and depends only on the bubble wall thickness. This is because it is the outer liquid film of the bubble that fractures releasing all the volumetric strain stored. To understand why let us first understand how a bubble forms.
+
+ A bubble is a gas liquid system. A gas core surrounded by liquid film. To start with there are bubble nuclei which act as seeds from which a larger bubble grows. When gas content increases it displaces the liquid volume that would have been in its place otherwise.It happens until a very thin film of liquid remains surrounding the gaseous core. The volumetric strain stored inside this film.
+
+Bulk modulus B is related to volumetric strain and pressure by following expression. 
+
+B=(v/dv)*dp
+
+When a bubble expands the liquid film is actually compressed by the gaseous core.When a bubble explodes this pressure due to change in volume is released.
+
+Some maths
+
+Consider a spherical bubble 100 micrometre in radius,Ro and 1 micrometer in film thickness,T
+
+Let Vo=total volume of the bubble 
+Vf=volume of liquid film
+Vg=Volume of gas core
+
+Volume of liquid film,Vf=Vo - Vg
+
+Change in volume ,dv=Vo-Vg - Vo
+dv=-Vg=4/3π(Ro-T)^3
+dv/v=(Ro-T)^3/Ro^3
+
+Substituting values for Ro and T
+
+-dv/v=.970
+
+For B=2.2*10^9
+dp=B*dv/v=2.13*10^9
+
+And velocity at which liquid film retreats 
+
+V=√(2*P/density)=2063.9m/sec=2.06km/sec
+
+As can be seen enormous pressure generated at the bubble wall causes the film to recede hypersonically leading to shockwaves inside the bubble which creates plasma at the core and leads to a phenomenon known as sonoluminescence.
+
+What makes the bubble such a good impactor?
+
+A buble is a good impactor because it releases all of the store volumetric strain as it explodes 
+
+Unlike ball mills in which the balls have to retain their shapes and preserve their integrity to be able to impact the material a bubble explodes to release all the energy that is stored within. This makes its highly effective as an impactor.
+
+The high pressures generated at the bubble wall, usually in Giga Pascal range, can create ice VI phase if the liquid medium is water. This phase lasts for a very small amount of time and induces additional pressure on the material to be milled. 
+
+However bubbles usually have an impact over a very small area so large quantity of bubbles are needed to break down the material.
+
+Notes and questions
+
+Some experiments report exorbitant values of water bubbles exceeding 10 Giga pascals.That is only possible when the liquid film evaporates and indeed if lasers are used to create and burst bubbles surface vaporization is possible.
+
+These experiments are similar to the ones used in high pressure laboratories in which laser vaporizes a substrate to create high pressure shock waves. The bulk expansion to the vapor phase creates a high volume gradient that exceeds the bulk modulus of the material leading to excess pressure generated.
+
+
+I’d love to hear your thoughts. Please don't hesitate to get in touch with me. 
+
+Akshat Jiwan Sharma
+Strategy Consultant--Innovation/ Materials science/International relations/Telecommunications/Digital Transformation/Partnerships Mobile/whatsapp:+919654119771 email:getellobed@gmail.com
+
+
