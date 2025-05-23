@@ -1,5 +1,10 @@
-
 What is the maximum wall pressure developed at the time of bubble burst?
+
+ABSTRACT
+
+This study explores the maximum wall pressure developed during the collapse of a liquid bubble, with a novel focus on the internal volumetric strain stored within the liquid film. We propose a bulk modulus-based approach that treats the bubble wall as a deformable continuum, where pressure at the time of burst is derived from the volumetric strain accumulated during expansion. The analysis reveals that greater bubble expansion results in higher stored strain energy, which, upon collapse, is released as pressure at the bubble wall. The maximum pressure is bounded by the cohesive strength of intermolecular forces—chiefly hydrogen bonds in water—which define the threshold beyond which the liquid film fractures. This framework bridges molecular interactions with continuum mechanics, offering insight into high-pressure phenomena at nanoscopic scales. Applications span cavitation physics, acoustic bubble collapse, materials under shock loading, and biological systems where bubbles act as mechanical actuators. This model provides a basis for calculating theoretical upper limits of wall pressure based on film thickness, liquid composition, and the nature of gas-liquid interactions.
+
+
 
 Bulk modulus relates the change of volume to change in pressure 
 B=(v/dv)*dp
