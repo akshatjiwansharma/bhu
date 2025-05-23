@@ -1,5 +1,14 @@
 What is the pressure on the bubble wall as it explodes? At what velocity does the bubble wall collapse?
 
+ABSTRACT
+
+The collapse of a bubble is a complex physical phenomenon characterized by two critical processes: the rupture or spalling of the outer water film and the implosive compression of the gas core. 
+This study examines the pressure developed on the bubble wall during collapse and the velocity at which the film ruptures. Using the bulk modulus of water (K = 2.22 × 10⁹ Pa), we estimate that a 1% volumetric compression leads to an internal pressure rise of approximately 22 MPa. 
+This value reflects the energy stored in the water film due to intermolecular hydrogen bonding and resistance to compression.
+The rupture velocity is derived from energy conservation principles, equating the work done to fracture the film to the kinetic energy of the disintegrating mass. Rewriting the expression in terms of material stress and density yields a rupture velocity of approximately 210 m/s. 
+These calculations underline the immense localized pressures and velocities involved in bubble collapse, explaining phenomena such as sonoluminescence and substrate damage due to bubble impact.
+This work highlights the utility of bubbles as highly efficient energy concentrators and release mechanisms, with potential applications ranging from medical ultrasonics to materials processing. Future investigations will explore how the atomic-scale bonding in water contributes to the bulk modulus and how bond rupture translates into macroscopic energy release.
+
 
 Bubble collapse is actually 2 things
 
