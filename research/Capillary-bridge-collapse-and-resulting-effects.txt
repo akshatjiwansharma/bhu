@@ -1,5 +1,11 @@
 Capillary bridge collapse and resulting effects
 
+
+ABSTRACT 
+
+Capillary bridges,liquid filaments that form between solid surfaces,exhibit unique mechanical behaviors under tensile stress, particularly as they approach rupture. This report explores the collapse of water-based capillary bridges, analyzing the interplay between tensile strength, necking phenomena, and fluid impact dynamics. Despite water being a liquid, its tensile strength,up to 140 MPa in pure form,enables it to resist negative pressures until vapor cavity formation. When stretched beyond this threshold, capillary bridges exhibit behavior analogous to ductile fracture and hydrodynamic cavitation, including necking, pinch-off, and impact recoil. Drawing parallels with tensile failure in solids and the Venturi-driven cavitation in fluid systems, the study models rupture dynamics, quantifies impact velocities and estimates resulting pressures using the Joukowsky equation. The report further examines practical implications for particle agglomerates, energy dissipation during bridge collapse, and potential substrate erosion due to cavitation and impact. Factors influencing tensile strength—such as purity, dissolved gases, and bridge geometry—are also discussed. This investigation aims to provide foundational insights into the fracture mechanics of liquid bridges and their relevance in material science, wet granular systems, and microscale adhesion phenomena.
+
+
 Despite being a liquid, water is considered to have a tensile strength.Tensile strength of water depends upon its purity. Pure water can have tensile strength as large as 140Mpa where as impurities in the form of dissolved air & particulate matter can reduce this value to as small as 100 kpa. 
 
 https://pubs.rsc.org/en/content/articlehtml/2015/lc/c5lc00048c
