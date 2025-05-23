@@ -1,6 +1,17 @@
 Low energy fabrication of a high strength layered ceramic composite for high temperature oxidative environments
 
 
+
+ABSTRACT
+
+High-temperature structural materials that resist oxidative degradation are essential in aerospace, energy, and advanced manufacturing sectors. While ceramic composites like SiC offer excellent performance in such environments, their fabrication is energy-intensive, often requiring vacuum processing and high-temperature silicon infiltration. 
+
+This report proposes a novel, low-energy method for fabricating carbon-glass composites using lignocellulosic biomass as the carbon source and molten aluminosilicate sand as an oxidation-resistant surface coating. By sintering sand over biomass and applying controlled heat treatment, the process induces partial or full carbonization of the core while forming a protective silica shell that arrests combustion. 
+
+Unlike conventional SiC composites, this method avoids complex processing and maintains the high strength and stiffness of carbon without forming extensive SiC phases. Capillary and viscosity analyses support the claim that molten glass remains surface-bound, preserving the carbon core. The process can yield functionally graded structures and offers potential for scalable, sustainable production of high-performance composites. 
+
+
+
 High temperature materials are required in various applications: in metallurgy, for making combustion chambers of internal combustion engines ,for the body of Stirling engines, for wall material of nuclear fusion reactors, for the body of Jet engines among a few. 
 
 For such applications we need materials that can retain their strengths at elevated temperatures and can survive in an oxidative environment 
