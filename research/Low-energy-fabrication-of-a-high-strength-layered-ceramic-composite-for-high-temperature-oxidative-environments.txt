@@ -66,6 +66,9 @@ Compare this with molten silicon which has very low viscosity in mili pa.s range
 
 Molten glass has a similar viscosity as honey at around 10 pa.s. So a simple inexpensive experiment can be performed. Try infiltrating the porous medium with honey. Measure the time it takes for complete infiltration.  Compare it with the time that molten glass is supposed to stay on the surface of the wood. 
 
+The use of molten sand (SiO₂) to induce biomass pyrolysis is grounded in mechanisms observed in molten salt-assisted carbonization, where the high-temperature molten phase not only acts as a thermal conductor but also isolates the biomass from atmospheric oxygen. This has been demonstrated in various studies using molten salts like NaCl and KCl, which show effective pyrolysis of lignocellulosic feedstocks under ambient pressure. Molten SiO₂, though more viscous, can serve a similar function when applied as a surface coating, especially as its insulating properties prevent combustion while enabling thermal decomposition of the core.
+
+Unlike molten silicon, which has a low viscosity and readily infiltrates biomass microchannels via capillary action—resulting in deep conversion to SiC—molten silica exhibits a higher  viscosity and does not effectively penetrate the porous network. This results in surface coating only, preserving the internal porous carbon framework. Capillary theory supports this behavior, as the high surface tension and cohesive forces in molten SiO₂ inhibit spontaneous infiltration, a feature that is central to the energy efficiency and structural retention in our proposed method.
 
 I’d love to hear your thoughts. Please don't hesitate to get in touch with me. 
 
