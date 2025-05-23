@@ -1,5 +1,16 @@
 Can the pressure at bubble wall exceed the bulk modulus of liquid film?
 
+
+ABSTRACT 
+
+This study explores whether the pressure at the wall of a gas-filled liquid bubble can exceed the bulk modulus of the enclosing liquid film. By analyzing the physical mechanism of bubble formation, growth, and collapse, it is shown that the pressure at the bubble wall is largely independent of the bubble's radius and is primarily governed by the thickness of the liquid film, which typically ranges from 1 nm to 1000 nm. 
+
+Using relationships between bulk modulus, pressure, and volumetric strain, we compute the pressures generated during bubble collapse, demonstrating that they can approach or exceed several gigapascals. 
+
+Such extreme pressures result in hypersonic retraction of the film, shockwave formation, and phenomena like sonoluminescence. Unlike traditional mechanical impactors, a collapsing bubble releases all its stored volumetric strain energy, making it an effective microscopic impactor. 
+
+The study also discusses scenarios—such as laser-induced bubble collapse—where pressures may temporarily exceed the bulk modulus due to surface vaporization, analogous to shockwave generation in high-pressure experimental setups. These findings have implications for high-energy material processing and phase transformation studies under extreme conditions.
+
 The pressure at the bubble wall cannot exceed the bulk modulus of the film. The pressure generated depends upon film thickness. From numerous experiments it is known the thickness of bubble wall varies between 1 nanometer to 1000 nanometers
 
 https://www.researchgate.net/publication/252733803_Measuring_soap_bubble_thickness_with_color_matching
