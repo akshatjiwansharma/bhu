@@ -1,8 +1,15 @@
 Manufacturing technique for layered carbon /ceramic composite for use in high temperature oxidative environment
+ABSTRACT 
+
+This paper presents a novel, low-energy manufacturing technique for producing a layered carbon/ceramic composite designed for high-temperature oxidative environments. Unlike traditional C/SiC or C/SiO₂ composites, the proposed material system consists of a preserved porous carbon core derived from lignocellulosic biomass, coated with a surface-bound silica (SiO₂) layer.
+
+The composite is fabricated via localized sintering of silica particles using laser or concentrated solar energy, leveraging carbonaceous intermediates from biomass pyrolysis as natural binders. The process eliminates the need for vacuum environments or molten silicon infiltration, thus significantly reducing energy input. 
+
+The silica coating provides oxidation resistance, while the carbon core retains high mechanical strength. This approach is rooted in capillary theory, surface chemistry, and materials processing science, and is supported by analogous large-scale systems such as pitch-silica binding in roads. Potential applications include thermal insulation, heat shields, and structural components in extreme environments.
 
 We previously described a layered carbon glass material system that is different from c/sic , c/sio2 matrix composites in that it consists of a distinct C/C phase which is coated by an sio2 layer. 
 
-https://akshatjiwannotes.blogspot.com/2024/12/low-energy-fabrication-of-high-strength.html
+https://raw.githubusercontent.com/akshatjiwansharma/bhu/refs/heads/master/research/Low-energy-fabrication-of-a-high-strength-layered-ceramic-composite-for-high-temperature-oxidative-environments.txtttps://akshatjiwannotes.blogspot.com/2024/12/low-energy-fabrication-of-high-strength.html
 
 This material system presents a distinct advantage in a high temperature oxidative atmosphere as the C/C matrix is protected by the oxidation resistant glass shield.
 
