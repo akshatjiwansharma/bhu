@@ -1,5 +1,11 @@
 Non thermodynamic explanation of phase change. Phase change explanation in terms of stress upon molecular bonds.
 
+ABSTRACT 
+
+This article challenges conventional thermodynamic interpretations of phase change and proposes a material science-based explanation rooted in molecular stress and fracture mechanics. Taking the example of evaporation of water at standard pressure and temperature, we argue that thermodynamic abstractions like pressure-temperature graphs fail to adequately describe the physical processes occurring during phase transitions such as evaporation, freezing, or sublimation. Instead, the article frames phase change as a form of molecular fracture: phase transitions to higher-energy states (e.g., liquid to gas) are viewed as bond breakage under tensile stress, while transitions to lower-energy states (e.g., gas to solid) are seen as crystallization and bond formation. Impurities, nucleation sites, and pressure variations are examined as critical factors influencing these transformations. By shifting the focus from thermodynamic terminology to molecular interactions and stress dynamics, the article provides a more intuitive and physical understanding of phase change phenomena.
+
+
+
 “Stretching it thin”
 
 It is one thing to complain about complexity and another when a concept can't really express what is actually happening on a molecular level. Take the phase change of water, for example, from liquid to gas. Commonly known as evaporation, what is happening here?
