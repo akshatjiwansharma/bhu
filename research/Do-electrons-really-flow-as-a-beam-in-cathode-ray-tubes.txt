@@ -137,7 +137,7 @@ https://en.m.wikipedia.org/wiki/Drift_velocity ]
 
 The longevity of cathode ray tubes suggests that they work with electromagnetic fields where charged particles don't flow; they simply generate UV and X-rays that induce charges on the other end of the vacuum tube. In this model the vacuum tube is a capacitor with a large separation distance. However this explanation doesnt account for image generation. 
 
-What is mote likely as described in the analysis above a dark plasma is created between cathode and anode which provides a conductive path. 
+What is more likely as described in the analysis above is that a dark plasma is created between cathode and anode which provides a conductive path. 
 
 UV or X-rays 
 
