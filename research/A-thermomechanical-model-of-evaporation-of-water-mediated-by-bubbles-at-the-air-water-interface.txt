@@ -1,0 +1,351 @@
+A thermomechanical model of evaporation of water mediated by bubbles at the air water interface 
+
+ABSTRACT 
+
+Evaporation of water is a complex phenomenon that is governed by environmental conditions. Textbooks and research papers explain evaporation by kinetic theory of gasses as energy distribution of the molecules depend upon the Maxwell Boltzmann statistics. 
+ 
+However, this approach does not fully account for localized temperature variations within the water that facilitate evaporation even when the bulk temperature remains below the boiling point. This paper presents a thermomechanical model that incorporates the role of bubbles at the air-water interface in enhancing evaporation. 
+
+We propose that bubbles form due to gas supersaturation, undergo isothermal nucleation, and contribute to localized heating through heat exchange with surrounding water. Additionally, bubble rupture induces stress on the liquid film, leading to hydrogen bond breakage and further promoting evaporation. The collapse of nanobubbles generates capillary waves with short lifetimes and wavelengths comparable to thermal capillary waves, making their effects indistinguishable from conventional thermal fluctuations. By integrating kinetic theory with bubble-mediated thermomechanical effects, our model provides a more comprehensive explanation of evaporation dynamics at the air-water interface.
+
+
+INTRODUCTION 
+
+The kinetic theory of gases explains the evaporation of water by describing the motion and energy of water molecules at the surface of a liquid [1-2]]
+
+According to the kinetic theory, molecules in a liquid (like water) are in constant random motion.They have a range of kinetic energies—some molecules move slowly, others very fast. The energy distribution of molecules follows a Maxwell-Boltzmann distribution.
+
+This means a small fraction of molecules at any moment have enough kinetic energy to overcome the cohesive forces (hydrogen bonds) at the water's surface.
+
+When these high-energy molecules reach the surface, they can break free from the liquid and become vapor.This is what we observe as evaporation.
+
+Several external factors can control the rate of evaporation these are
+
+TEMPERATURE: Higher temperature increases the number of high-energy molecules, speeding up evaporation.
+SURFACE AREA: More area allows more molecules to escape.
+AIR MOVEMENT (WIND): Removes vapor molecules from the surface, allowing more evaporation.
+HUMIDITY: Lower humidity means less vapor in the air, so more liquid can evaporate.
+
+Kinetic theory is well developed and has been experimentally tested. The observed evaporation rates agree well with those predicted by the theory. 
+
+Yet the statistical nature of maxwell boltzmann distribution fails to pin down the cause of uneven temperature distribution within the water. What causes these localised temperature changes that raises the temp of surrounding fluid high enough to cause evaporation even when the rest of the bulk water is at ambient temp? 
+
+Our theory presents a unique thermomechanical model of water evaporation in which bubbles play a crucial role in localised heating and make contributions towards breakage of hydrogen bonds when they pop. 
+
+We postulate that 
+
+1.Bubbles are formed when air molecules strike the surface of water that is already saturated with gas. 
+2. The nucleation of bubbles is an isothermal process meaning heat is exchanged with the surrounding water body when they form. This causes localised heating of water molecules leading to evaporation. 
+3. Popping of bubbles causes stress upon the liquid film leading to rupture of hydrogen bonds. 
+4. Subsequent to bubble pop capillary waves are formed on the surface of water that lead to perturbation on the water layer. But these waves are attenuated on time scales that are in the nano-picosecond range. This combined with small wavelengths of these waves can make these perturbations appear indistinguishable from thermal capillary waves
+5. Kinetic theory of gasses can still be used to calculate evaporation rates due to the bubble assisted localised heating and hydrogen bond breakage of water. 
+
+THERMODYNAMIC MODEL OF BUBBLE FORMATION 
+
+When a bubble is formed the liquid film surrounding the gas core compresses the gas due to Laplace pressure that appears due to curvature of the bubble and surface tension of the liquid film. 
+
+The young Laplace equation gives us the difference in pressure inside and outside the bubble. 
+
+dP=2Y/r (1)
+
+
+Assuming the radius of the bubble to be 100 nm we can calculate the Laplace pressure to be. 
+
+1.44 MPa
+
+We start by assuming that formation of a bubble is an adiabatic process. That is no heat is exchanged with the surroundings as bubble forms. 
+
+
+Therefore all the pressure that is applied on the gas core during bubble formation goes into heating the gas. Applying adiabatic equations for pressure and temperature we can calculate the rise in temp when total pressure = pressure inside the bubble+atmospheric pressure is applied to the gas. 
+
+P2=1.54MPa
+
+T2=T1( P2/P1)^ γ-1/y (2)
+
+
+
+Plugging in the numbers the temp comes out to be 
+
+524C 
+
+A bubble is a gas core surrounded by a liquid film. Experiments have determined liquid film thicknesses ranging from 1-1000 nm[10]
+
+The heat flux through this film can be calculated by Fourier's law of conduction 
+
+Q = -k(dT/dx)
+
+Where the difference in temperature dT is given by the temperature calculated from adiabatic equations. 
+
+[We assume that the bubble thickness is 1 um ,this is a generous assumption because a 100 nm bubble will have a thickness that is far lower than its radius. But this assumption is made  to demonstrate that even in thick bubble films the heat flux is high]
+
+The heat flux Q comes out to be 8.23*10^8w/m^2
+
+The  power through a bubble  of a 100nm radius is 103.421uW
+
+The actual heat flux would be even higher because the bubble shell would be even thinner. 
+
+Next we calculate the total energy needed to heat the volume of the gas in the bubble to the temperature calculated by the adiabatic equations. For that first we calculate the number of moles of gas. From that we calculate the mass of the gas. Then we plug in the numbers in the sensible heat equation. 
+
+Q=mcdT(3)
+
+m=1.37*10^-20kg
+
+Q=6.80*10^-15J
+
+By comparing the thermal flux obtained from ideal gas law and the heat generated in the gas core when its temperature is raised we can calculate the time in seconds it will take for heat to diffuse out through the bubble boundary
+
+From above we can see that that heat power through the bubble is 103.421uW but total energy is 6.80*10^-15J
+, the time taken for heat to diffuse out is 
+
+6.58*10^-11 seconds.
+
+Because the thickness of the film is so small ,a micrometer at max, the heat flux through a bubble boundary is typically large and this leads to high heat transfer through the liquid film. 
+
+The timescale of heat exchange is extremely short. Due to a combination of low energy generated by the formation of a bubble and high heat flux through a thin liquid film. 
+
+Bubble formation times are typically milliseconds[11].  This indicates nearly all of the generated heat is transferred out of the bubble almost immediately. 
+
+The only way that the adiabatic assumption can hold is when the bubble is nucleated faster than the time it takes for heat to diffuse out. This can not happen which contradicts our adiabatic assumption and the bubble formation process must therefore be isothermal with excess heat generated during its formation warming the liquid surrounding it. 
+
+
+The isothermal work done is given by the equation 
+
+W=nRTln(P1/P2)(4)
+
+Plugging in the values we get 1.154*10^-15 J 
+
+
+
+ESTIMATING THE NUMBER OF BUBBLES WITH KINETIC THEORY OF GASSES
+
+When water is exposed to air it is constantly bombarded by air molecules. 
+So, under equilibrium, the water becomes saturated with each gas (O₂, N₂, CO₂, etc.) up to the point where its partial pressure in air balances with its concentration in the liquid.
+
+At this point every additional gas molecule that strikes the water surface leads to a condition known as supersaturation. Under these conditions the bubbles form from these excess gas molecules to help the water body re-attain its equilibrium condition. [3-9]
+
+[“When the concentration of dissolved gas molecules exceeds the solubility, a state termed super-saturation, bubbles can form as the system aims to reach equilibrium.”]
+
+So to calculate the number of bubbles formed we can start by estimating the molecular flux of air molecules above the water surface. 
+
+
+The number of molecules striking the water surface can be calculated from the equation of molecular flux. 
+
+J=P/√(2πmkT) (5)
+
+Where P is the partial pressure of gas 
+
+For nitrogen molecules this number comes to be 
+
+J=3x10^23 molecules/cm^2s 
+
+These excess gas molecules would most likely form nanobubbles that would pop at the boundary layer of water and air. 
+
+The mechanism of formation of these bubbles is a bit different from cavitation or vapor bubbles. As excess gas enters the water it does not dissolve. It remains suspended as gas molecules. These gas molecules then coalesce to form a gas nucleus which leads to the formation of a bubble. The bubble can grow by coalescence to form larger bubbles or pop due to pressure differences. 
+
+The exact distribution of bubble size is difficult to obtain but from observation of liquid evaporation in conditions when air flow is stagnant strongly suggests that these bubbles are nanometer to micrometer in size because if they were any larger say mm or cm the capillary waves produced when they popped would have produced visible disturbance on the surface. 
+
+In windy conditions larger bubbles do form in addition to smaller bubbles that are continuously forming at the interface. 
+
+Let us start by assuming that all the gas molecules hitting the water surface, when it's saturated ,nucleate into a bubble 100 nm in size. This is unlikely to happen in reality but we will refine calculations later 
+
+For a 50nm radius bubble the volume is 
+
+5.24*10^-16 cm3 
+
+Number of molecules in this volume comes out to be 
+
+1.29*10^4 molecules
+
+Since we are assuming all molecules convert to nanobubbles 100nm in size the number of bubbles we get is 
+
+2.32*10^19 bubbles /cm2/s 
+
+Now let us take a look at typical evaporation rates 
+
+Typical evaporative flux 0.01–0.05 kg/m²/hour (1–5 mm/day).
+Energy required: ~18.8 W/m² for an average flux of 0.03 kg/m²/hour.
+
+
+Recall that for a single bubble we estimated 1.154*10^-15 J of energy 
+
+To achieve 18.8 W/m2 of energy we need 
+
+16.29*10^15 bubbles/m2
+
+That looks like an enormously large number but as we calculated if all molecules striking the surface of the water converted to 100nm bubbles we’d get 
+
+2.32*10^23 bubbles /m2/s
+
+So for 18.8 W/m2 of energy we need only 
+7.02*10^-6 % of those bubbles to nucleate which is much more reasonable. 
+
+In reality the majority of air molecules that strike the water surface are reflected. Mass accommodation coefficient that measures the number of molecules that actually penetrate suggests the fraction is quite small .1-1% Unfortunately the exact numbers for N2 and O2 could not be found but they would be quite low considering other gasses like NO2 also report low numbers and air and water do not mix well [12-13]
+
+The reason lies in surface chemistry: not all air molecules have enough energy to break through hydrogen bonds of water. But for the purposes of this discussion it is clear that the fraction of bubbles that needs to nucleate is so tiny that even a small number of molecules penetrating are enough to form sufficient number of bubbles that impart energy to the surface of the water to heat it sufficiently to explain the observed evaporative fluxes.  
+
+
+
+GENERATION OF CAPILLARY WAVES 
+
+While the thermodynamics of bubble and molecular flux at the air water interface does explain the observed evaporation rates it raises a very puzzling question. If there are so many bubbles popping, why doesn't the surface of water appear to be boiling or agitated? How can the surface of the water ever be calm if ~10^16 bubbles are popping every second? 
+
+
+Well the answer is that the surface of the water ,even the one that appears to be calm, is not really so. There are always capillary waves on the surface. Even the water that looks to be absolutely still has thermal capillary waves on it with wavelength in nanometer to micrometer range.[14] 
+
+When small bubbles ,such as the 100nm bubble we considered, pops, the capillary waves that are generated on the surface of the water are attenuated within a few picoseconds. The wavelength and amplitude that such a wave produces is so small that it is undetectable without the aid of instruments. 
+
+To see why that happens it is important to note that the wavelength of the capillary waves resulting from the bubble collapse is in the order of its diameter. Generally smaller than that. 
+
+When the bubble first pops, a cavity is left in the water surface. Water rushes inward to fill this void. Due to inertia, it overshoots, creating the first crest, followed by a trough as surface tension pulls the surface downward.
+
+Water from the surrounding area then flows inward to fill this first trough. This inward rush, again driven by inertia, overshoots upward, forming the second crest, followed by another trough — and so on.
+
+This repeating process of inward rush, overshoot, and surface tension correction continues, forming successive crests and troughs that radiate outward as capillary waves.
+
+With each cycle, the amplitude decreases due to energy loss from viscous damping and wave propagation, as energy is carried away from the center of the disturbance.
+
+The wavelength of the ripples is limited by the bubble size — typically the first wavelength is on the order of the bubble diameter 
+
+The oscillatory motion is initiated by the cavity collapse, driven by surface tension, and sustained by the interplay of surface tension (restoring force) and inertia (causing overshoot). The disturbance propagates outward as capillary waves because each oscillation perturbs adjacent water, triggering new oscillations. This forms concentric rings of crests and troughs with  wavelength =2R , which expand as the wave energy spreads radially until damped by viscosity.
+
+The damping time due to viscosity is given by the relation 
+
+T=1/2vk^2 (6) [15]
+
+Where v is the kinematic viscosity
+K is the wave number
+
+Assuming a 100nm wavelength produced by popping a 100nm diameter bubble plugging in the values in eqn 6 we have 
+
+T=1.42*10^-10 seconds. 
+
+
+Even if the bubble is larger, say a 100 um in diameter, which is just about the size that the human eye can see, the  capillary waves would decay in 142 us. 
+
+This short decay time means that these bubbles and their subsequent capillary waves remain largely undetected.  
+
+The jetting phenomenon that is observed in bubbles is suppressed when the bubbles are below a critical radius. [16]
+
+The exact distribution of bubble size can only be determined through simulations or experimental measurements. But the method of formation,through collision of air  on water surface, indicates nano bubbles form ,especially under saturated conditions,because formation of larger bubbles will require more gas molecules to coalesce. Many experiments have already demonstrated gas supersaturation leading to production of nanobubbles [17-18]
+
+Tensile strength of common water such as tap water or seawater is usually less than 1 bar [19]. This is lower than the tensile strength of pure water which can exceed 100Mpa. This lower tensile strength is due to the presence of impurities and gas nuclei. 
+
+
+This has some important implications. One is that it is easier to form bubbles in tap water than it is in ultrapure water. The other is that when bubbles with sufficient internal pressure pop that pressure can cause breaking of hydrogen bonds due to water reduced tensile strength. This may lead to formation of vapor phase contributing to the evaporation process. 
+
+CONCLUSION 
+
+In this technical report we put forward a theory that bubbles at the air water interface play a critical,defining role in the evaporation of water from the surface. Unlike the kinetic theory of gasses that does not explain why some molecules in water obtain enough energy to evaporate even when the bulk temperature is far below the boiling point, our theory strongly indicates that the formation of the bubble causes heating of the gas core. Due to heat exchange that is required to maintain isothermal conditions in the bubble the heat generated in the gas is transferred to the surrounding liquid which causes rise in temperature giving the water molecules enough energy to evaporate. 
+
+Our theory further asserts that subsequent popping of bubbles may cause additional evaporation due to breaking of hydrogen bonds that take place due to stress of the film rupture. 
+
+The capillary waves that are generated by the collapse of nano sized bubbles are short lived and produce fluctuations in the pico to nano second range creating extremely small wavelengths comparable to thermal capillary waves that are difficult to detect giving the water it's still appearance even as it is agitated by popping of bubbles. 
+
+
+I’d love to hear your thoughts. Please don't hesitate to get in touch with me. 
+
+Akshat Jiwan Sharma
+Strategy Consultant--Innovation/ Materials science/International relations/Telecommunications/Digital Transformation/Partnerships Mobile/whatsapp:+919654119771 email:getellobed@gmail.com
+
+
+REFERENCES 
+
+1.The kinetic theory of evaporation
+https://pubs.rsc.org/en/content/articlelanding/1925/tf/tf9252000525/unauth
+
+2. Evaporation and Condensation
+https://chem.libretexts.org/Courses/Indiana_Tech/EWC%3A_CHEM_1000_-_Introductory_Chemistry_(Budhi)/12%3A_Liquids_Solids_and_Intermolecular_Forces/12.4%3A_Evaporation_and_Condensation
+
+3. Mechanism of How Air Bubbles Are Generated
+https://www.shimadzu.com/an/service-support/technical-support/analysis-basics/lib/lctalk/s5/02.html
+
+
+4. Bubble evolution due to super-saturation in the cooling circuit of the PEM-electrolysis
+https://www.sciencedirect.com/science/article/pii/S0360319924024650#bib6
+
+5. Bubble nucleation from gas cavities — a review
+https://www.sciencedirect.com/science/article/abs/pii/S0001868698000748
+
+6. The Practical Implications of Bubble Formation in Conventional Water
+Treatment
+
+https://vtechworks.lib.vt.edu/server/api/core/bitstreams/41cf9364-3bd7-40e4-ad20-ae234cd03d50/content
+
+7.  Bubble Growth in Supersaturated Liquids
+https://www.mdpi.com/2311-5521/7/12/365
+
+8. Gas Supersaturation in Fisheries:
+Causes, Concerns, and Cures
+https://apps.dtic.mil/sti/tr/pdf/ADA322709.pdf
+
+9. Growth of bubbles in liquid
+https://pmc.ncbi.nlm.nih.gov/articles/PMC4576410/
+
+10. Measuring soap bubble thickness with color matching
+https://www.researchgate.net/publication/252733803_Measuring_soap_bubble_thickness_with_color_matching
+
+11. Physical Model of a Single Bubble Growth during Nucleate Pool Boiling 
+
+https://www.mdpi.com/2311-5521/7/3/90
+
+12. Accommodation coefficient of gaseous NO2 on water surfaces
+https://www.sciencedirect.com/science/article/abs/pii/0004698188903447
+
+13. Hyperhydrophobicity of the Water‐Air Interface
+https://www.tandfonline.com/doi/abs/10.1081/DIS-200057645
+
+14 Capillary waves' dynamics at the nanoscale
+https://www.researchgate.net/publication/231149981_Capillary_waves'_dynamics_at_the_nanoscale
+
+15  Capillary wave 
+https://www.sciencedirect.com/topics/physics-and-astronomy/capillary-wave
+
+16 Size limits the formation of liquid jets during bubble bursting
+https://www.nature.com/articles/ncomms1369
+
+17. Formation and Stability of Bulk Nanobubbles by Vibration
+https://pubs.acs.org/doi/10.1021/acs.langmuir.0c00036
+
+18. Recent Developments in Generation, Detection and Application of Nanobubbles in Flotation
+https://www.mdpi.com/2075-163X/12/4/462
+
+19. Cavitation inception from bubble nuclei
+https://royalsocietypublishing.org/doi/10.1098/rsfs.2015.0006
+
+
+APPENDIX 
+
+Unlike bubbles that implode underwater, air bubbles release only the young laplace pressure it acquired at the time of its formation. Whereas a bubble that forms underwater stores bulk modulus pressure during the time of its formation. This is because 
+
+During nucleation (bubble formation), the liquid must expand locally to accommodate the vapor or gas bubble.
+ This expansion against the stiffness of the liquid (described by its bulk modulus) requires a pressure drop or volume work.
+Conversely, during collapse, this same "compressed space" is recovered — releasing energy and pressure of the same order.
+
+Therefore, the maximum pressure generated by the collapse is fundamentally bounded by the same bulk modulus-limited pressure that was "stored" during nucleation.
+
+
+Rayleigh-Plesset is a hydrodynamic model assuming ideal, inviscid flow and often neglecting material constraints like bulk modulus in the limit.
+It can yield theoretically very high collapse pressures, especially as the radius tends toward zero.
+
+The bulk modulus sets a material limit to how much pressure can build for a given volume change rate.
+ So yes, real collapses are naturally capped — and using bulk modulus is a more thermodynamically grounded approach.
+
+1. Bubble formation (nucleation) causes a local expansion in the fluid due to the vapor/gas taking more space.
+
+2. This expansion is resisted by the surrounding fluid, and that resistance is governed by the bulk modulus.
+
+3. The pressure change associated with this expansion can be estimated using:
+
+   
+    dP = -KdV/V
+   
+
+4. When the bubble collapses, the same volume is recovered, producing a comparable pressure increase.
+
+5. Therefore, the pressure generated during bubble collapse should be bounded by the same bulk modulus relation, not unbounded as predicted by idealized models like Rayleigh-Plesset.
+
+Cavitation is a bounded, elastic-like phenomenon — where pressure gain on collapse reflects the stored "expansion energy" — and should not exceed what bulk modulus allows.
+
+
+
+
