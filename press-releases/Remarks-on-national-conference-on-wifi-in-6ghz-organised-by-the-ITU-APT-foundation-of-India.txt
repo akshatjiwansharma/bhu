@@ -1,0 +1,18 @@
+Remarks on national conference on wifi in 6ghz organised by the ITU-APT foundation of India. 
+
+I express my gratitude to the ITU-APT foundation of india for inviting me to the national conference on wifi in 6GHz in New Delhi. 
+
+I was encouraged to see the interest around wifi technologies from industry leaders and policy makers who have started to recognise its potential as an alternative wireless communication enabler that can offload network traffic on mobile networks while providing both indoor and outdoor connectivity. 
+
+Unlocking new unlicenced frequency bands is a step in the right direction. What's even more important is to start thinking about building custom base stations that can provide far more features and flexibility than home and enterprise access points available in the market today. 
+
+Opensource operating systems like Openwrt have unlocked the possibility of developing customised wifi solutions that can match the power of base stations deployed by mobile networks operators making last mile connectivity cheaper and accessible. 
+
+A wifi access point is more than just a router. It is an entire TCP/IP stack in a box. From physical layer to the application layer and this makes it immensely useful for edge computing and IOT devices for providing network services even without backbone network connectivity. 
+
+Wifis open nature, unlicenced spectrum ,low cost hardware and opensource operating system makes it an attractive choice across industry segments. The travel industry in particular loves wifi. Travellers get to use low cost internet services without paying exorbitant international roaming charges or having to buy local SIM cards.  
+
+I hope to participate in more such conferences in the future to discuss how we can build small cell ,low power wifi networks that can provide alternative to resource hungry ,energy inefficient and bulky communication systems that are currently in use by MNOs. The future of wifi is bright. 
+
+Akshat Jiwan Sharma
+Strategy Consultant--Innovation/ Materials science/International relations/Telecommunications/Digital Transformation/Partnerships Mobile/whatsapp:+919654119771 email:getellobed@gmail.com
