@@ -9,7 +9,7 @@ The silica coating provides oxidation resistance, while the carbon core retains 
 
 We previously described a layered carbon glass material system that is different from c/sic , c/sio2 matrix composites in that it consists of a distinct C/C phase which is coated by an sio2 layer. 
 
-https://raw.githubusercontent.com/akshatjiwansharma/bhu/refs/heads/master/research/Low-energy-fabrication-of-a-high-strength-layered-ceramic-composite-for-high-temperature-oxidative-environments.txtttps://akshatjiwannotes.blogspot.com/2024/12/low-energy-fabrication-of-high-strength.html
+https://raw.githubusercontent.com/akshatjiwansharma/bhu/refs/heads/master/research/Low-energy-fabrication-of-a-high-strength-layered-ceramic-composite-for-high-temperature-oxidative-environments.txt
 
 This material system presents a distinct advantage in a high temperature oxidative atmosphere as the C/C matrix is protected by the oxidation resistant glass shield.
 
