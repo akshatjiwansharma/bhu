@@ -1,4 +1,3 @@
-
 If energy can’t be created or destroyed why do people think that a universe made up of energy could have a beginning or an end?
 
 Because change happens. No beginning and no end imply timelessness. In this view the universe always existed. Timelessness would imply no evolution. 
@@ -16,6 +15,6 @@ This view strongly contradicts with what we observe. The universe is constantly 
 That is why, in my view, it is difficult to accept that the universe had no beginning. But there are models like bouncing universe and conformal cyclic cosmology that suggest there there may be a way to reset entropy and in these models universe repeatedly starts and ends then starts again. 
 
 While energy conservation is a foundational principle in classical physics, it doesn’t hold absolutely in general relativity or cosmology. During inflation, the universe rapidly expanded, seemingly creating the mass-energy content of the cosmos — which contradicts the strict notion of energy conservation. This means the assumption that “energy can’t be created” doesn't apply to the universe as a whole. 
-[However there is a slight nuance to the statement above because all of the matter nergy content was created due to an inflationary field which can be interpreted to mean that one inflationary energy was converted to mass energy we observe today]
+(However there is a slight nuance to the statement above because all of the matter energy content was created due to an inflationary field which can be interpreted to mean that one inflationary energy was converted to mass energy we observe today)
 
 Philosophically and scientifically, the presence of change, increasing entropy, and a low-entropy beginning all suggest the universe had an origin. 
