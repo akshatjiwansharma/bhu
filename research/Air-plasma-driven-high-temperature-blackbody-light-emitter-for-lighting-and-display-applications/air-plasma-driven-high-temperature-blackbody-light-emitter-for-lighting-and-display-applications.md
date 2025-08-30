@@ -128,7 +128,7 @@ We wrote an octave BB simulation code to estimate the operational characteristic
 https://github.com/akshatjiwansharma/bhu/blob/master/research/Air-plasma-driven-high-temperature-blackbody-light-emitter-for-lighting-and-display-applications/bb-simulation.m
 
 
-Here is the output from a run for a simulation 
+Here is the output from a run of the simulation 
 
 # SIMULATING A BB EMITTER FOR FIXED LIGHTING
 
@@ -166,7 +166,18 @@ Atoms per m³ (cavity): 1.138e+26
 
 Much of the results are the same for pixels as in the fixed lighting solution except for the expected drop in radiated power to be expected because the size is smaller. The energy requirement indicates that 8 watt of energy can light up a million pixels at once. Further savings can be had by reducing the thickness of deposited carbon or by reducing the area of the cavity. 
 
-One final comment needs to be made about this emitter. Air plasma contains oxygen. Carbon and oxygen are highly reactive and form monoxides and dioxides. However the density of air is 1000 to estimate smaller than that of carbon so only a very minimal amount of carbon will actually oxidise. As long as the system is operated in a closed cavity and the deposition is sufficiently thick >=100nm —in other words if there is enough mass of carbon the oxidation can be suppressed. 
+TO SUBLIMATE OR NOT TO SUBLIMATE?
+
+As noted in our discussion before for sublimation to occur an additional energy barrier needs to be overcome in the form of enthalpy of sublimation. It is relatively high for carbon at 717Kj/mol. The benefit that sublimation brings is that it makes it possible to emit larger energy from a smaller area BB. Note that the maximum energy this BB can radiate is quite high as given by Stefan Boltzmann law.
+
+Of course to radiate that energy it must be input to the system. Now since radiative power is higher than sublimation energy if the system is operated at its max capacity it will sublimate.
+
+The only problem is that high number density of carbon would create enormous pressure on cavity walls that may fracture during operation. Therefore it is best to operate it at a lower energy.
+
+The best operating conditions would be above the energy required to heat it to BB temp but below the energy required to sublimate it.
+
+
+One final comment needs to be made about this emitter. Air plasma contains oxygen. Carbon and oxygen are highly reactive and form monoxides and dioxides. However the density of air is 1000 times smaller than that of carbon so only a very minimal amount of carbon will actually oxidise. As long as the system is operated in a closed cavity and the deposition is sufficiently thick >=100nm —in other words if there is enough mass of carbon the oxidation can be suppressed. 
 
 
 CONCLUSION 
@@ -176,7 +187,8 @@ In this paper we reviewed why traditional BB based emitters fall short of produc
 To overcome these limitations we propose a novel plasma driven BB emitter capable of operating at temperatures as high as 5800K. Carbon was identified as an ideal blackbody emitter and a technique was developed to deposit carbon on transparent glass walls to serve as a BB. By modifying the carbon content in the  solution to be pyrolysed, extremely precise deposition of carbon on the walls is possible. 
 
 
-Through careful design of the volume of the BB containing cavity it is possible to suppress sublimation of carbon deposited on walls as long as the radiated power from the deposition matches the input power preventing high energy cost of sublimation. It is also possible to pre-sublimate deposited carbon if the light source is to be used for general purpose lighting application as long as a minimal startup time is acceptable. 
+Through careful design of the volume of the BB containing cavity it is possible to suppress sublimation of carbon deposited on walls as long as the radiated power from the deposition matches the input power preventing high energy cost of sublimation. It is also possible to pre-sublimate deposited carbon if the light source is to be used for general purpose lighting application as long as a minimal startup time is acceptable. Although sublimation of large atomic density brings with it huge pressure on cavity walls. It is therefore recommended to operate the device at a lower power so that emission is from the solid carbon that is more stable and less demanding. 
+
 
 It is our hope that this paper will spur research into blackbody based light sources and encourage scientists and engineers to look beyond semiconductor based lighting materials to simplify manufacturing and provide a robust light emitting platform that can be scaled from macro to microscale while relying on earth abundant materials to produce light efficiently both for general purpose lighting and large and small area display applications. 
 
