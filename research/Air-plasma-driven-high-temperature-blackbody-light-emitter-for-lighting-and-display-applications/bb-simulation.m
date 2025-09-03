@@ -122,6 +122,18 @@ function Q = carbon_sublimation_energy(mass)
   Q = moles * delta_H_sub;
 end
 
+function delta_T = calculate_temp_diff(Q, V)
+  % Q - Energy stored (in Joules)
+  % V - Volume of air (in cubic meters)
+
+  % Constants
+  rho = 1.225;  % Density of air (in kg/m^3)
+  c = 1005;     % Specific heat capacity of air (in J/kg·K)
+
+  % Calculate the temperature difference
+  delta_T = Q / (rho * V * c);
+end
+
 function Q = air_heat_transfer(A, L, deltaT)
   % air_heat_transfer - Calculates heat transfer rate through air by conduction
   %
@@ -136,6 +148,27 @@ function Q = air_heat_transfer(A, L, deltaT)
   Q = .0257 * A * deltaT / L;
 end
 
+
+
+function time_taken = calculate_time_to_deliver_energy(energy, power)
+  % energy - Total energy in Joules
+  % power - Power in Watts (Joules per second)
+
+  % Calculate the time taken to deliver the energy
+  time_taken = energy / power;
+end
+
+function [net_energy,delivered] = calculate_energy_delivered(time, power,Q)
+  % time -  In seconds for which source is active
+  % power - Power in Watts (Joules per second)
+  %Q - Total Energy in joules
+
+  % Calculate the energy delivered in time
+  net_energy = time*power;
+  delivered = Q - net_energy;
+end
+
+
 function light_emitter()
 printf('SIMULATING A BB emitter for fixed lighting\n')
 Area= calculate_area(1e-3, 1e-3);
@@ -144,11 +177,6 @@ fprintf('Area of the BB/Air inside the cavity= %.4e m^2\n', Area);
 T = 5800;     
 A = Area;       
 
-L = .1e-6;         % m
-deltaT = 5500;     % K
-
-Q_thermal_con = air_heat_transfer(A, L, deltaT);
-fprintf('Heat transfer rate of air: %.4e W\n', Q_thermal_con);
 
 
 bbp = blackbody_power(T, A);
@@ -170,7 +198,6 @@ T_final = 5800;
 [m, Q] = carbon_heating_energy(volume, T_initial, T_final);
 
 fprintf('Mass of carbon: %.4e kg\n', m);
-fprintf('Energy required to heat it to final temp: %.4e J\n', Q);
 
 Q_sub = carbon_sublimation_energy(m);
 fprintf('Sublimation energy: %.4e J\n', Q_sub);
@@ -182,31 +209,42 @@ fprintf('Sublimation energy: %.4e J\n', Q_sub);
 fprintf('Atoms per m³ (deposited carbon): %.3e\n', a_carbon);
 fprintf('Atoms per m³ (cavity): %.3e\n', a_cavity);
 
+delta_T_air = calculate_temp_diff(Q, V_cavity);
+
+fprintf('Air temp required to deliver energy to the emitter in K %e\n',delta_T_air);
+
+Q_thermal_con = air_heat_transfer(A, H, delta_T_air);
+fprintf('Heat transfer rate of air: %.4e W\n', Q_thermal_con);
+R_h_loss=calculate_time_to_deliver_energy(Q, bbp);
+C_h_gain=calculate_time_to_deliver_energy(Q, Q_thermal_con);
+fprintf('Time taken for i/p to dissipate via BBR %e \n',R_h_loss);
+fprintf('Time taken to conduct heat to carbon %e \n',C_h_gain);
+[Energy_lost_to_rad,Total_delivered]=calculate_energy_delivered(C_h_gain,bbp,Q);
+fprintf('Total energy lost to radiation during heating of emitter%e\n',Energy_lost_to_rad);
+fprintf('Total energy delivered to heating of emitter%e\n',Total_delivered);
+fprintf('Energy required to heat it to final temp: %.4e J\n', Q);
+
 end
 
 
 
 function light_pixel()
 printf('SIMULATING A BB PIXEL\n')
-Area= calculate_area(100e-6, 100e-6);
+Area= calculate_area(10e-6, 10e-6);
 fprintf('Area of the BB/Air inside the cavity= %.4e m^2\n', Area);
 
 T = 5800;     
 A = Area;       
 
-L = .1e-6;         % m
-deltaT = 5500;     % K
 
-Q_thermal_con = air_heat_transfer(A, L, deltaT);
-fprintf('Heat transfer rate of air: %.4e W\n', Q_thermal_con);
 
 
 bbp = blackbody_power(T, A);
 
 fprintf('Power radiated by the BB: %.4e Watts\n', bbp);
 
-L = 100e-6; 
-W = 100e-6;  
+L = 10e-6; 
+W = 10e-6;  
 H = .1e-6;  
 
 V_deposited = calculate_volume(L, W, H);
@@ -220,7 +258,6 @@ T_final = 5800;
 [m, Q] = carbon_heating_energy(volume, T_initial, T_final);
 
 fprintf('Mass of carbon: %.4e kg\n', m);
-fprintf('Energy required to heat it to final temp: %.4e J\n', Q);
 
 Q_sub = carbon_sublimation_energy(m);
 fprintf('Sublimation energy: %.4e J\n', Q_sub);
@@ -231,6 +268,22 @@ fprintf('Sublimation energy: %.4e J\n', Q_sub);
 
 fprintf('Atoms per m³ (deposited carbon): %.3e\n', a_carbon);
 fprintf('Atoms per m³ (cavity): %.3e\n', a_cavity);
+
+delta_T_air = calculate_temp_diff(Q, V_cavity);
+
+fprintf('Air temp required to deliver energy to the emitter in K %e\n',delta_T_air);
+
+Q_thermal_con = air_heat_transfer(A, H, delta_T_air);
+fprintf('Heat transfer rate of air: %.4e W\n', Q_thermal_con);
+R_h_loss=calculate_time_to_deliver_energy(Q, bbp);
+C_h_gain=calculate_time_to_deliver_energy(Q, Q_thermal_con);
+fprintf('Time taken for i/p to dissipate via BBR %e \n',R_h_loss);
+fprintf('Time taken to conduct heat to carbon %e \n',C_h_gain);
+[Energy_lost_to_rad,Total_delivered]=calculate_energy_delivered(C_h_gain,bbp,Q);
+fprintf('Total energy lost to radiation during heating of emitter%e\n',Energy_lost_to_rad);
+fprintf('Total energy delivered to heating of emitter%e\n',Total_delivered);
+fprintf('Energy required to heat it to final temp: %.4e J\n', Q);
+
 
 end
 

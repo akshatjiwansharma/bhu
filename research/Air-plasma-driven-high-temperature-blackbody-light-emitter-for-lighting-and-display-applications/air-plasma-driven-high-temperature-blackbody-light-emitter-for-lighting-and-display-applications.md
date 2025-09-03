@@ -103,7 +103,7 @@ DEPOSITION TECHNIQUE
 
 There are a wide range of materials that can be used as blackbody. We are choosing carbon because of the following reasons 
 
-1 Carbon is widely available. It is the most abundant solid material in the entire universe 36. 
+1 Carbon is widely available. It is the most abundant solid material (at room temperature, 4th most abundant overall) in the entire universe 36. 
 
 2 Carbon has a variety of precursors in liquid and gaseous form that are ideal for depositing on walls of a transparent substrate like glass
 
@@ -132,6 +132,7 @@ Here is the output from a run of the simulation
 
 # SIMULATING A BB EMITTER FOR FIXED LIGHTING
 
+```
 
 Area of the BB/Air inside the cavity= 1.0000e-06 m^2
 Heat transfer rate of air: 1.4135e+03 W
@@ -142,6 +143,8 @@ Energy required to heat it to final temp: 8.8526e-04 J
 Sublimation energy: 1.3526e-02 J
 Atoms per m³ (deposited carbon): 1.138e+29
 Atoms per m³ (cavity): 1.138e+26
+
+```
 
 The heat transfer rate of air is much larger than the power of emitted radiation by a blackbody meaning plasma is an effective way to jump start the BB. The sublimation energy required is much higher than the energy required to simply heat the carbon to its BB temp of 5800K. Meaning that an additional jolt needs to be provided for sublimation. Since radiative power is greater than sublimation energy the material won't sublimate on its own. Or if it does it will do so weakly. 
 
@@ -154,6 +157,9 @@ Note that a small 1mmx1mm of BB can radiate close to 64 watts of power. For a ty
 
 
 # SIMULATING A BB PIXEL
+
+```
+
 Area of the BB/Air inside the cavity= 1.0000e-08 m^2
 Heat transfer rate of air: 1.4135e+01 W
 Power radiated by the BB: 6.4169e-01 Watts
@@ -163,6 +169,8 @@ Energy required to heat it to final temp: 8.8526e-06 J
 Sublimation energy: 1.3526e-04 J
 Atoms per m³ (deposited carbon): 1.138e+29
 Atoms per m³ (cavity): 1.138e+26
+
+```
 
 Much of the results are the same for pixels as in the fixed lighting solution except for the expected drop in radiated power to be expected because the size is smaller. The energy requirement indicates that 8 watt of energy can light up a million pixels at once. Further savings can be had by reducing the thickness of deposited carbon or by reducing the area of the cavity. 
 
@@ -176,8 +184,23 @@ The only problem is that high number density of carbon would create enormous pre
 
 The best operating conditions would be above the energy required to heat it to BB temp but below the energy required to sublimate it.
 
+To understand how it works let's look at a few lines from the output log of the simulation
 
-One final comment needs to be made about this emitter. Air plasma contains oxygen. Carbon and oxygen are highly reactive and form monoxides and dioxides. However the density of air is 1000 times smaller than that of carbon so only a very minimal amount of carbon will actually oxidise. As long as the system is operated in a closed cavity and the deposition is sufficiently thick >=100nm —in other words if there is enough mass of carbon the oxidation can be suppressed. 
+```
+Time taken to conduct heat to carbon :4.790370e-07
+Time taken for i/p to dissipate via BBR 1.379586e-05
+Total energy lost to radiation during heating of emitter:3.073921e-05
+Total energy delivered to heating of emitter:8.545243e-04
+
+```
+This highlights that even though BBR emits at a high power , conduction still dominates the energy transfer. Time taken to conduct heat to the emitter is much smaller than the time it takes for BB to lose it to radiation. Consequently energy losses during heating are negligible.
+
+A pulsed energy transfer operation where each beam delivers energy matching BB temperature spaced apart by radiative cooling time would keep the BB emitter going without sublimating it. Because the BB ‘charging’ time is so small ~10^-7 at a high pulse rate the emitter will stay on for 99.64% of the time and cause no noticeable flicker.
+
+This is not to mean however that sublimation is not useful. A high pressure sublimation strains materials limits but a low pressure sublimation can convert UV light from plasma source to visible due to excitations in swan bands of C2 vapor. Essentially acting as a phosphor with longer lifetimes of emission. Plasma itself can lose a significant portion of energy through radiation especially when convection is suppressed — such as in a cavity we described. Such a setup could be really useful for black and white displays and static low refresh rate displays.
+
+
+One final comment needs to be made about this emitter. Air plasma contains oxygen. Carbon and oxygen are highly reactive and form monoxides and dioxides. However the density of air is 1000 times smaller than that of carbon so only a very minimal amount of carbon will actually oxidise. As long as the system is operated in a closed cavity and the deposition is sufficiently thick >=100nm compared to the cavity volume —in other words if there is enough mass of carbon the oxidation can be suppressed. 
 
 
 CONCLUSION 
