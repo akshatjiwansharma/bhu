@@ -23,6 +23,14 @@ Several studies demonstrate these effects:
 * *Laser sintering of separated and uniformly distributed multiwall carbon nanotubes integrated iron nanocomposites* ([AIP](https://pubs.aip.org/aip/jap/article-abstract/115/11/113513/913673/Laser-sintering-of-separated-and-uniformly?redirectedFrom=fulltext))
 * *The influence of carbon nanotube addition on 316L stainless steel consolidated by spark plasma sintering* ([ScienceDirect](https://www.sciencedirect.com/science/article/pii/S2238785418301790))
 
+Structural, mechanical and tribological investigations of CNT-316 stainless steel nanocomposites processed via spark plasma sintering
+
+https://www.sciencedirect.com/science/article/abs/pii/S0301679X2030356X
+
+Synthesis and properties of graphene and graphene/carbon nanotube-reinforced soft magnetic FeCo alloy composites by spark plasma sintering
+
+https://link.springer.com/article/10.1007/s10853-016-0041-2
+
 These studies report varying effects some note increased hardness but reduced toughness, while others show overall property improvements. The primary challenges in working with nano-materials, including CNTs, remain dispersion and preventing aggregation within the steel matrix.
 
 In summary, while directly incorporating diamond or CNTs into molten steel is impractical, surface embedding and powder metallurgy techniques have proven effective in enhancing steel’s mechanical properties for specialized applications.
