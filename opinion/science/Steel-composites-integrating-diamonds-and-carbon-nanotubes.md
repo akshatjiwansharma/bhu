@@ -35,6 +35,10 @@ These studies report varying effects some note increased hardness but reduced to
 
 In summary, while directly incorporating diamond or CNTs into molten steel is impractical, surface embedding and powder metallurgy techniques have proven effective in enhancing steel’s mechanical properties for specialized applications.
 
+On online discussion forums like reddit skepticism still exists among metallurgists but diamond has been embedded in steel for a long time now and it seems that the technique is now being adapted to embed carbon nanotubes. 
+
+It's exciting to see how steel, a material with history going back thousands of years, is being transformed with cutting edge carbon nanomaterials. Coincidentally there have been some reports about ancient steel makers 'accidently' incorporating carbon nanotubes in their steel for example the fabled Damascus steel whose strength has not been reproduced by modern metallurgists is said to have had CNT but opinions are divided. 
+
 
 Original discussion on reddit 
 
