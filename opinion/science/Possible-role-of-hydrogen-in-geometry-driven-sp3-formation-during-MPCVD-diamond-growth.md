@@ -1,4 +1,4 @@
-# Possible role of hydrogen in geometry-driven sp3 formation during MPCVD diamond growth
+# Possible role of hydrogen in geometry-driven sp3 bond formation during MPCVD diamond growth
 
 There is ongoing debate about the exact mechanisms that cause diamond formation in the microwave plasma chemical vapor deposition (MPCVD) process.
 
