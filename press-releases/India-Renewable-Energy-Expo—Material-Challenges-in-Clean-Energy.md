@@ -10,7 +10,7 @@ On the battery level the answer is obvious. Lithium is a scarce resource. New di
 
 Solar panels are highly efficient on a weight basis. 1 square meter of silicon solar cells uses only a few 100 grams of silicon. Each being only a few 100 micrometers thick. 
 
-But all solar cells need glass coating adding several Kgs of weight. Not just any glass; optical quality glass is necessary. Glass comes from sand but the kind needed to make optical grade for solar cells must be highly pure and that is an unevenly distributed resource somewhat scarce. 
+But all solar cells need glass encapsulation adding several Kgs of weight. Not just any glass; optical quality glass is necessary. Glass comes from sand but the kind needed to make optical grade for solar cells must be highly pure and that is an unevenly distributed resource, somewhat scarce. 
 
 Glass is important in another renewable energy product —wind turbines. Glass fibers used in wind turbine blades must be made from highly pure sand as well because impurities can reduce the strength of fibers making them more brittle. 
 
