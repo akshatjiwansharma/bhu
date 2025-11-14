@@ -1,0 +1,33 @@
+collisonal sum 
+
+The sum \( S = \sum_{k=0}^{N} r^k \) where \( r = 1 - \frac{2 m_e}{M} \):
+
+1. \( S = 1 + r + r^2 + \cdots + r^N \)
+2. Multiply by \( r \): \( rS = r + r^2 + \cdots + r^{N+1} \)
+3. Subtract: \( S - rS = 1 - r^{N+1} \)
+4. \( S (1 - r) = 1 - r^{N+1} \)
+5. \( S = \frac{1 - r^{N+1}}{1 - r} \)
+
+Substitute \( r = 1 - \delta \), \( \delta = \frac{2 m_e}{M} \):
+\( 1 - r = \delta \), so:
+
+\[
+S = \frac{1 - (1 - \delta)^{N+1}}{\delta}
+\]
+
+Thus:
+
+\[
+\epsilon = e E \lambda \cdot \frac{1 - \left(1 - \frac{2 m_e}{M}\right)^{N+1}}{\frac{2 m_e}{M}}
+\]
+
+
+Yes — **valid in all regimes**:
+
+- **Ballistic** (\( N \ll 1 \)): \( \epsilon \approx e E \lambda (N+1) \approx e E d \)
+- **Highly collisional** (\( N \gg 1 \), \( \delta N \gg 1 \)):
+  \[
+  \epsilon \approx e E \lambda \cdot \frac{1}{\delta} = e E \lambda \cdot \frac{M}{2 m_e} \quad \text{(Druyvesteyn-like limit)}
+  \]
+
+**Physically correct across transition.**

@@ -1,0 +1,15 @@
+\[
+\nu_{ee} = \frac{n_e e^4 \ln\Lambda}{4\pi \epsilon_0^2 m_e^2 v^3}
+\]
+
+\[
+\nu_{ei} = \frac{n_i Z^2 e^4 \ln\Lambda}{2\pi \epsilon_0^2 m_e^2 v^3}
+\]
+
+\[
+\nu_{ie} = \frac{n_e e^4 \ln\Lambda}{2\pi \epsilon_0^2 m_i^2 v_i^3}
+\]
+
+\[
+\nu_{ii} = \frac{n_i Z^4 e^4 \ln\Lambda}{4\pi \epsilon_0^2 m_i^2 v_i^3}
+\]

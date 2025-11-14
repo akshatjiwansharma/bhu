@@ -1,0 +1,8 @@
+
+  [
+  E_\text{glass} = \frac{D}{\varepsilon_0 \varepsilon_r^\text{glass}}, \quad E_\text{air} = \frac{D}{\varepsilon_0}
+  ]
+  
+  [
+  V_\text{total} = E_\text{glass} T_1 + E_\text{air} T_2
+  ]

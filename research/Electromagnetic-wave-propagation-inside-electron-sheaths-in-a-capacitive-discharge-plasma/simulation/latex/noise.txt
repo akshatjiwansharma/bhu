@@ -1,0 +1,19 @@
+% Shot noise (rms current)
+\begin{equation}
+i_{\rm rms} = \sqrt{2 q I B}
+\end{equation}
+\text{where:} \\
+q = \text{electron charge}, \quad 
+I = \text{average current}, \quad 
+B = \text{bandwidth}
+
+% Nyquist (thermal) noise (rms voltage)
+\begin{equation}
+v_{\rm rms} = \sqrt{4 k_B T R B}
+\end{equation}
+\text{where:} \\
+k_B = \text{Boltzmann constant}, \quad
+T = \text{temperature in Kelvin}, \quad
+R = \text{resistance}, \quad
+B = \text{bandwidth}
+
