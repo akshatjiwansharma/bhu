@@ -372,6 +372,15 @@ While fiber optic cables are and will likely remain the most effective way to tr
 Though still speculative the technique is based on established plasma physics and experimental validation could open up a new frontier in data transmission. One that can overcome channel limitations and provide a single unified platform to transfer information at the device level and at the systems level.  
 
 
+Akshat Jiwan Sharma
+
+Strategy Consultant--Innovation/ Materials science/International relations/Telecommunications/Digital Transformation/Partnerships 
+
+Mobile/whatsapp:+919654119771
+
+email:getellobed@gmail.com
+
+
 REFERENCES
 
 
