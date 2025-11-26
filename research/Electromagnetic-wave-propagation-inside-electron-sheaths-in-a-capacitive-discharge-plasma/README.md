@@ -6,7 +6,7 @@
 
 ABSTRACT
 
-While the influence of plasma frequency on the propagation of electromagnetic (EM) waves has been extensively studied, the potential role of Lorentz force in perturbing free electrons in plasma sheath and thereby facilitating propagation of electromagnetic waves as per maxwell laws has received comparatively little attention.
+While the influence of plasma frequency on the propagation of electromagnetic (EM) waves has been extensively studied, the potential role of Lorentz force in perturbing free electrons in plasma sheath and thereby facilitating transmission of electromagnetic waves as per maxwell laws has received comparatively little attention.
 
 An oscillating EM wave at a frequency above the plasma frequency interacts with free electrons in the sheaths leading to generation of conduction currents. The frequency of oscillation of these conduction currents is equal to the applied wave  frequency. 
 
