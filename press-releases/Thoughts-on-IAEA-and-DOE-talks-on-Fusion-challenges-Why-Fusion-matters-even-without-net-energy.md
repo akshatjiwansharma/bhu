@@ -14,7 +14,7 @@ Inertial electrostatic confinement fusion devices are essentially portable parti
 
 Non-fusing plasmas generated inside compact accelerators like IEC could be immensely useful as an ion source with ion temperatures easily reaching million K enabling materials processing. 
 
-Possibilities exist to combine IEC tech with high frequency RF to turn them into high energy particle accelerators creating fusion free neutrons source via ion spallation of iron/lead.
+Possibilities exist to combine IEC tech with high frequency RF to turn them into high energy particle accelerators creating fusion free neutron source via ion spallation of iron/lead.
 
 This is why fusion tech ,especially electrostatic, holds promise even when it generates no useful power.
 
