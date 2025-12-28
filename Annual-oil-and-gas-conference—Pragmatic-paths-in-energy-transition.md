@@ -6,7 +6,7 @@ At the annual oil and gas conference in New Delhi today I had the privilege of i
 
 Oil and gas has been facing some harsh criticism in the last few decades but whether we like it or not it's a key driver of the economy. 
 
-The transport industry is the second largest consumer of fossil fuels next only to the power industry. In the short term it's unlikely that batteries will be able to meet the demand. Similarly building a green hydrogen ecosystem would take time. LNG provides a relatively clean alternative to petrol or diesel until alternatives are in place.  
+The transportation industry is the second largest consumer of fossil fuels next only to the power industry. In the short term it's unlikely that batteries will be able to meet the demand. Similarly building a green hydrogen ecosystem would take time. LNG provides a relatively clean alternative to petrol or diesel until alternatives are in place.  
 
 The energy supply chain gets even more complicated when manufacturing is brought into the mix. Can we find alternatives to natural gas or coal in the glass industry, in steelmaking or in cement manufacturing? It's possible but it will require massive initial investment. A switch to nuclear power as it's happening in the USA may offset some reliance on fossils but it won't replace it completely. With time? Sure. But it's going to be a gradual process . 
 
