@@ -50,11 +50,11 @@ Even if Asian developing nations were on their side, they can do absolutely noth
 
 Solar and wind technologies were pioneered in the USA. The First Solar Cell and rooftop array invented by Charles Fritts in 1883, in 1941 American engineer Russell Ohl patented the modern junction semiconductor solar cell , later USA pioneered a new material silicon unleashing the information age and solar energy revolution. All of it is American made. 
 
-Wind energy followed a similar trajectory. Charles F Bush made the first electric wind turbines in the late 1800s. Firms like Jacobs commercialised the technology as early as 1920s when rare earth permanent magnets were not even invented. These systems could easily generate tens of KW of energy powering homes. Later investment by DOE and NASA led to modern megawatt scale turbines. Again all of it American made. 
+Wind energy followed a similar trajectory. Charles F Brush made the first electric wind turbines in the late 1800s. Firms like Jacobs commercialised the technology as early as 1920s when rare earth permanent magnets were not even invented. These systems could easily generate tens of KW of energy powering homes. Later investment by DOE and NASA led to modern megawatt scale turbines. Again all of it American made. 
 
 Modern permanent magnets were invented in the USA too by the US Airforce materials lab. 
 
-Green technologies are not modern.They are about as old as the thermal power plants and their history coincides with the generation and transmission of electricity way back in the late 1800s( The first electric power station was built by Edison in 1882 ,the same year as the first electric wind turbine was deployed by Bush)
+Green technologies are not modern.They are about as old as the thermal power plants and their history coincides with the generation and transmission of electricity way back in the late 1800s( The first electric power station was built by Edison in 1882 ,the same year as the first electric wind turbine was deployed by Brush)
 Why hasn't it succeeded? Well there are several reasons including allocation of capital,tech limitations,inherent tradeoffs and influence of the lobbies but they have been around for a long,long,long time. 
 
 Asian nations, especially India, often blame colonialism for their lack of growth. However the USA was colonised too and that didn't stop them. No one gave the USA a chance. Today it leads the world. The truth is that Asia does not produce leaders. It hasn't produced a leader in at least 8 centuries. Asia is a follower. Their strategy is to copy new developments and apply them to local conditions to alleviate poverty. That's what all these think tanks ever talk about. There is no desire,nor the capability to win ,just to persist and live.
