@@ -1,0 +1,18 @@
+alias t='touch'
+alias l='less -N -I'
+alias scr='screen'
+alias wb='w3m -N'
+alias get='wget --adjust-extension "$1"'
+alias sdcard='cd /storage/E195-C1BD/'
+alias downloads='cd /data/data/com.termux/files/home/storage/downloads'
+alias programming='cd /data/data/com.termux/files/home/storage/downloads/programming'
+alias home='cd ~/'
+alias bashedit='editor ~/.bashrc' 
+alias bashshow='less ~/.bashrc'
+alias bashreload='source ~/.bashrc'
+alias mkcd='function mkcd(){ mkdir -p $1; cd $1;}; mkcd'
+alias b='cd ../'
+alias tcopy='termux-clipboard-set'
+alias gitea='gitea > /dev/null &'
+
+

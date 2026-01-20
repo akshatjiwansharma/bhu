@@ -1,0 +1,16 @@
+finddir(){
+#learn how to capture exit codes in bash
+find $1 -type d -name $2;
+}
+s(){
+	find $2 -iname "*$1*"|less -I;
+}
+deepsearch(){
+	echo "searching for $1";
+grep --exclude=\*.{pdf} -rinwl $2 -e $1|less -I;
+}
+ks(){
+	echo "searching for $1 in $2";
+grep --exclude=\*.{pdf,mp4,m4a} -ri $2 -e $1|less -I;
+}
+
