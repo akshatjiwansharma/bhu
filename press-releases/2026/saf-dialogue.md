@@ -4,7 +4,7 @@
 
 I thank the Sustainable Aviation fuel association for organising an online dialogue to discuss challenges and opportunities in India SAF market as the nation moves towards a formal policy to achieve net zero emissions by 2070. 
 
-The current strategy is to focus on waste oil (to produce HEFA, Hydroprocessed Esters and Fatty Acids) agricultural waste (available in such huge quantity that is easily capable of satisfying fuel needs for aviation ,currently at 9.9MMT) and other renewable feedstocks such as alcohol derived from food waste. 
+The current strategy is to focus on waste oil (to produce HEFA, Hydroprocessed Esters and Fatty Acids) agricultural waste (available in such huge quantity that it's easily capable of satisfying fuel needs for aviation ,currently at 9.9MMT) and other renewable feedstocks such as alcohol derived from food waste. 
 
 In the short to mid term focussing on heterogenous feedstock could accelerate the SAF production and adoption but there are a couple of challenges. Aviation consumes a small percentage of total fuel use. Using agricultural and food waste as feed stock could meet the demand of aviation but not of the entire transport sector (~230 MMT). The risk is that if industries are dependent upon these feedstocks it will be difficult to scale it to other transport sectors that can't be sustained by them. 
 
