@@ -73,6 +73,9 @@ This is true even for a vacuum that doesn't have any objects or particles. Vacuu
 
 In Physics this is expressed as work done by vacuum fields that take the expression 
 
+![](https://raw.githubusercontent.com/akshatjiwansharma/bhu/refs/heads/master/philosophy/Ontological-status-of-energy-and-work-/equations.png)
+
+
 Eq 1 describes the net work as an integral of hamiltonian energy density change,eq2 describes total hamiltonian energy density (which is simply the sum of potential and kinetic energy of the field per unit volume)
 
 This holds true even if vacuum is viewed as a complete abstract information space.
