@@ -79,7 +79,7 @@ In regenerator the losses are typically due to fluid friction but when the losse
 
 In either case the regenerator efficiency will drop and gas will exit at a higher temperature.  
 
-Another interesting result is that as the regenerator efficiency drops more of the heat stays in the gas and less of it is transferred to the regenerator. Leader to lesser efficiency of the regenerator but also lower pressure drop. 
+Another interesting result is that as the regenerator efficiency drops more of the heat stays in the gas and less of it is transferred to the regenerator. Leading to lesser efficiency of the regenerator but also lower pressure drop. 
 
 DESIGN OF A FOIL TYPE REGENERATOR
 
