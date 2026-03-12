@@ -19,6 +19,9 @@ mvpat(){
 	cd $2;
 
 }
+total-files(){
+	find . -type f | wc -l;
+}
 rsl(){
 /data/data/com.termux/files/usr/bin/bash $1|less;
 }
