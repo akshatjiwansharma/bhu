@@ -1,0 +1,58 @@
+# Thoughts on the Wide band gap developer forum  
+
+17 March 2026
+
+I thank Infineon technologies for organising the hotly anticipated, annual, wide band gap developer forum for a discussion on cutting edge research and latest developments related to SiC and GaN semiconductor devices. 
+
+Electrification is seen as one of the most effective ways of bringing down global greenhouse gas emissions and enabling transition to a green economy.  However, unlike carbon based energy sources electrical energy generation, transmission ,distribution and its final application is far more complicated than simple extract, transport and burn processes of fuels. 
+
+These require functional materials that have very specific properties which can be applied to a particular stage in electrical energy use. Magnets for energy generation, Electrical steel for voltage transformation,copper or Al for energy transmission and of course all sorts of resistors,inductors and capacitors for managing & manipulating the flow of energy. 
+
+Another complication is that different devices use different forms of electrical energy. Most motors doing electromechanical work use AC. The transmission lines themselves are major AC conduits. Electronics operate on DC. As do electrolysers and batteries. Electromechanical components are the heavy lifters,electronic components improve the quality of life. Electrolysers are key for realising the dream of the hydrogen economy.  
+
+As we can see there's about an even split between the applications of AC and DC. AC helps in transmission over small to mid scales. DC is important in storage,electronics and electrolysis. 
+
+It is here that rectifiers become important.  Decisions to transmit over AC or DC are taken by utilities and device manufacturers have little control over that. But the rectification technology makes the transmission mode largely irrelevant as it allows switching b/w AC and DC on the fly with minimal losses. 
+
+Traditionally rectification was done with vacuum tubes, arcs and electromechanical gen sets. Arcs were quite efficient indeed but they were bulky. 
+
+The industry has switched to integrated semiconductor rectifiers that can be manufactured with high precision in compact form factors and connected electrically to achieve required voltages.  
+SiC and GaN have cemented their position in two very important niches. High voltage and high frequency switching respectively. Silicon is still used due to its larger manufacturing base and to support legacy applications but SiC is where the future lies at least in the power industry. 
+
+The promise of wide band gap devices is that they can handle higher voltages. Same power can be transmitted at a lower current minimising resistive losses. 
+GaN based devices are critical for data centers and their demand will continue to rise with AI. 
+
+SiC is becoming highly sought after in the automobile industry especially for L3 charging and anywhere really where power needs to be rectified at high voltages. When SiC is not used as an active material it functions as a highly capable substrate for GaN,Graphene and diamond.  But SiC offers very compelling advantages even beyond its electronic use. SiC is a very hard abrasive. Almost as hard as diamond. It's excellent for grinding and polishing, a stable heat resistant ceramic in oxidative environments and even a gemstone. 
+
+SiC is one of those materials that can be applied in a variety of industries and it's extremely important to master this technology. For developing nations SiC offers a relatively easy pathway towards  industrialisation. First because unlike Silicon, which is melt processed, SiC can be made in a rather simple acheson furnace,followed by powdering and PVT crystal growth(via lely process). 
+
+Epitaxial SiC is a bit more complex, requiring Silane ,but even that process is less complicated than Cz manufacturing of single crystals. Get metallurgical grade silicon in a simple electric arc,follow it with chlorination , distillation and hydrogen reduction. Several steps but doable.
+And all of this starts with sand. Highly pure semiconductor grade quartz. This is a real bottleneck because quartz of such purity is concentrated. This makes sand processing via chemical leaching strategically important. 
+
+There is a lot of space for innovation in SiC tech. Today doped PN junctions are manufactured using nitrogen and Aluminium. But it might be possible to create hetero-junctions using an N-type Nitrogen doped SiC with a graphene functionalized using electrophilic NO groups leading to a P type behaviour. This technique could remove Al from the process entirely, improving the robustness of the manufacturing system. 
+Graphene on carbon sheets (amorphous,i.e glassy, or graphitic) functionalized with Nitrogen and NO groups to make a PN hetero-junction is promising for a high-speed switching alternative to GaN (especially as Ga has its own manufacturing quirks)
+
+However challenges related to thin depletion layers persist. Graphitic carbon nitride promises to resolve those issues with gCN serving as a thick substrate on which p type graphene can be deposited. Such heterojunctions could prove to be immensely successful due to simplicity of manufacturing gCN and graphene as compared to other materials usually discussed. gCN porosity remains an issue. But even at low densities of 1.9 g/cc it has very tiny pore sizes that typically max out at 100nm. If packaging is evacuated this system can still withstand high voltages. In vacuum electrostatic engineering 100nm surface roughness is acceptable. In evacuated packages there is little gas to ionise. Further reduction in pore size is possible via gCN slurry infiltration into pores before compression. 
+
+gCN’s low cost offers big advantages here. Simply thicker materials could be used to match the performance of SiC and GaN. 
+SiC and GaN are the most popular wide band gap semiconductors today but in the future we can expect more material systems to develop and provide alternatives to SiC and GaN based devices. Diamond looks promising. As do other carbon based platforms. Research in this space needs to continue. 
+
+This year's WBG forum was incredible. I look forward to engaging with researchers again in 2027. 
+
+Do you care about international relations? Would you like to be a part of a non profit that seeks to foster international collaboration? Partner with us & use your skills in Science/Engineering/Research/Team Building/Consulting/Administration/Law/PR/Comms/Business to shape the future. Let's do this.
+
+ABOUT bhū 
+
+bhū is a self funded non profit organisation dedicated to advancement of science and promotion of international relations.
+We aim to promote international harmony through creation of specific councils and bodies for regulating and overseeing international issues and accelerate developments in nanotechnology, material science ,electrostatics, fluids, plasma science,thermodynamics and advanced manufacturing.
+
+Let us work together
+
+https://akshatjiwannotes.blogspot.com/p/bhu.html
+
+Akshat Jiwan Sharma
+
+Materials science/International relations/Partnerships 
+
+Mobile/whatsapp:+919654119771 
+email:getellobed@gmail.com
