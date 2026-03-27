@@ -1,4 +1,4 @@
-Beyond the Crowds: Thailand’s Vision for Premium and Experiential Travel
+# Beyond the Crowds: Thailand’s Vision for Premium and Experiential Travel
 
 I had great fun connecting with representatives from the Tourism Authority of Thailand promoting Thailand as a destination to travellers in India. Nearly 2 million Indian travellers visited Thailand in 2024 making India one of the top outbound markets for Thailand. 
 
