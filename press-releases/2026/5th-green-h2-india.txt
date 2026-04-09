@@ -1,0 +1,54 @@
+# My thoughts on the green hydrogen India conference 
+
+8 Apr 2026
+
+I thank the sustainable leaders development council for organising the 5th edition of green hydrogen India conference and bringing together policymakers, researchers and businesses to talk about one of the most important molecules upon which hinges the future of green transition — hydrogen. 
+
+The Hydrogen ecosystem is vast, numerous businesses have occupied a niche in its generation,transmission and distribution. Decades of research have optimised nearly all aspects of these processes yet hydrogen is facing difficulties in its adoption. There are a couple of reasons for this. 
+
+One is that fossil fuels are incredibly cheap. To the point that almost all of it is pure profit. You just dig it out of the ground and sell it in the market. This has helped propel entire sectors that have become multi billion dollar industries. Plastics,automobiles,fertiliser and to a large extent even steel. What this means is that even at a relatively cheap price of $5 per kg (that's really the price for a cup of coffee) hydrogen appears to be expensive, compelling engineers to squeeze out every ounce of performance from the systems they have designed and optimise the chain to its absolute limit. 
+
+But that's not the only reason. There is another reason. That is hydrogen as a molecule is very difficult to master. Why is that? On a pure energy level a kg of hydrogen simply crushes the completion. No other fuel can come close to its energy on a weight basis. But because hydrogen has such a low density at atmospheric pressures it would require enormous sizes to hold hydrogen that would make it impractical. 
+
+To solve this problem engineers have designed highly efficient compressors that can compress hydrogen  70Mpa and increase its volumetric density. This works but it needs expensive cylinders. Steel becomes impractical when its weight reaches several hundred kg. Composite cylinders can cut off the weight by a third making them more suitable for automotive use cases but even at 100kg weight it's unlikely they'll ever fit in an aircraft that has to carry several thousand kg of fuel. The tremendous hoop stress that is exerted on the walls at these pressures mean that aircrafts would need structural modifications if they are to store hydrogen at this pressure. Essentially a redesign of their fuel storage component. Can be done but it won't be easy.
+
+On the other hand we have cryogenic systems. They reduce the pressure on the walls allowing atmospheric pressure storage but the temp control required is so stringent that even stray blackbody radiation could cause evaporation of hydrogen gas. Their multi layer insulation systems are some of the most sophisticated insulation technologies in use. But it's expensive. 
+So already we can see the problem with hydrogen usage as a fuel in Automotives. This is before engine issues are taken into consideration — especially the carnot limits that cap the max extractable work to around 40% after losses. 
+
+Industrially hydrogen is more important because so many processes depend upon it. But in industrial processes they face severe competition from hydrogen generated from fossil fuels and from new developments like finding geologic sources of hydrogen. 
+Other challenges include scaling related issues like availability of fresh water to produce hydrogen in massive volumes. 1kg water produces 110 grams of hydrogen. Efficiencies hovering around 70%
+There are some talks of  valorising the byproduct (chiefly oxygen) but it's unlikely that it'll ever be able to compete with oxygen extracted from air. 
+
+However things are not as dark as they may appear. There is cause for optimism too. The key lies in the integration of subsystems. 
+Among the hydrogen industry leaders there is an inherent tendency to rely on fresh water. But sea water could tie in directly to the chlor alkali process co-producing 3 important chemicals naoh,cl2 and hydrogen in one system. 
+
+Second is the FT process for producing platform chemicals including kerosene,naphtha and medium chain monomers like butadiene for producing rubber. 
+
+The common belief among industries is that the FT process is inherently inefficient, decreasing the total electrical energy captured in fuel. That belief is not unfounded. Direct air capture of carbon consumes a lot of energy but that energy consumption is not due to the small percentage of carbon present in air but rather the cost associated with regeneration of the capturing medium. 
+
+This problem is solvable with better absorbers like ammonia which form bicarbonate ions with CO2 and need low temp to release it back. Almost .7kg of co2 can be captured per kg of ammonia. 
+The second important fact is that FT synthesis of kerosene is exothermic and the high grade heat released during the process can significantly cut down  the regeneration cost of DAC. Overall making it possible to convert hydrogen to kerosene with only about 10% total loss between processes. Around the same energy that would have taken to compress or liquify hydrogen to store in a tank. But now you can have a fuel that is highly usable at very natural pressures and temperatures. Making expensive tanks and cryocoolers unnecessary. This is a huge victory. 
+
+There are other process improvements underway. One of the most exciting ones is the use of plasma to produce hydrogen. This process not only increases the efficiency of production but also simplifies the production stack not necessarily requiring membranes for separation of hydrogen and oxygen. If it can be scaled plasma essentially solves another problem facing electrolysers. The degradation of electrodes. 
+
+Hydrogen production looks expensive when compared with essentially free fossil fuel but that would change when passive renewable energy starts becoming cheaper and it becomes important to actually save all the energy we could generate. Fossil fuel is free energy extraction from underground. RE is just as free passive energy generation with vast almost limitless potential which takes the energy cost of materials out of the equation. 
+
+Turning excess energy into materials is probably the most effective form of long duration energy storage. H2 -Kerosene-Butadine rubber are all important products that could be made efficiently. But even if they are made inefficiently, their storage value is counted in years and decades, which makes them valuable. Butadiene rubber for example could be used for several years after it has been made once. Easily giving compound returns on the energy that has been invested in it. That's the real value of hydrogen. It can be made with abundant  water using energy input that is many many times more than what we can ever hope to use. 
+
+Do you care about international relations? Would you like to be a part of a non profit that seeks to foster international collaboration? Partner with us & use your skills in Science/Engineering/Research/Team Building/Consulting/Administration/Law/PR/Comms/Business to shape the future. Let's do this.
+
+ABOUT bhū 
+
+bhū is a self funded non profit organisation dedicated to advancement of science and promotion of international relations.
+We aim to promote international harmony through creation of specific councils and bodies for regulating and overseeing international issues and accelerate developments in nanotechnology, material science ,electrostatics, fluids, plasma science,thermodynamics and advanced manufacturing.
+
+Let us work together
+
+https://akshatjiwannotes.blogspot.com/p/bhu.html
+
+Akshat Jiwan Sharma
+
+Materials science/International relations/Partnerships 
+
+Mobile/whatsapp:+919654119771 
+email:getellobed@gmail.com
