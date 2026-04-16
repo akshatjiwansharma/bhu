@@ -7,7 +7,7 @@ source ~/bashfiles/.aliasrc;
 source ~/bashfiles/.dirsrc;
 source ~/bashfiles/.searchrc;
 
-
+oq() {                                 octave "$@" 2>/dev/null            }
 mkmv(){
 	mkdir -p $1;
 	mv *.$2 $1;
