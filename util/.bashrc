@@ -7,6 +7,13 @@ source ~/bashfiles/.aliasrc;
 source ~/bashfiles/.dirsrc;
 source ~/bashfiles/.searchrc;
 
+rtf(){                                 cmd="$1";
+  outfile="${cmd##*/}.log";
+  # strip path, add .log 
+                                       echo "[$(date '+%Y-%m-%d %H:%M:%S')]" 
+   "$@" 2> /dev/null| tee -a "$outfile" | less;     
+}
+
 oq() {                                 octave "$@" 2>/dev/null            }
 mkmv(){
 	mkdir -p $1;
