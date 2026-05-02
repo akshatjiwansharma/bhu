@@ -7,6 +7,14 @@ source ~/bashfiles/.aliasrc;
 source ~/bashfiles/.dirsrc;
 source ~/bashfiles/.searchrc;
 
+mirror() {
+  local src="$1"
+  local dst="$2"
+
+  rsync -av --delete "${src%/}/" "${dst%/}/"
+}
+
+
 rtf(){
   cmd="$1";
   outfile="${2##*/}.log" ;  # strip path, add .log
