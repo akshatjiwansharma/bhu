@@ -1,0 +1,31 @@
+% Pore width from porosity and thread width
+\[
+\varepsilon = \frac{s^2}{(s + w)^2} \quad \Rightarrow \quad s = \frac{w \sqrt{\varepsilon}}{1 - \sqrt{\varepsilon}}
+\]
+
+% Single pore area
+\[
+A_{\text{pore}} = s^2
+\]
+
+% Number of pores
+\[
+N = \frac{A_{\text{pores,total}}}{A_{\text{pore}}} = \frac{\varepsilon \, A_{\text{total}}}{s^2}
+\]
+
+Sure! The **solid mass** in a porous mesh can be calculated from total area, thickness, porosity, and material density. The LaTeX code is:
+
+```latex id="g1k7zo"
+% Solid mass in a porous material
+\[
+m_{\text{solid}} = \rho_{\text{material}} \, A_{\text{total}} \, t \, (1 - \varepsilon)
+\]
+
+% Where:
+% \rho_{\text{material}} = material density (kg/m^3)
+% A_{\text{total}} = total area of mesh (m^2)
+% t = thickness of the mesh (m)
+% \varepsilon = porosity (fraction)
+```
+
+

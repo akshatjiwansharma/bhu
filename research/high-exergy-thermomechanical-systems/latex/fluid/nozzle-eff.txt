@@ -1,0 +1,8 @@
+Typically **very efficient**:
+
+* Well-designed converging/diverging nozzles: **95–99% efficiency** (nearly isentropic)
+* Poor/short or rough nozzles: **80–95%**
+
+Losses come from **friction, turbulence, and shock (if supersonic)**.
+
+

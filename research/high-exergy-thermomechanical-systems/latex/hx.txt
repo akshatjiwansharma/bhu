@@ -1,0 +1,2 @@
+Q_{total} = \left( \frac{H_{stack}}{t_{plate} + L_{gap}} \right) \cdot \frac{(k_{air} \cdot P) \cdot A \cdot \Delta T}{L_{gap}}
+
