@@ -1,0 +1,21 @@
+[2026-05-04 23:12:07]
+P2 = 88243.10 Pa
+Pdiff = 23735.18 Pa
+Pressure remaining = 78.80 %
+Pressure drop      = 21.20 %
+P1: 1.1198e+05
+
+P2: 8.8243e+04
+
+P_drop_percent: 21.196
+
+P_left_percent: 78.804
+
+P_ratio: 0.7880
+
+T1: 372
+
+T2: 293.15
+
+deltaP: 2.3735e+04
+

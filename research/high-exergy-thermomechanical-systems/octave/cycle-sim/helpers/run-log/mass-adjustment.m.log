@@ -1,0 +1,22 @@
+[2026-05-04 23:12:51]
+Current mass: 0.124161 kg
+Mass to add:  0.018407 kg
+Increase req: 14.82%
+P_atm: 101325
+
+P_current: 8.8243e+04
+
+R_spec: 287.05
+
+T: 293.15
+
+V: 0.1184
+
+m_current: 0.1242
+
+m_required: 0.1426
+
+m_to_add: 0.018407
+
+mass_increase_pct: 14.825
+

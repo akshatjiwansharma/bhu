@@ -1,0 +1,24 @@
+[2026-05-01 23:27:07]
+Superficial velocity: 0.9867 m/s
+Pressure drop per meter: 27681.14 Pa/m
+Total pressure drop: 249.13 Pa
+A: 1
+
+L: 9.0000e-03
+
+dP: 249.13
+
+dP_per_L: 2.7681e+04
+
+dp: 3.4400e-04
+
+epsilon: 0.6000
+
+mdot: 1.1840
+
+mu: 1.8000e-05
+
+rho: 1.2000
+
+v: 0.9867
+

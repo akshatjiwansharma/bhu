@@ -1,0 +1,18 @@
+[2026-05-01 11:13:40]
+Initial Pressure: 101325.00 Pa
+Final Pressure:   135889.22 Pa
+Pressure Rise:    34564.22 Pa
+P1: 101325
+
+P2: 1.3589e+05
+
+T1: 293.15
+
+T1_C: 20
+
+T2: 393.15
+
+T2_C: 120
+
+delta_P: 3.4564e+04
+
