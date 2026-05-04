@@ -1,14 +1,14 @@
 % Octave script: Pressure drop using Ergun equation
 clear; clc;
-
+addpath('../lib');
 % --- Inputs ---
 rho = 1.2;           % Fluid density (kg/m^3)
 mu = 1.8e-5;         % Fluid viscosity (Pa·s)
-mdot = 1;            % Mass flow rate (kg/s)
+mdot = 1.184;            % Mass flow rate (kg/s)
 A = 1;               % Cross-sectional area (m^2)
 epsilon = 0.6;       % Porosity
-dp = 0.001;          % Particle diameter (m)
-L = 0.001;           % Bed height (m)
+dp = 344e-6;          % Particle diameter (m)
+L = 0.009;           % Bed height (m)
 
 % --- Velocity ---
 v = mdot / (rho * A);  % Superficial velocity (m/s)
@@ -23,3 +23,4 @@ dP = dP_per_L * L;
 fprintf('Superficial velocity: %.4f m/s\n', v);
 fprintf('Pressure drop per meter: %.2f Pa/m\n', dP_per_L);
 fprintf('Total pressure drop: %.2f Pa\n', dP);
+print_vars();
