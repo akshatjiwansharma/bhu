@@ -1,7 +1,9 @@
-[2026-05-04 23:12:51]
-Current mass: 0.124161 kg
-Mass to add:  0.018407 kg
+[2026-05-05 20:39:20]
+Current mass: 0.142565 kg
+Mass to add:  0.021135 kg
 Increase req: 14.82%
+Final mass: 0.142568 kg
+Mass removed: 0.021132 kg
 P_atm: 101325
 
 P_current: 8.8243e+04
@@ -10,13 +12,23 @@ R_spec: 287.05
 
 T: 293.15
 
-V: 0.1184
+V: 0.1359
 
-m_current: 0.1242
+V1: 0.1359
 
-m_required: 0.1426
+V2: 0.1184
 
-m_to_add: 0.018407
+m1: 0.1637
+
+m2: 0.1426
+
+m_current: 0.1426
+
+m_required: 0.1637
+
+m_to_add: 0.021135
 
 mass_increase_pct: 14.825
+
+mass_loss: 0.021132
 
