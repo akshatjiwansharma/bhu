@@ -1,7 +1,7 @@
-[2026-05-01 23:21:31]
+[2026-05-02 14:12:16]
 Number of Channels: 45.00
-Heat Transfer per Gap: 46000.00 Watts
-Total Stack Heat Transfer: 2070000.00 Watts
+Heat Transfer per Gap: 92000.00 Watts
+Total Stack Heat Transfer: 4140000.00 Watts
 A: 1
 
 H_stack: 9.0000e-03
@@ -12,9 +12,9 @@ N: 45.000
 
 P: 0.6000
 
-Q_gap: 4.6000e+04
+Q_gap: 9.2000e+04
 
-Q_total: 2.0700e+06
+Q_total: 4.1400e+06
 
 delta_T: 250
 
