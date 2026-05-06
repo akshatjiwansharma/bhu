@@ -8,7 +8,7 @@ clear;
 % Input volumetric flow rate
 Q = 1.184;
 % Input cross-sectional area
-A = .0276 
+A = .0276; 
 % Check for valid input
 if A <= 0
     error("Area must be greater than zero.");

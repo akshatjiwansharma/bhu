@@ -4,11 +4,11 @@ addpath('../lib');
 % --- Inputs ---
 rho = 1.2;           % Fluid density (kg/m^3)
 mu = 1.8e-5;         % Fluid viscosity (Pa·s)
-mdot = 1.184;            % Mass flow rate (kg/s)
+mdot = 2*1.425;            % Mass flow rate (kg/s)
 A = 1;               % Cross-sectional area (m^2)
 epsilon = 0.6;       % Porosity
 dp = 344e-6;          % Particle diameter (m)
-L = 0.009;           % Bed height (m)
+L = 0.005;           % Bed height (m)
 
 % --- Velocity ---
 v = mdot / (rho * A);  % Superficial velocity (m/s)
