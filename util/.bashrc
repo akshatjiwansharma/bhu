@@ -11,7 +11,7 @@ mirror() {
   local src="$1"
   local dst="$2"
 
-  rsync -av --delete "${src%/}/" "${dst%/}/"
+  rsync -acv --delete "${src%/}/" "${dst%/}/"
 }
 
 
