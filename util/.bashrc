@@ -7,6 +7,13 @@ source ~/bashfiles/.aliasrc;
 source ~/bashfiles/.dirsrc;
 source ~/bashfiles/.searchrc;
 
+mdimage() {
+  local url="$1"
+  local alt="${2:-image}"
+  echo "![${alt}](${url})"
+}
+
+
 mirror() {
   local src="$1"
   local dst="$2"
