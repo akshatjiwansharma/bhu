@@ -771,18 +771,41 @@ With that understanding let's us model the system.
 
 ```
 Work: 1.68*1767.87 J
+
 2970.0216J
-Final volume: ~.1184+(1767.87/(70000+9638.58))            ~0.140m3
-DeltaV : .14-.1184                                  0.0216;
-Clearance+dead-volume:.06(increased due to increased stack height of regen)
+
+Final volume:
+
+~.1184+(1767.87/(70000+9638.58))           
+~0.140m3
+
+DeltaV : .14-.1184                            0.0216;
+
+Clearance+dead-volume:
+
+.06 m3 (increased due to increased stack height of regen)
+
 Rps:20
-Fluid losses: (937*2*1.16)/(1.2*20)                      ~90.576J (3x this to account for increased regen height)
+
+Fluid losses: 
+(937*2*1.16)/(1.2*20)                      ~90.576J 
+(3x this to account for increased regen height)
+
 Net Work: 2970.0216 -(91*3)                          2697.0216J
-Total work per second: 2697.0216*20
-        53940.432 W
-Number of cylinders/m3: 1/(.140+.06)
-        ~5 
-Total output: 53940.432*5                                269702.16
+
+Total work per second: 
+
+2697.0216*20
+ 53940.432 W
+
+Number of cylinders/m3: 
+1/(.140+.06)
+ ~5 
+
+Total output: 
+
+53940.432*5                               
+269702.16
 
 ```
 
