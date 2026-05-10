@@ -714,45 +714,63 @@ v: 42.898
 
 Pressure drop during the pipe flow is only 36Pa. Making losses almost negligible. Meaning that for improving the power density of the engine at the same flow rate it could be possible to either use more compact pipes or increase the flow rate through the same pipes. Given that real losses within the regenerator would be around .5X times smaller it would be safe to at least double the flow through the system. Increasing the cycle speed from 10rps to 20rps.  
 
-POWER CONSIDERATIONS 
+POWER CONSIDERATIONS
 
-It is clear from the analysis of the engine that work output is maximised when the isobaric curve is parallel to the V axis in PV diagram and the S axis in the TS diagram. In other words power is maximised when isobaric return happens at a constant temp and minimal exchange of heat takes place during the isobaric step. In entropy terms this means all entropy exchange happens in terms of mass flow. This is exactly what we have implemented with exhaust and pipes. 
+It is clear from the analysis of the engine that work output is maximised when the isobaric curve is parallel to the V axis in PV diagram and the S axis in the TS diagram. In other words power is maximised when isobaric return happens at a constant temp and minimal exchange of heat takes place during the process. In entropy terms this means all entropy exchange happens through mass flow. This is exactly what we have implemented with exhaust and pipes.
 
-One last question that remains unanswered is what power density can be reasonably expected from the engine? 
+One last question that remains unanswered is what power density can be reasonably expected from the engine?
 
-A proper modelling would require building an entire simulation against the expected engine power density and is highly dependent on engineering choices but we can do some rough back of the envelope calculations. 
+A proper modelling would require building an entire simulation against the expected engine power density and would be highly dependent on engineering choices but we can do some rough back of the envelope calculations.
 
-So let's start with figuring out the output produced by a single cylinder based on previously described chp model looking at the log we get 
+So let's start with figuring out the output produced by a single cylinder based on previously described chp model. Looking at the log we get
 
 ```
+
 Work: 1767.87 J
-Final Volume: (1767.87/9638.58)+(.1184)                  ~0.3018m3
-DeltaV: .3018-.1184
-        0.1834
-Clearance+dead-volume:.03
+
+Final Volume: 
+
+(1767.87/9638.58)+(.1184)           
+~0.3018m3
+
+DeltaV: 
+.3018-.1184
+        
+0.1834
+
+Clearance+dead-volume:
+.03
 Rps:20
-Fluid losses: (937*2*1.16)/(1.2*20)                      ~90.576J 
+Fluid losses: 
+(937*2*1.16)/(1.2*20)                      
+~90.576J
 Net Work: 1677J
-Total work per second: 1677*20                                   ~33540W
-Number of cylinders/m3: 1/(.3018+.03)                              ~3.013(Let's use 3)
-Total output: 33540*3                                    100620W
+Total work per second: 
+1677*20                                   
+~33540W
+Number of cylinders/m3: 
+1/(.3018+.03)                              
+~3.013(Let's use 3)
+
+Total output: 33540*3                                    
+100620W
 
 ```
-So the engine produces ~100Kw/m3 
+So the engine produces ~100Kw/m3
 
-This is obviously way below any commercial engine. Excellent for stationary power generation or marine use but underpowered for Automotives/aircrafts. Why is this? Well the pressure rise ,as seen from summary above,is barely 10Kpa a little less. In addition the engine has no compression cycle so it works at a low pressure diffrential needing a larger volume for the gas to expand. 
+This is obviously way below any commercial engine. Excellent for stationary power generation or marine use but underpowered for Automotives/aircrafts. Why is this? Well the pressure rise ,as seen from summary above,is barely 10Kpa — infact a little less. In addition the engine has no compression cycle so it works at a low pressure diffrential needing a larger volume for the gas to expand.
 
-To be clear it can still work in both Automotives and aircrafts at lower speeds which cuts off drag and allows for a larger engine volume. Cutting speed by half allows 4 times greater engine volume. By a 3rd 9 times more. 
+To be clear it can still work in both Automotives and aircrafts at lower speeds which cuts off drag and allows for a larger engine volume. Cutting speed by half allows 4 times greater engine volume. By a 3rd 9 times more.
 
-But we can improve the power density by starting the engine with pre compressed gas. Let's say we start with a pressure that 1.68 times the atmospheric pressure? What's going to happen? 
+But we can improve the power density by starting the engine with pre compressed gas. Let's say we start with a pressure that is 1.68 times the atmospheric pressure.  What's going to happen?
 
 First of all the mass of the gas in the heater space will increase 1.68 times. This means 2 things 1.68 times more energy required for heating to the same temperature. (mCv(T2-T1))
 
-Second the amount of adiabatic work will increase by 1.68. Same expression (mCv(T2-T1)) and since m increases by 1.68 adiabatic work increases by 1.68 
+Second the amount of adiabatic work will increase by 1.68. Same expression (mCv(T2-T1)) and since m increases by 1.68 adiabatic work increases by 1.68
 
-Third the amount of volume required to do the work will decrease. The new volume would depend upon the pressure required to increase the mass by 1.68. 101.325*1.68 =170.226 kPa. This is nearly 7 times higher than the orignal pressure rise. 
+Third the amount of volume required to do the work will decrease. The new volume would depend upon the pressure required to increase the mass by 1.68. 101.325*1.68 =170.226 kPa. This is nearly 70Kpa of additional pressure available.
 
-It is not going to have any effect on pressure drop through the regenerator because the volumetric flow rate remains the same. Increased pressure is proportionally balanced by increase molar mass which increase density and hence the volume flow rate doesn't change. 
+It is not going to have any effect on pressure drop through the regenerator because the volumetric flow rate remains the same. Increased pressure is proportionally balanced by increase molar mass which increases the density and hence the volume flow rate doesn't change.
 
 ```
 P=nRT/V
@@ -763,86 +781,102 @@ Q=mdot/rho
 
 ```
 
-Increase pressure increase n which increase both m and rho. Volumetric flow rate Q remains constant. Since volumetric flow rate is constant the superficial velocity remains constant and no enhanced pressure drop is observed in Ergun. 
+Increased pressure increases n which increases both m and rho. Volumetric flow rate Q remains constant. Since volumetric flow rate is constant the superficial velocity remains constant and no additional pressure drop is observed in Ergun.
 
-But it will have an effect on the energy required to pipe the mass from expansion space back into heater space. But since pipe length is small it's a very small rise. 
+But it will have an effect on the energy required to pipe the mass from expansion space back into heater space. Though since pipe length is small it's a very small rise.
 
-With that understanding let's us model the system. 
+With that understanding let's us model the system.
 
 ```
+
 Work: 1.68*1767.87 J
 
 2970.0216J
 
 Final volume:
 
-~.1184+(1767.87/(70000+9638.58))           
-~0.140m3
 
-DeltaV : .14-.1184                            0.0216;
+~.1184+(2970/(70000+9638.58))               ~0.1556m3
+
+DeltaV :
+.1556-.1184
+
+0.0372;
 
 Clearance+dead-volume:
+.06 m3
 
-.06 m3 (increased due to increased stack height of regen)
+(increased due to increased stack height of regen)
 
 Rps:20
 
-Fluid losses: 
-(937*2*1.16)/(1.2*20)                      ~90.576J 
+Fluid losses: (937*2*1.16)/(1.2*20)
+
+ ~90.576J
+
 (3x this to account for increased regen height)
 
-Net Work: 2970.0216 -(91*3)                          2697.0216J
+Net Work:
 
-Total work per second: 
+2970.0216 -(91*3)
+
+
+2697.0216J
+
+Total work per second:
 
 2697.0216*20
- 53940.432 W
 
-Number of cylinders/m3: 
-1/(.140+.06)
- ~5 
+53940.432 W
 
-Total output: 
+Number of cylinders/m3:
 
-53940.432*5                               
-269702.16
+1/(.1556+.06)
+
+ ~4.63
+
+Total output:
+
+53940.432*4                         
+
+215761.728
 
 ```
 
-So with the above numbers the output just jumped by ~268%. Within material limits the starting pressure could be increased upto 1Mpa quite comfortably and this could push the engine to a megawatt/m3 range. Of course pipe flow losses will be higher but again those would be too small to make a difference because of small pipe length. Here's an estimate of pipe losses at 2 different delta P
+So with the above numbers the output jumped by ~214 %. Within material limits the starting pressure could be increased upto 1Mpa quite comfortably and this could push the engine to a megawatt/m3 range. Of course pipe flow losses will be higher but again those would be too small to make a difference because of small pipe length. Here's an estimate of pipe losses at 2 different delta P
 
 ```
 
-Delta p for density at 70KPa pipe length and diameter of 14cm and flow velocity in pipe 43m/sec 
+Delta p for density at 70KPa , a pipe length of 3 cm , diameter of 24cm and flow velocity of 43m/sec
 
 
-.5*1.68**1.2*(43^2)                             
+.5*1.68*1.2*(43^2)
 1863.792
 
-Power loss with flow rate of .966m3/s 
+Power loss with flow rate of 1.9m3/s
 
-1863.792*.966        
-                          
-1800.423072 W
+1863.792*1.93
 
-Delta P for density at 1MPa with pipe length of 14cm and diameter and flow velocity in pipe 43m/sec
+3597.11856 W
 
-.5*9.87*1.2*(43^2)                   
+Delta P for density at 1MPa with pipe length of 3cm , diameter of 24cm, flow velocity of 43m/sec
+
+.5*9.87*1.2*(43^2)
 10949.778 Pa
 
 
-Power loss, with flow rate of .966m3/s 
+Power loss, with flow rate of 1.9m3/s
 
-10949.778*.966                                
- 10577.485548 W
+10949.778*1.93
+ 21133.07154 W
 
 ```
 
-As can be seen this is tiny power loss compared to power gained. 
+As can be seen this is tiny power loss compared to power gained. Yet real losses will be scaled by friction factor and L/D ratio which is quite small here due to a very small length of only 3cm compared with a diameter of 27 cm. It is expected that actual pipe losses will be smaller than the computed value.
 
-For a more detailed power output calculation frictional losses will have to be factored in (which can be minimised/eliminated by air bearings at the cost of some fluid power loss and increased dead volume ). Also necessary would be to model the heat transfer pumping losses. As each element in the stack will be seperately energised by hot gasses some power /volume losses are to be expected when hot gasses are moved through channels in the plate. How much would they be? A more detailed model can answer that question. 
+For a more detailed power output calculation frictional losses will have to be factored in (which can be minimised/eliminated by air bearings at the cost of some fluid power loss and increased dead volume ). Also necessary would be to model the heat transfer pumping losses. As each element in the stack will be seperately energised by hot gasses some power /volume losses are to be expected when hot gasses are moved through channels in the plate. How much would they be? A more detailed model can answer that question.
 
-Because the engine operates at a low pressure and temperature differential the losses would actually be minimised. The majority of losses will be thermal in nature as predicted by carnot and the CHP cycle recovers those losses. 
+Because the engine operates at a low pressure and temperature differential the losses would actually be minimised. The majority of losses will be thermal in nature as predicted by carnot and the CHP cycle recovers those losses.
 
 The AJ cycle engine is designed to operate with a low temperature differential, prioritizing fuel efficiency over raw power. Power output can be increased by raising the mass flow rate and engine RPM, allowing the engine to spin faster while maintaining high efficiency. Even with rpm adjustment, this comes with a tradeoff in physical size, as the engine is larger than comparable designs that use a dedicated compression process. The AJ cycle lacks a mechanical compression phase; instead, any compression results from hot gas buildup after the heat exchange (HX) and combustion.
 
