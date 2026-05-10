@@ -890,3 +890,11 @@ https://en.wikipedia.org/wiki/Darcy%E2%80%93Weisbach_equation
 
 https://en.wikipedia.org/wiki/Ergun_equation
 
+Akshat Jiwan Sharma
+
+Materials science/International relations/Partnerships
+
+Mobile/whatsapp:+919654119771
+
+email:getellobed@gmail.com
+
