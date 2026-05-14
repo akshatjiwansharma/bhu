@@ -1,0 +1,51 @@
+[2026-05-15 01:16:18]
+--- INITIAL STATE ---
+Mass (m1): 0.116400 kg | Pressure (P1): 91.44 kPa | Temp (T1): 372.00 K
+
+--- STEP 1: ISOCHORIC MASS ADDITION ---
+Mass Added (delta_m): 0.007897 kg
+New Total Mass (m2): 0.124297 kg
+Resulting Temp (T2): 381.45 K (Rose due to flow work)
+Stabilized Pressure: 101300.00 kPa
+
+--- STEP 2: ISOBARIC MASS REJECTION ---
+Mass Removed: 0.007897 kg (Equal to added mass)
+Final Volume (V2): 0.118400 m^3
+Required Final Temp (T3): 359.03 K
+Maintained Pressure (P3): 101.30 kPa (Target: 101.30 kPa)
+P1: 91438
+
+P3: 1.0130e+05
+
+P_target: 101300
+
+R: 287
+
+T1: 372
+
+T2: 381.45
+
+T3: 359.03
+
+T_in: 372
+
+V1: 0.1343
+
+V2: 0.1184
+
+delta_m: 7.8966e-03
+
+delta_m_removed: 7.8966e-03
+
+denominator: -3.2566e+04
+
+gamma: 1.4000
+
+m1: 0.1164
+
+m2: 0.1243
+
+m3: 0.1164
+
+numerator: -4970.9
+

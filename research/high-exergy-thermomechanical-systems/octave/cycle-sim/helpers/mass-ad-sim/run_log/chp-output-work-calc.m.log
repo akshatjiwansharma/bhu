@@ -1,0 +1,42 @@
+[2026-05-15 01:12:09]
+--- Thermodynamic Results ---
+Initial Pressure:      170226.00 Pa
+Isochoric Pressure Rise: 16192.81 Pa
+Final Pressure (P2):    186418.81 Pa
+System Mass:            0.1956 kg
+-----------------------------
+Work Done (Isochoric):  0.00 J
+Work Done (Adiabatic):  2970.03 J
+Total Work Done:        2970.03 J
+Pressure P3 is:1.5362e+05 P1: 170226
+
+P2: 1.8642e+05
+
+P3: 1.5362e+05
+
+R: 287.05
+
+T1: 359
+
+T2: 393.15
+
+T3: 372
+
+V1: 0.1184
+
+W12: 0
+
+W23: 2970.0
+
+cv: 718
+
+delta_P: 1.6193e+04
+
+delta_P_drop: 3.2803e+04
+
+gamma: 1.4000
+
+m: 0.1956
+
+total_work: 2970.0
+
