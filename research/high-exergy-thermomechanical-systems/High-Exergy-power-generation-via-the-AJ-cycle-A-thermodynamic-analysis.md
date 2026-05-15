@@ -676,7 +676,12 @@ t_plate: 1.0000e-04
 
 ```
 
-As noted in the run a 5mm thick stack can transfer upto 4MW of power even with an insulating material having a thermal conductivity as low as .2W/mK. But this is offset by the fact that a high velocity gas will spend a miniscule amount of time exchanging heat with the HX. For example, with a pore velocity of ~1.979m/s (Superficial velocity/porosity,1.1875m/s/.6) the gas spends only 2.5ms within this stack. That's an exchange of only ~10Kj of power per cycle (0.0025×4.14e6)
+As noted in the run a 9mm thick stack can transfer upto 4MW of power even with an insulating material having a thermal conductivity as low as .2W/mK. But this is offset by the fact that a high velocity gas will spend a miniscule amount of time exchanging heat with the HX. For example, with a pore velocity of ~1.979m/s (Superficial velocity/porosity,1.1875m/s/.6) the gas spends only 4.54ms within this stack. That's an exchange of only ~1.88e4Kj of per cycle (.009/1.979)*4.14e6. 
+
+[Yet this exchange ,as we will see later in the CHP cycle analysis, is far greater than the output produced by the engine. This implies that either the temp difference or the stack height can be decreased. Decreasing the stack height at a higher temp difference is the preferred way to build the HX because it minimises flow losses. It can be matched with the power carried by the fluid per second using the expression mDotCvDeltaT]
+
+[Another factor to keep in mind is the power transfer through the plate. A high temp difference enables more power to reach the HX,while the absolute heat (or energy Q) can be controlled by tuning the mass flow rate of hot gasses. ]
+
 
 The number of cycles per second this engine can produce is heavily limited by flow losses within the heat exchanger. They are modelled with Ergun equation 
 
@@ -832,6 +837,8 @@ Total output: 33540*3
 ```
 So the engine produces ~100Kw/m3
 
+[Compare this with the ~4MW of power transfer through HX we built. In a CHP cycle the HX only needs to ideally supply the work done + minimal losses during flow and conduction/convection]
+
 This is obviously way below any commercial engine. Excellent for stationary power generation or marine use but underpowered for Automotives/aircrafts. Why is this? Well the pressure rise ,as seen from summary above,is barely 10Kpa — infact a little less. In addition the engine has no compression cycle so it works at a low pressure diffrential needing a larger volume for the gas to expand.
 
 To be clear it can still work in both Automotives and aircrafts at lower speeds which cuts off drag and allows for a larger engine volume. Cutting speed by half allows 4 times greater engine volume. By a 3rd 9 times more.
@@ -918,6 +925,9 @@ Total output:
 ```
 
 So with the above numbers the output jumped by ~214 %. 
+
+[Even at this increased output our HX is still way over capacitated. We added more dead volume but this is mostly a safety margin not necessarily engine requirement. Engg will determine if it's actually required]
+
 
 
 So with the above numbers the output jumped by ~214 %. Let's us look at our mass balancing log output to see whether we can actually maintain this high pressure as the gas moves from expansion space to heater space. 
