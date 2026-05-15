@@ -453,6 +453,19 @@ mass_loss: 0.021132
 
 As the run clearly shows the current mass and final mass are accurate to 5 decimal places. This is a high fidelity mass transfer process.
 
+This demonstration of mass balancing is modelled in an idealized isochoric,isobaric flow at a constant temp. But a more accurate model considers mass flow at an input temperature & uses the first law of thermodynamics to calculate mass addition and temp change. Given below is the more accurate mass balancing model
+
+![image](https://raw.githubusercontent.com/akshatjiwansharma/bhu/refs/heads/master/research/high-exergy-thermomechanical-systems/latex/rendered/cycle/mass-ad-rendered/isochoric-mass-ad.png)
+
+We start by relating m2 to the gas pressures before and after mass addition in the isochoric flow. The expression for T2 is derived from the first law by balancing isochoric heat inside the cylinder with enthalpy of incoming mass at temp Tin and solving for T2. Then delta m is substituted and ideal gas relations are used to obtain a final expression for m2.
+
+Isobaric processes follow isochoric mass addition and we will need both rejection of mass and drop in temp to stabilize the system at our given pressure. Here's the expression. 
+
+
+![image](https://raw.githubusercontent.com/akshatjiwansharma/bhu/refs/heads/master/research/high-exergy-thermomechanical-systems/latex/rendered/cycle/mass-ad-rendered/isobaric-mass-ad.png)
+
+
+
 [From the POV of engineering this mass flow is maintained via valves that dynamically open and close based on pressure values in either cylinder]
 
 To recap this dynamic isochoric — isobaric process works as follows: The exhaust process starts before the piston stroke is complete. The combined pipe volume and the remainder of engine volume ensures that the gas exhaust is happening at a constant volume. Any pressure decrease below atmospheric pressure is balanced by mass injection from a control volume that allows the isobaric return stroke to take place. Since the engine is not compressing the gas this additional mass is returned during the isobaric step and the engine resets to its position. The AJ cycle has no compression step.
@@ -547,6 +560,67 @@ P2=P1 *(T2/T1)
 For a small temperature-change ratio the pressure rise is small and consequently the work that can be extracted per cycle is small. But as we saw in the eff calculation above for a high efficiency system we want minimal temp changes between isobaric and isochoric heat addition cycles because that allows us to lower our fuel consumption. So this is a design constraint that engineers will face. Design a highly efficient low /moderate power density system. Or a less efficient but high power density system. The high efficiency system even at moderate power has one redeeming advantage. By cutting max speed in half you can have 4x as big an engine for exactly the same drag penalty. This makes it an attractive choice for engines in marine,automotive and aviation.
 
 In fixed usage the choice is even more easy. You just go for the highest eff possible space needs can be covered by vertical expansion.
+
+Finally let us look at the log for mass balancing in this CHP cycle
+
+```
+
+--- INITIAL STATE ---
+Mass (m1): 0.116400 kg | Pressure (P1): 91.44 kPa | Temp (T1): 372.00 K
+
+--- STEP 1: ISOCHORIC MASS ADDITION ---
+Mass Added (delta_m): 0.007897 kg
+New Total Mass (m2): 0.124297 kg
+Resulting Temp (T2): 381.45 K (Rose due to flow work)
+Stabilized Pressure: 101300.00 kPa
+
+--- STEP 2: ISOBARIC MASS REJECTION ---
+Mass Removed: 0.007897 kg (Equal to added mass)
+Final Volume (V2): 0.118400 m^3
+Required Final Temp (T3): 359.03 K
+Maintained Pressure (P3): 101.30 kPa (Target: 101.30 kPa)
+
+P1: 91438
+
+P3: 1.0130e+05
+
+P_target: 101300
+
+R: 287
+
+T1: 372
+
+T2: 381.45
+
+T3: 359.03
+
+T_in: 372
+
+V1: 0.1343
+
+V2: 0.1184
+
+delta_m: 7.8966e-03
+
+delta_m_removed: 7.8966e-03
+
+denominator: -3.2566e+04
+
+gamma: 1.4000
+
+m1: 0.1164
+
+m2: 0.1243
+
+m3: 0.1164
+
+numerator: -4970.9
+
+
+
+```
+
+As we can see from this log after adiabatic expansion our pressure dropped to 91.44 kpa and to stabalise it back at atmospheric we added 0.007897 kg (7 grams) of additional mass. Which was rejected after isobaric process as gas shifted to a lower volume from the expansion space to the heater space.
 
 
 HX. SIMULATION
@@ -843,7 +917,75 @@ Total output:
 
 ```
 
-So with the above numbers the output jumped by ~214 %. Within material limits the starting pressure could be increased upto 1Mpa quite comfortably and this could push the engine to a megawatt/m3 range. Of course pipe flow losses will be higher but again those would be too small to make a difference because of small pipe length. Here's an estimate of pipe losses at 2 different delta P
+So with the above numbers the output jumped by ~214 %. 
+
+
+So with the above numbers the output jumped by ~214 %. Let's us look at our mass balancing log output to see whether we can actually maintain this high pressure as the gas moves from expansion space to heater space. 
+
+```
+
+--- INITIAL STATE ---
+Mass (m1): 0.193284 kg | Pressure (P1): 153.62 kPa | Temp (T1): 372.00 K
+
+--- STEP 1: ISOCHORIC MASS ADDITION ---
+Mass Added (delta_m): 0.014919 kg
+New Total Mass (m2): 0.208203 kg
+Resulting Temp (T2): 382.66 K (Rose due to flow work)
+Stabilized Pressure: 170220.00 kPa
+
+--- STEP 2: ISOBARIC MASS REJECTION ---
+Mass Removed: 0.014919 kg (Equal to added mass)
+Final Volume (V2): 0.118400 m^3
+Required Final Temp (T3): 363.32 K
+Maintained Pressure (P3): 170.22 kPa (Target: 170.22 kPa)
+P1: 153620
+
+P3: 1.7022e+05
+
+P_target: 170220
+
+R: 287
+
+T1: 372
+
+T2: 382.66
+
+T3: 363.32
+
+T_in: 372
+
+V1: 0.1343
+
+V2: 0.1184
+
+delta_m: 0.014919
+
+delta_m_removed: 0.014919
+
+denominator: -3.1169e+04
+
+gamma: 1.4000
+
+m1: 0.1933
+
+m2: 0.2082
+
+m3: 0.1933
+
+numerator: -8254.3
+
+
+
+
+```
+
+As we can see after adiabatic expansion our pressure dropped to 153.62 kPa we needed to add 0.014919 kg(14 gram) of mass to stabalise our pressure which was rejected when gas moved from expansion space to heating space bringing the system back to its original state and closing the cycle. This simulation could be repeated with different starting pressures and while the mass to be added may change the outcome will remain the same. 
+
+The mass balancing approach gives us a way to utilise precompressed gas in the engine and increase its power density which is immensely valuable for AJ cycle because it lacks a dedicated compression step. 
+
+
+
+Within material limits the starting pressure could be increased upto 1Mpa quite comfortably and this could push the engine to a megawatt/m3 range. Of course pipe flow losses will be higher but again those would be too small to make a difference because of small pipe length. Here's an estimate of pipe losses at 2 different delta P
 
 ```
 
