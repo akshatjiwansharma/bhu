@@ -804,40 +804,62 @@ A proper modelling would require building an entire simulation against the expec
 So let's start with figuring out the output produced by a single cylinder based on previously described chp model. Looking at the log we get
 
 ```
-
 Work: 1767.87 J
 
 Final Volume: 
 
-(1767.87/9638.58)+(.1184)           
-~0.3018m3
+(1767.87/9638.58)+(.1184)                  ~0.3018m3
 
-DeltaV: 
-.3018-.1184
-        
-0.1834
+DeltaV: .3018-.1184
+        0.1834
 
-Clearance+dead-volume:
-.03
+Clearance+dead-volume:.03
+
 Rps:20
-Fluid losses: 
-(937*2*1.16)/(1.2*20)                      
-~90.576J
-Net Work: 1677J
-Total work per second: 
-1677*20                                   
-~33540W
-Number of cylinders/m3: 
-1/(.3018+.03)                              
-~3.013(Let's use 3)
 
-Total output: 33540*3                                    
-100620W
+Fluid losses: (304*6.02)/20
+
+~92.54
+
+Net Work: 1675J
+
+Total work per second: 
+1675*20                                   
+~33500W
+Number of cylinders/m3:
+
+1/(.3018+.03)                              ~3.013(Let's use 3)
+
+Total output: 33500*3                                   
+100500W
 
 ```
-So the engine produces ~100Kw/m3
+So the engine could produce ~100Kw/m3
 
-[Compare this with the ~4MW of power transfer through HX we built. In a CHP cycle the HX only needs to ideally supply the work done + minimal losses during flow and conduction/convection]
+[A little explanation is needed regarding fluid loss calculation in the regen. We calculated the flow velocity based on the RPS. Since the engine runs at 20 rps the gas must evacuate expansion space and be pumped into heater space within 1/20 sec we chose .04 sec leading to a volumetric flow rate of ~3m3/sec Q=.116/.04]
+
+Let us also look at fluid losses
+
+```
+Reynolds Number: 990017
+A: 0.057227 m2
+Q: 3 m3/s
+velocity  :53 m/s
+Friction factor f = 0.0161
+D: 0.2760
+Pressure Drop: 30.78 Pa
+Power lost: 30.78*3
+
+92.34 J
+
+
+```
+Only 92 J lost in the pipe. Which is very small compared to power output
+
+
+[Compare this with the ~4MW of power transfer through HX we built. In a CHP cycle the HX only needs to ideally supply the work done + minimal losses during flow and conduction/convection. Even reducing the stack height to 2.4mm gave an output of 1MW leaving plenty of room for adjustment if needed]
+
+
 
 This is obviously way below any commercial engine. Excellent for stationary power generation or marine use but underpowered for Automotives/aircrafts. Why is this? Well the pressure rise ,as seen from summary above,is barely 10Kpa — infact a little less. In addition the engine has no compression cycle so it works at a low pressure diffrential needing a larger volume for the gas to expand.
 
@@ -866,7 +888,7 @@ Increased pressure increases n which increases both m and rho. Volumetric flow r
 
 But it will have an effect on the energy required to pipe the mass from expansion space back into heater space. Though since pipe length is small it's a very small rise.
 
-With that understanding let's us model the system.
+With that understanding let's model the system.
 
 ```
 
@@ -891,9 +913,9 @@ Clearance+dead-volume:
 
 Rps:20
 
-Fluid losses: (937*2*1.16)/(1.2*20)
 
- ~90.576J
+Fluid losses: (303*6.02)/20                
+~91.203
 
 (3x this to account for increased regen height)
 
@@ -993,6 +1015,7 @@ As we can see after adiabatic expansion our pressure dropped to 153.62 kPa we ne
 
 The mass balancing approach gives us a way to utilise precompressed gas in the engine and increase its power density which is immensely valuable for AJ cycle because it lacks a dedicated compression step. 
 
+[At ~ 3MW of HX our system is at least 3x overbuilt than what we really need. This makes it safe from an engineering point of view]
 
 
 Within material limits the starting pressure could be increased upto 1Mpa quite comfortably and this could push the engine to a megawatt/m3 range. Of course pipe flow losses will be higher but again those would be too small to make a difference because of small pipe length. Here's an estimate of pipe losses at 2 different delta P
