@@ -561,25 +561,25 @@ For a small temperature-change ratio the pressure rise is small and consequently
 
 In fixed usage the choice is even more easy. You just go for the highest eff possible space needs can be covered by vertical expansion.
 
-Finally let us look at the log for mass balancing in this CHP cycle
+Finally let us look at the log for mass balancing in this CHP cycle 
 
 ```
 
+[2026-05-18 11:29:17]
 --- INITIAL STATE ---
 Mass (m1): 0.116400 kg | Pressure (P1): 91.44 kPa | Temp (T1): 372.00 K
 
 --- STEP 1: ISOCHORIC MASS ADDITION ---
-Mass Added (delta_m): 0.007897 kg
-New Total Mass (m2): 0.124297 kg
-Resulting Temp (T2): 381.45 K (Rose due to flow work)
+Mass Added (delta_m): 0.120854 kg
+New Total Mass (m2): 0.237254 kg
+Resulting Temp (T2): 447.80 K (Rose due to flow work)
 Stabilized Pressure: 101300.00 kPa
 
 --- STEP 2: ISOBARIC MASS REJECTION ---
-Mass Removed: 0.007897 kg (Equal to added mass)
+Mass Removed: 0.120854 kg (Equal to added mass)
 Final Volume (V2): 0.118400 m^3
 Required Final Temp (T3): 359.03 K
 Maintained Pressure (P3): 101.30 kPa (Target: 101.30 kPa)
-
 P1: 91438
 
 P3: 1.0130e+05
@@ -590,38 +590,37 @@ R: 287
 
 T1: 372
 
-T2: 381.45
+T2: 447.80
 
 T3: 359.03
 
 T_in: 372
 
-V1: 0.1343
+V1: 0.3010
 
 V2: 0.1184
 
-delta_m: 7.8966e-03
+delta_m: 0.1209
 
-delta_m_removed: 7.8966e-03
+delta_m_removed: 0.1209
 
-denominator: -3.2566e+04
+denominator: 1.1248e+05
 
 gamma: 1.4000
 
 m1: 0.1164
 
-m2: 0.1243
+m2: 0.2373
 
 m3: 0.1164
 
 numerator: -4970.9
 
+````
 
+As we can see from this log after adiabatic expansion our pressure dropped to 91.44 kpa and to stabilize it back at atmospheric we added 0.120 kg (120 grams) of additional mass. Which was rejected after an isobaric process as gas shifted to a lower volume from the expansion space to the heater space. 
 
-```
-
-As we can see from this log after adiabatic expansion our pressure dropped to 91.44 kpa and to stabalise it back at atmospheric we added 0.007897 kg (7 grams) of additional mass. Which was rejected after isobaric process as gas shifted to a lower volume from the expansion space to the heater space.
-
+[Important to note that in an atmospheric pressure cycle the mass added is nearly equal to the cylinder engine mass. Nearly doubling the volume required. This is going to have severe consequences for power density leaving high rps as the only alternative to generate reasonable power]
 
 HX. SIMULATION
 
@@ -803,59 +802,57 @@ A proper modelling would require building an entire simulation against the expec
 
 So let's start with figuring out the output produced by a single cylinder based on previously described chp model. Looking at the log we get
 
+
 ```
 Work: 1767.87 J
-
-Final Volume: 
-
-(1767.87/9638.58)+(.1184)                  ~0.3018m3
-
+Final Volume: (1767.87/9638.58)+(.1184)                  ~0.3018m3
 DeltaV: .3018-.1184
         0.1834
-
 Clearance+dead-volume:.03
+Rps:30
+Fluid losses: 572*4.64/30                
 
-Rps:20
+~88
+                       
+Net Work: 1673J
+Total work per second:
+1675*30                                  
+~50190W
 
-Fluid losses: (304*6.02)/20
+Number of cylinders/m3: 
+1/(.3+.13+.03)                             
 
-~92.54
+~2.17 (let's use 2)                        
 
-Net Work: 1675J
-
-Total work per second: 
-1675*20                                   
-~33500W
-Number of cylinders/m3:
-
-1/(.3018+.03)                              ~3.013(Let's use 3)
-
-Total output: 33500*3                                   
-100500W
-
-```
-So the engine could produce ~100Kw/m3
-
-[A little explanation is needed regarding fluid loss calculation in the regen. We calculated the flow velocity based on the RPS. Since the engine runs at 20 rps the gas must evacuate expansion space and be pumped into heater space within 1/20 sec we chose .04 sec leading to a volumetric flow rate of ~3m3/sec Q=.116/.04]
-
-Let us also look at fluid losses
+Total output: 50190*2               
+100380W
 
 ```
-Reynolds Number: 990017
-A: 0.057227 m2
-Q: 3 m3/s
-velocity  :53 m/s
-Friction factor f = 0.0161
-D: 0.2760
-Pressure Drop: 30.78 Pa
-Power lost: 30.78*3
+So the engine could produce ~100Kw/m3 
 
-92.34 J
+[A little explanation is needed regarding fluid loss calculation in the regen. We calculated the flow velocity based on the RPS. Since the engine runs at 30 rps the gas must evacuate expansion space and be pumped into heater space within 1/30 sec we chose .025 sec leading to a volumetric flow rate of ~4.64m3/sec Q=.116/.025]
+
+
+
+Let us also look at fluid losses 
+
+```
+
+Reynolds Number: 1393522
+A: 0.066018 m2
+Q: 4.64 m3/s
+velocity :70.28 m/s
+Friction factor f = 0.0158
+D: 0.29
+Pressure Drop: 50.79 Pa
+Power lost: 51*3                                   
+
+153 W
 
 
 ```
-Only 92 J lost in the pipe. Which is very small compared to power output
 
+Only 153 W lost in the pipe. Which is very small compared to power output
 
 [Compare this with the ~4MW of power transfer through HX we built. In a CHP cycle the HX only needs to ideally supply the work done + minimal losses during flow and conduction/convection. Even reducing the stack height to 2.4mm gave an output of 1MW leaving plenty of room for adjustment if needed]
 
@@ -1022,31 +1019,33 @@ Within material limits the starting pressure could be increased upto 1Mpa quite 
 
 ```
 
+
 Superficial Velocity = 265.392781 m/s
-A: 0.011304 m2
-Reynolds Number: 2160331
-D: 0.1200 m
+A: 0.011304 m2 
+Reynolds Number: 3629357
+D: 0.1200 m                   
 Q: 3m3/s
-friction factor, f = 0.0159
+friction factor, f = 0.0189
 
-For 70Kpa compression above atmospheric
+For 70Kpa compression above atmospheric 
 
-Pressure Drop: 385.88 Pa
+Pressure Drop: 459.88 Pa                             
 
 
-Power loss with flow rate of 3m3/s
+Power loss with flow rate of 3m3/s 
 
-386*3
-
-1158 W
+460*3       
+                          
+1380 W
 
 Delta P for density at 1MPa
 
-2223.42
+2642.93
 
-Power loss, with flow rate of 3m3/s
+Power loss, with flow rate of 3m3/s 
 
-6672 watt
+7929 watt
+
 
 ````
 
