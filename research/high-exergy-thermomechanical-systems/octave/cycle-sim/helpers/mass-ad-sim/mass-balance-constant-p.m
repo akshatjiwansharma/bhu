@@ -8,7 +8,7 @@ R = 287;              % Specific gas constant for air [J/kg*K]
 % Initial State (Post-Adiabatic Expansion)
 P1 = 9.1438e+04;           % Pressure [Pa] (e.g., 1.5 bar)
 T1 = 372;             % Temperature [K]
-V1 = 0.13433;           % Volume [m^3] (1 Litre)
+V1 = 0.174;           % Volume [m^3] (1 Litre)
 m1 = .1164; % Initial mass [kg]
 
 % Target Constraints

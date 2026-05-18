@@ -1022,32 +1022,38 @@ Within material limits the starting pressure could be increased upto 1Mpa quite 
 
 ```
 
-Delta p for density at 70KPa , a pipe length of 3 cm , diameter of 24cm and flow velocity of 43m/sec
+Superficial Velocity = 265.392781 m/s
+A: 0.011304 m2
+Reynolds Number: 2160331
+D: 0.1200 m
+Q: 3m3/s
+friction factor, f = 0.0159
+
+For 70Kpa compression above atmospheric
+
+Pressure Drop: 385.88 Pa
 
 
-.5*1.68*1.2*(43^2)
-1863.792
+Power loss with flow rate of 3m3/s
 
-Power loss with flow rate of 1.9m3/s
+386*3
 
-1863.792*1.93
+1158 W
 
-3597.11856 W
+Delta P for density at 1MPa
 
-Delta P for density at 1MPa with pipe length of 3cm , diameter of 24cm, flow velocity of 43m/sec
+2223.42
 
-.5*9.87*1.2*(43^2)
-10949.778 Pa
+Power loss, with flow rate of 3m3/s
+
+6672 watt
+
+````
 
 
-Power loss, with flow rate of 1.9m3/s
 
-10949.778*1.93
- 21133.07154 W
+As can be seen this is tiny power loss compared to power gained.
 
-```
-
-As can be seen this is tiny power loss compared to power gained. Yet real losses will be scaled by friction factor and L/D ratio which is quite small here due to a very small length of only 3cm compared with a diameter of 27 cm. It is expected that actual pipe losses will be smaller than the computed value.
 
 For a more detailed power output calculation frictional losses will have to be factored in (which can be minimised/eliminated by air bearings at the cost of some fluid power loss and increased dead volume ). Also necessary would be to model the heat transfer pumping losses. As each element in the stack will be seperately energised by hot gasses some power /volume losses are to be expected when hot gasses are moved through channels in the plate. How much would they be? A more detailed model can answer that question.
 
