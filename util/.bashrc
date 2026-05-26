@@ -7,6 +7,17 @@ source ~/bashfiles/.aliasrc;
 source ~/bashfiles/.dirsrc;
 source ~/bashfiles/.searchrc;
 
+remf() {
+  mkdir -p ./rbin
+  mv -- "$1" ./rbin/
+}
+
+remd() {
+  mkdir -p ./rbin
+  mv -- "$1" ./rbin/
+}
+
+
 mdimage() {
   local url="$1"
   local alt="${2:-image}"
