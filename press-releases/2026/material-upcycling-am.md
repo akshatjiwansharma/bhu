@@ -6,12 +6,12 @@ I thank ASM sustainable manufacturing committee for organising a highly informat
 
 As it stands AM is far more material efficient than traditional manufacturing processes— producing less waste than subtractive manufacturing techniques (milling/turning/drilling/grinding). 
 
-Yet feedstock cost used in AM remains an energy intensive process. Typical powderisation techniques using gas or water atomisation consume much energy as do wire extrusion processes. 
+Yet feedstock cost in AM remains high due to energy intensive processes used in its manufacturing. Typical powderisation techniques using gas or water atomisation consume much energy as do wire extrusion processes. 
 
 The desire to cut down the input energy serves as a powerful motivator to develop processes that can lower the cost and make AM more sustainable. 
 
 Traditional melt processing technologies for making powder or wire help with the reusability of waste streams and reduce energy input because compared to fresh feedstock there is no need for crushing ,chemical treatment,reduction etc. 
-Yet dramatic improvements in energy input come from new processes like additive friction stir deposition and friction based extrusion. By finely controlling the tribology of the substrate and material to be deposited a part can be built layer by layer. Friction heats it up,softens it which causes deposition and bonding. 
+Yet dramatic savings in energy come from new processes like additive friction stir deposition and friction based extrusion. By finely controlling the tribology of the substrate and material to be deposited a part can be built layer by layer. Friction heats it up,softens it which causes deposition and bonding. 
 
 The same frictional processes are used to heat up pellets and scraps and then extrude them into wire. These friction assisted methods lead to massive energy savings because now there is no need to pay the price of phase change. It's an entirely solid state process. 
 
