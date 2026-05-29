@@ -82,7 +82,7 @@ At this point it might be important to address a larger issue. I have spoken abo
 
 It's not just India by the way. The world bank ,IMF and IAEA, these so-called institutions that are supposed to represent the best minds ,the most capable economists and policy makers, had pretty much taken a stand against nuclear technology, possibly setting back climate goals by decades. This lost time is never coming back again. 
 
-And what's really interesting is that Annalena Baerbock ,President of the United Nations General Assembly is anti-nuclear tech. First of all no developed country would want nuclear technology that has the potential to be weaponised, in hands or any other nation and second why would they want developing nations Africa, a key exporter of nuclear fuel to build their own reactors and jeopardize their future energy security?  
+And what's really interesting is that Annalena Baerbock ,President of the United Nations General Assembly is anti-nuclear tech. First of all no developed country would want nuclear technology that has the potential to be weaponised, in hands of any other nation and second why would they want developing nations in  Africa, a key exporter of nuclear fuel to build their own reactors and jeopardize their future energy security?  
 
 Consider: Many of the developed nations deny nuclear technology based on security issues. But on what grounds do they deny tech to build solar cells , panels ,turbines,generators and magnets? What destruction could they bring upon the world?  
 
