@@ -29,11 +29,11 @@ Bamboo or any other lignocellulose material provides strong fibers but what's mi
 
 Another problem is treatment costs to prevent microbial attack. These can make construction more complex operationally. Development of effective green hydrophobic coatings are going to help a lot here. Polycyclic aromatic hydrocarbons offer a solution and what's more they can be created using bio based precursors which open up an avenue for research. 
 
-Effective adhesives can already create panels but to replace plastic, cellulose materials will have to overcome another hurdle which is compatible with molding techniques. 
+Effective adhesives can already create panels but to replace plastic, cellulose materials will have to overcome another hurdle which is compatibility with molding techniques. 
 
 Nanocellulose production will always be a bit pricey yet if it's used strategically with cheaper bulk cellulose fibers (i.e as a matrix) it's possible to mold cellulose fibers. 
 
-It wasn't that long ago that wooden ships sailed the high seas. Today steel dominates the ship building industry. Synthetic fibers have shown that it is possible to build structural components of vessels, nanocelluse reinforced lignocellulose fibers could prove to be a good substitute to conventional GFRPs. 
+It wasn't that long ago that wooden ships sailed the high seas. Today steel dominates the ship building industry. Synthetic fibers have shown that it is possible to build structural components of vessels and nanocellulose reinforced lignocellulose fibers could prove to be a good substitute to conventional GFRPs. 
 Wood is often viewed as a hard to work material due to its anisotropic nature, moisture sensitivity and yet wood has been used in mission critical applications like legendary De Havilland planes in WW2. 
 
 Engineered wood offers far greater applications. Recently japan even deployed a satellite made of lignocellulose. 
