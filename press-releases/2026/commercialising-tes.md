@@ -2,7 +2,7 @@
 
 7 Jul 2026 
 
-I thank the Renewable Thermal  corporation (RTC) for organising a webinar highlighting some of the recent achievements of thermal energy storage technologies. Conceptually thermal-energy storage is quite simple. You heat up a material and it stores energy either in the form of sensible heat, latent heat (phase change) or thermochemically. 
+I thank the Renewable Thermal Collaborative (RTC) for organising a webinar highlighting some of the recent achievements of thermal energy storage technologies. Conceptually thermal-energy storage is quite simple. You heat up a material and it stores energy either in the form of sensible heat, latent heat (phase change) or thermochemically. 
 
 At medium grade, with temperatures  of up to 400C, these systems are hard to beat as they can provide industrially useful heat. This stored heat is highly valuable in food processing and bio refining industries because process temperatures rarely exceed 200C. Besides food processing there are several other industries that can use medium grade heat for drying and preheating. 
 
