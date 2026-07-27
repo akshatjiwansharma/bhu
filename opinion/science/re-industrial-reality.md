@@ -42,7 +42,7 @@ The United Nations ,IRENA are diplomatic forums and while they do have capable p
 
 Institutionally there are other challenges.  President Annalena Baerbock departs the UN soon as does SG Guterres. President Annalena has been one of the fiercest voices of sustainability and General Guterres and ensured that equity and justice remain cornerstones of every political decision that the UN makes. Soon there will be new leaders and they will inherit institutions that have now been infected with profiteering lobbyists groups. They'll need supreme strength to turn around the UN. The world can't depend upon such a leadership. 
 
-Pragmatic choices need to be made now. It is therefore essential to build organisations that can work on a local level with informal international partnerships enabling a decentralised ,distributed execution ,capability building and lay down the seeds for a sustainable industrial revolution that will be necessary to achieve our objectives.  
+Pragmatic choices need to be made now. It is therefore essential to build organisations that can work on a local level with informal international partnerships enabling decentralised ,distributed execution & capability building to lay down the seeds for a sustainable industrial revolution that will be necessary to achieve our objectives.  
 
 On a personal note this has been another fruitful discussion, one of many this year that started with Bharat climate forum in January followed by Delhi climate week, numerous engagements with society for automotive engineers and African solar alliance. I look forward to continuing this dialogue with leaders from industry ,academia and government institutions.
 
