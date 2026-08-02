@@ -1,4 +1,4 @@
-Thoughts in the upcoming India Display Conference 2026 
+Thoughts on the upcoming India Display Conference 2026 
 
 Last September at the Display Conference I had the good fortune to learn about polariser films used in LCD TVs from Mr Vasu Kulkarni. These films provide the critical function of blocking or allowing light from a pixel leading to the formation of images on the display screen. 
 
