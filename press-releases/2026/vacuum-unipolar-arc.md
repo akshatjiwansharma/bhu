@@ -1,7 +1,7 @@
 # A talk on travelling double layer in unipolar vacuum arcs by Dr André Anders
 
 
-Last month,July 22,  I attended a conference by Dr André Anders on the physics of vacuum arcs[1] organised by the American institute of physics. VA are fascinating because of the complex phenomenon that leads to the ignition of plasma in vacuum. 
+Last month,July 22, I attended Dr André Anders' conference on the physics of vacuum arcs[1] organised by the American institute of physics. VA are fascinating because of the complex phenomenon that leads to the ignition of plasma in vacuum. 
 
 Starting as an initial field emission the current through metallic imperfections increases with voltage leading to rapid resistive heating which causes evaporation of tiny sections of metal in the vicinity. The high energy electrons ionise these vapors leading to formation of plasma between electrodes and establishment of a vacuum arc. 
 
