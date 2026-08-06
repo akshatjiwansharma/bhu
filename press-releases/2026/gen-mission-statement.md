@@ -1,5 +1,7 @@
 # My statement on the inaugural genesis mission annual summit 
 
+
+
 Over the last couple of months I've invested a healthy amount of time in engaging with US representatives working at the intersection of academia,industry and policy. Earlier in May the US Dept of commerce organised a “Select USA campaign” that was meant to position the USA as the leading destination for investment and I had an opportunity to connect with several Foreign service officers in Delhi promoting USA to Indian entrepreneurs. Before that, last year in December, I met online with researchers at Princeton Plasma Physics Laboratory to understand how they are using AI to accelerate fusion research.  My engagement continued with several non profit organisations like American society of Metals ,Society for automotive engineers and American institute of physics —plasma division and it enabled me to get the big picture view of the US research landscape. Which is why I was really excited to attend the inaugural genesis mission summit held last week to see what announcements would be made. 
 
 
@@ -29,14 +31,14 @@ Every invention can be traced back to a handful of people who were willing to be
 
 I have said this before and the time that has elapsed since then has only made me more confident that intelligence is largely overrated. Inspiring moments and intuition do open up new sources of knowledge to us but every time we acquire new information it fits naturally with truths that were established previously. Through action we refine our understanding and build new tools,give structure to new ideas that continue to enrich our lives. If AI ever reaches the point where it starts to make discoveries it would look very human-like. What might change is that you could have machines using electrical energy instead of food to give rise to that discovery but it would cost just about the same in terms of energy. 
 
-On the materials side AI promises to help discover new materials and new processes. Which could be useful but I'd be really cautious in estimating its overall impact. Abundance of materials have an overwhelming impact on the technologies that develop around it. Higher strength and toughness could be reached with exotic alloys systems but they would have to compete with moderate strength but vastly more abundant systems. 
+On the materials side AI promises to help discover new materials and new processes. Which could be useful but I'd be really cautious in estimating its overall impact. Abundance of materials have a greater say on the technologies that develop around it. Higher strength and toughness could be reached with exotic alloys systems but they would have to compete with moderate strength but vastly more abundant systems. 
 
-Advanced manufacturing too is very limited. As an example compare the promises of additive manufacture the hyperbole around it that promised to revolutionize manufacturing to what it has actually delivered. 
+Advanced manufacturing too is very limited in what it can achieve. As an example compare the promises of additive manufacturing ,the hyperbole around it that promised to revolutionize manufacturing, to what it has actually delivered. 
 
 
 This is the crux of the debate. Concentrated high power vs diffused low power. The industry as it currently stands is built upon centralised systems. Power generated at one spot and then distributed. Servers at one location sending information to billions of people. One steel plant producing material for the entire state. However it is also possible to distribute both energy and materials production, this would make the overall system more robust though it would require new techniques. 
 
-It is also what the genesis mission is doing with its super-computer strategy. It's creating massive compute power to simulate complex physical problems. This means smaller transistors on the device level and more power hungry servers on the system level. But if we look at the computing history every new invention promised scientific breakthroughs. Vacuum tubes did that,transistors did that,big data and cloud computing did that and now AI is doing that. Did it lead to a breakthrough? I don't know because we are still struggling to solve equations like Navier stokes built over a century ago. Maybe a server farm could do that but how would engineers benefit from it? Would they be expected to run off to a supercomputer to determine the outcomes of every small change? Paradoxically, experiments are cheaper and faster!
+Centralisation is also what the genesis mission is doing with its super-computer strategy. It's creating massive compute power to simulate complex physical problems. This means smaller transistors on the device level and more power hungry servers on the system level. But if we look at the computing history every new invention promised scientific breakthroughs. Vacuum tubes did that,transistors did that,big data and cloud computing did that and now AI is doing that. Did it lead to a breakthrough? I don't know because we are still struggling to solve equations like Navier stokes built over a century ago. Maybe a server farm could do that but how would engineers benefit from it? Would they be expected to run off to a supercomputer to determine the outcomes of every small change? Paradoxically, experiments are cheaper and faster!
 
 In science, materials changes are actual real computation. The materials under experiment are  physically computing , or perhaps we should say changing their state, according to the laws that govern their behaviour. When you heat a slab of metal heat transfer occurs according to the heat equation. This is determinable via sensors. What goes on inside the metal, the response of the electrons and crystal lattices is real computation. It's the same in all scientific fields,chemistry,biology doesn't matter what field you choose. Material response is a common underlying theme that manifests change that is observed and controlled. Simulation can predict this because real computation is happening at the material level. 
 
@@ -51,6 +53,5 @@ The fact that AI has been useful in learning is really more of a critique on how
 Geopolitics is definitely an angle here as is nearly every new technology these days. AI is now a ‘national security’ issue as well. Geopolitically speaking there is no way that any nation can catch up or level with those who have built this tech. The only way to achieve parity is to make it irrelevant. But that's easier said than done. 
 
  
-
 
 
