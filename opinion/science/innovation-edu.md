@@ -24,7 +24,7 @@ There is a huge power imbalance right here. Corporations dictate through their e
 
 This is different from disruptive innovation that creates entirely new markets and requires a certain amount of healthy disdain and a lot of self belief. 
 
-In the research and scientific fields too there have been people who have voiced similar sentiment. The one that I can remember is Nobel Prize winning German American scientist Herbet Kromer who famously remarked that discovery does not happen by deciding what to discover and then going after it. [3]
+In the research and scientific fields too there have been people who have voiced similar sentiment. The one that I can remember is Nobel Prize winning German American scientist Herbert Kroemer who famously remarked that discovery does not happen by deciding what to discover and then going after it. [3]
 
 In fact this spirit of innovation of learning how to think for yourself and following your natural curiosity can be attributed to the great American scholar Ralph Waldo Emerson who unleashed American creativity in his now famous call to American people to no longer look to the EU for inspiration but find it within themselves. It is no coincidence that the USA has produced the greatest innovations known in modern history. [4]
 
