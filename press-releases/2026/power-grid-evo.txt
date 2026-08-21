@@ -1,0 +1,32 @@
+Power grid evolution in the AI age
+
+Power transmission plays a defining role in the energy security of a region but because the industry is more operationally intensive it rarely makes headlines, often working silently in the background to ensure critical services are kept running at all times. 
+
+
+Fluctuations in demand directly affects the rotation of generators leading to more or less watts on the line as required. Power systems engineering controls that. 
+
+Behind the scenes there is a complex system of tools from transformers and switchgears to HVDC converters and actual power lines to make this transmisson happen. 
+
+These tools require highly standardized conductors and insulators to operate and their manufacturing is specialised.
+
+ 
+At events in New Delhi I was fortunate enough to connect with engineers who specialise at component level engineering whether its automated systems that close the power line on towers ,the so called isolators, to manufacturing of electrical grade insulators where a shift is underway to silicone rubber from ceramics right at this moment. 
+
+This week I got a chance to participate in Advanced Grid institutes event on intelligent grids at the Washington State University. Because the business of power transmission is highly automated already using AI to help in decision making process is an attractive prospect. Grid operations could become more complex as distributed renewable energy connects to the mainline and its output can not be tightly controlled, but rather depends upon climactic conditions. 
+
+There is also a deeper reason one which I have alluded to in the past. AI has become a vehicle for new investment. Seattle may have issued a moratorium on new AI data centers for political reasons but Washington State would not want to be left behind in this gold rush. Perhaps AI could help but how much is not really clear. This event definitely seems to suggest that AI and grids could work together possibly opening up channels for investment. 
+
+Interestingly AI companies themselves are moving towards onsite generation to meet their high power demands. Grid mangement becomes much simpler in decentralised operations as decisions don't cascade. 
+
+Existing grid infrastructure has been built over several decades. It can't be modified or taken down so it must be managed. But for new deployments more careful planning needs to be done as storage systems  become an important part of the grid for renewable power. Long duration energy storage especially chemicals like H2 and NH3 might gain success that could mean building a different type of grid based on pipes and cylinders instead of wires and transformers. 
+
+Electricity is important. But how important? Washington State produces excess electrical energy but most of the equipment that it needs to manage that power is not manufactured within the state. So it's not truly energy independent despite what numbers may show. Now if a prosperous state like Washington is not fully self reliant what hope can there be for developing states in American or African continent which lag behind in the development cycle by atleast a century? 
+
+Similarly regions that are dependent on a grid would want to increase generation within their own state to cut down costs and generate employment opportunities. 
+
+Research institutes need to focus power transmission and not just electrical power transmission. Because it  might be possible to build cheaper alternatives that are within reasonable manufacturing complexity — a goal that is achievable with current capabilities. 
+
+The history of electrical energy has an illustrious past with names like Benjamin Franklin,Maxwell,Edison and Tesla lending credibility and weight to the displine of electrical science. It will be a disservice to them if that spirit of innovation is neglected in favor of what seem like easy wins.
+
+The energy sector has the potential to support millions of jobs directly and create new industries in manufacturing. The grid is too big and too deeply interconnected to enable any meaningful change. RE deployment trend offers a second chance to rethink our energy strategy. Let's grab it. 
+
