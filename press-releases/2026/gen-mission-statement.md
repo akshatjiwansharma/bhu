@@ -50,7 +50,7 @@ This does not mean that I'm against simulations. I find them very useful and nec
 
 The fact that AI has been useful in learning is really more of a critique on how learning systems are currently designed than any inherent advantage of AI itself. Because the material is still the same only how it's approached and acquired changes. 
 
-Geopolitics is definitely an angle here as is nearly every new technology these days. AI is now a ‘national security’ issue as well. Geopolitically speaking there is no way that any nation can catch up or level with those who have built this tech. The only way to achieve parity is to make it irrelevant. But that's easier said than done. 
+Geopolitics is definitely an angle here as it is with nearly every new technology these days. AI is now a ‘national security’ issue as well. Geopolitically speaking there is no way that any nation can catch up or level with those who have built this tech. The only way to achieve parity is to make it irrelevant. But that's easier said than done. 
 
  
 
