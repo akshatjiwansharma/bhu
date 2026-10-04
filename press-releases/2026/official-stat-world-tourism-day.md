@@ -4,7 +4,7 @@ The world tourism day was celebrated in El Salvador last week on September 27. A
 
 On several occasions officers and leaders at the UN have emphasized the importance of technology serving humanity. AI has already demonstrated it's capability to outperform humans in several tasks. The debate at the event therefore revolved around how AI could best serve the travel industry and enable growth—focussing more on the positive aspects of technology. 
 
-A few suggestions stood out. First was how destinations can take advantage of increasing AI usage and help people recommend less crowded locations that can manage the flow and prevent over tourism. The other was how AI could become fairer and offer suggestions to tourists in a way that allows small business to remain competitive. 
+A few suggestions stood out. First was how destinations can take advantage of increasing AI usage and help people recommend less crowded locations that can manage the flow and prevent over tourism. The other was how AI could become fairer and offer suggestions to tourists in a way that allows small businesses to remain competitive. 
 
 The underlying question,the subtext of the discussion was very simple but decisive. Who will set the rules in the AI age? UN being a diplomatic forum offered genuinely good suggestions that sounded inclusive and seemed to address some of the concerns that independent businesses might have had. 
 
