@@ -1,4 +1,4 @@
-Remarks on the space policy conference 2025
+# Remarks on the space policy conference 2025
 
 Happy to have participated in the space policy conference, 2025 held in New Delhi. The discussion revolved around spectrum allocation and the use of satellites in meeting the communication needs of tomorrow. The view among the speakers was pragmatic emphasising that while satellite communication will play an important part in the future of networking the role of terrestrial telecommunication will not be diminished especially as new advancements in fiber optics are happening rapidly. I concurred.
 
