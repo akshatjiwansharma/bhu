@@ -6,11 +6,11 @@ This is significant because of multiple reasons. Texas is the second most prospe
 
 It is an industrial powerhouse with manufacturing capability spanning space,semiconductors,defense and energy. It's blessed with mineral wealth and new discoveries of rare earth elements has made it a very important link in the global mineral supply chain. 
 
-When Gov. Gina Hinojosa takes the office and she will be deciding the future of a state that has realised its full economic and industrial potential. This presents quite a conundrum for her. 
+When Gov. Gina Hinojosa takes the office she will be deciding the future of a state that has realised its full economic and industrial potential. This presents quite a conundrum for her. 
 
 The state elections were fought on policy disagreements around education and concentration of power in the hands of corporations. Gov Gina has promised to support small businesses and protect and strengthen educational institutions. 
 
-While governor Gregg Abbott lost the elections he is leaving a very robust economy that Gov Gina will administer. His pro business policy helped maintain Texas its lead in the world. 
+While governor Greg Abbott lost the elections he is leaving a very robust economy that Gov Gina will administer. His pro business policy helped maintain Texas its lead in the world. 
 
 Though there are challenges with respect to water scarcity and energy distribution they can be easily overcome with the industrial capacity that Texas possesses. 
 
