@@ -1,5 +1,7 @@
 # Thoughts on IEEE’S 24 hour conference on magnetics 
 
+
+
 I thank IEEE for organising this years' Around the clock ,Around the Globe (atc-atg) 24 hour non stop conference on magnetic science. It gave participants like myself a chance to interact with researchers from  Japan,Korea,India,Germany,Singapore,Italy,USA, Finland, France and many other nations. 
 
 As someone who is not deeply familiar with the research taking place in magnetics I was surprised at how vast this field has actually become. 
@@ -8,7 +10,7 @@ We all know about the importance of magnetic materials in Power and electronic s
 
 What I learned through this conference is how spintronics has captured the attention of researchers everywhere. It's quite plain to see why. Read heads in original magnetic hard disk drives were already an application of spintronics. Using a property called magnetoresistance these read heads were used to determine the polarity of the bit in the magnetic layer. 
 
-Now this property is used to create magnetic tunnel junction cells that are  sandwiched structures consisting of electrodes,a reference layer,pinning layer,insulator and a switchable free  layer. 
+Now this property is used in magnetic tunnel junction cells that are sandwiched structures consisting of electrodes,a reference layer,pinning layer,insulator and a switchable free  layer. 
 
 This design is used to create spin orbit torque and spin transfer torque electronic devices. By switching the insulating layer with a conductive metal a different class of electronics Current-perpendicular-to-plane giant magnetoresistance is formed. 
 
@@ -20,7 +22,7 @@ One of the most surprising discoveries for me was to learn about the anomalous n
 
 From the perspective of Materials Science magnetic materials provide a highly technical and deeply rich playground. Material scientists have to balance the inherent magnetism of the transition metals caused by unpaired electrons with their tendency to lose magnetism as they come too close to each other cancelling out their magnetic field. 
 
-This is achieved by forcing some kind of anisotropy i.e non uniformity of magnetism in one direction as compared to another. One of the ways is to do it via magnetocrystalline anisotropy that creates energy barriers that allow their magnetic polarities to align because their crystal structure becomes asymmetric. 
+This is achieved by forcing some kind of anisotropy i.e non uniformity of magnetism in one direction as compared to another. One of the ways is to do it via magnetocrystalline anisotropy that creates energy barriers that allow magnetic polarities to align because the crystal structure becomes asymmetric. 
 
 The other way to do it is via shape anisotropy in which magnetic needle-like structures remain locked inside a non-magnetic matrix and do not interact with other needles. 
 
@@ -35,4 +37,3 @@ The conference compressed years of research into one intense 24 hour session. Th
 As a non profit organisation IEEE has been extremely successful in organising the electrical and electronic science and engineering community and providing a platform where exchange of new ideas can take place freely. New breakthroughs in electrical and electronic engineering have the potential to address the challenges facing the energy industry today. 
 
 I hope the organisation continues to grow and advance the interests of the community that can help solve some of the most pressing issues facing humanity today.
-
